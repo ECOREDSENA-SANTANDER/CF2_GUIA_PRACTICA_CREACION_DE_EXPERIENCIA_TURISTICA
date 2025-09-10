@@ -3,7 +3,7 @@ export default {
     Name: 'Guía práctica en la creación de experiencia turística',
     Description:
       'El objetivo principal de este componente es brindar herramientas para la creación de experiencias turísticas, destacando elementos clave como el conocimiento del destino, las facilidades turísticas disponibles, los tipos de atractivos presentes en el territorio y las actividades que pueden desarrollarse en cada contexto. Asimismo, se abordará la aplicación de técnicas para el diseño del itinerario, la construcción de una narrativa coherente y la elaboración de un plan de contingencia que garantice la calidad y seguridad de la experiencia.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
