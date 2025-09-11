@@ -143,18 +143,18 @@
               | Aplicar una encuesta de satisfacción al término de la experiencia, con el fin de evaluar la percepción del turista respecto a la calidad del servicio prestado por los diferentes actores.
       .mb-4
       .tarjeta.acordeoncolor.p-4.mb-0
-                    .row.justify-content-around.align-items-center
-                      .col-3.col-sm-2.col-lg-1
-                        img(src="@/assets/curso/tema1/5.svg")
-                      .col
-                        .row.justify-content-between.align-items-center
-                          .col.mb-3.mb-sm-0
-                            h4.mb-2.blu MANUAL DE DISEÑO Experiencias Turísticas
-                            p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
-                          .col-sm-auto
-                            a.boton.color-acento-botones(href="https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf" target="_blank")
-                              span Ir al sitio
-                              i.fas.fa-globe
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema1/5.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-2.blu MANUAL DE DISEÑO Experiencias Turísticas
+                  p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.sernatur.cl/wp-content/uploads/2018/11/MDD-Manual-de-Experiencias-Turi%CC%81sticas-1.pdf" target="_blank")
+                    span Ir al sitio
+                    i.fas.fa-globe
   </template>
 
 <script>
