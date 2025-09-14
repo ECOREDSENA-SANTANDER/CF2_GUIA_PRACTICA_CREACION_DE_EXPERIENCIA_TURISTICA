@@ -131,6 +131,8 @@ figcaption
   background-color: $color-adicional-2
 .cajon-color-adicional-6
   background-color: $color-acento-contenido
+.cajon-color-adicional-7
+  background-color: #99ABC6
 .lista-ul__vineta
   font-weight: bold
 
@@ -172,6 +174,9 @@ figcaption
 
 .slyder1
   height: 450px
+.slyder2
+  height: 450px
+  background-color: #FFD9C5
   
 .slyder1 .tarjeta-btn
   background-color: #FFD9C5
@@ -182,8 +187,31 @@ figcaption
     background-color: white
     width: fit-content
     padding: 3px 20px
+    margin: 0 auto 
+.slyder2 .tarjeta-btn
+  background-color: white
+  transition: all 0.3s ease-out
+  height: 82% !important
+  margin-top: 20px
+  .title
+    background-color: $color-acento-contenido
+    width: fit-content
+    padding: 3px 20px
     margin: 0 auto  
+  
 .slyder1.slyder-f
+  .slyder-f__slyde
+    width: 50% !important
+    height: 500px
+  @media (max-width: $bp-max-md)
+    .slyder-f__slyde
+      width: 100% !important
+  .tarjeta
+    img
+      width: 90px
+      height: 90px
+      margin: 0 auto
+.slyder2.slyder-f
   .slyder-f__slyde
     width: 50% !important
     height: 500px
@@ -262,6 +290,9 @@ figcaption
 .tarjeta1
   height: 355px
 
-.widthimg
-  width: 35%
-  background-color: red
+.imagetema5
+  width: 75%
+  margin-left: 30px
+.coltema5
+  background-color: #FFF6F1
+  height: 450px

@@ -79,6 +79,19 @@ export default {
         titulo: 'Herramientas de geolocalización',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Ciclo de servicio',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Narrativa',
+            hash: 't_5_1',
+          },
+        ],
+      },
     ],
     subMenu: [
       {
