@@ -250,6 +250,136 @@
         p.mb-4 Los factores que determinan la capacidad de carga incluyen:
       .col-lg-4.col-md-10
         img(src='@/assets/curso/tema3/33.png', alt='')
+    .mb-4
+    .row.justify-content-center
+      .col-7
+        ul.lista-ul--color
+          li.licolor.p-1
+            .d-flex.align-items-center.gap-3 
+              img(src='@/assets/curso/tema3/35.svg', alt='').imagenpeq
+              | Disponibilidad de recursos hídricos: tanto para la población local como para la actividad turística.
+          li.licolor.p-1
+            .d-flex.align-items-center.gap-3 
+              img(src='@/assets/curso/tema3/36.svg', alt='').imagenpeq
+              | Acceso a servicios públicos esenciales: como saneamiento básico, energía y recolección de residuos.
+          li.licolor.p-1
+            .d-flex.align-items-center.gap-3 
+              img(src='@/assets/curso/tema3/37.svg', alt='').imagenpeq
+              | Riesgo de impactos ambientales: como la degradación de ecosistemas, pérdida de biodiversidad o contaminación.
+          li.licolor.p-1
+            .d-flex.align-items-center.gap-3 
+              img(src='@/assets/curso/tema3/38.svg', alt='').imagenpeq
+              | Riesgo de impactos sociales y económicos: tales como desplazamientos de comunidades locales, aumento del costo de vida o alteraciones en las dinámicas culturales.
+          li.licolor.p-1
+            .d-flex.align-items-center.gap-3 
+              img(src='@/assets/curso/tema3/39.svg', alt='').imagenpeq
+              | Necesidad de preservar y proteger el atractivo turístico: garantizando su conservación a largo plazo.
+          li.licolor.p-1
+            .d-flex.align-items-center.gap-3 
+              img(src='@/assets/curso/tema3/40.svg', alt='').imagenpeq
+              | Nivel de satisfacción del visitante: que debe mantenerse sin comprometer la sostenibilidad del destino.
+          li.licolor.p-1
+            .d-flex.align-items-center.gap-3 
+              img(src='@/assets/curso/tema3/41.svg', alt='').imagenpeq
+              | Capacidad de la infraestructura turística: alojamiento, transporte, accesos y servicios para atender la demanda sin sobrecargar el entorno.
+      .col-3
+        img(src='@/assets/curso/tema3/34.png', alt='').imagelista
+    .mb-5
+    .row
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/42.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 La autoridad competente establecerá la capacidad de carga, según el tipo de atractivo turístico, en concordancia con los lineamientos del Ministerio de Comercio, Industria y Turismo. En el caso de atractivos turísticos ubicados dentro de áreas protegidas del Sistema Nacional de Áreas Protegidas (SINAP), la capacidad de carga será determinada por la respectiva autoridad ambiental, en armonía con las disposiciones del Ministerio de Ambiente y Desarrollo Sostenible. Cualquier impacto derivado de la actividad turística deberá ser moderado, mitigado, compensado o corregido, mediante la implementación de medidas de manejo, conforme a la normativa ambiental vigente.
+    .mb-5
+    .subt.mb-4(data-aos="fade")
+      img(src="@/assets/curso/tema1/4.svg")
+      h3.ps-3.pe-4.mb-0 Límites de Cambio Aceptable (LCA) 
+    .mb-4
+    .row.justify-content-center
+      .col-lg-8
+        p.mb-2 Los Límites de Cambio Aceptable constituyen una metodología de planificación, gestión y monitoreo, aplicada para establecer umbrales medibles respecto a los cambios inducidos por la actividad turística sobre las condiciones ambientales, sociales y culturales del atractivo. Esta herramienta permite evaluar la presión ejercida por el turismo y anticipar acciones que preserven la integridad del destino, incluyendo aquellas relacionadas con los efectos del cambio climático.
+        p.mb-4.cajon.color-acento-contenido.p-4.mt-3 El objetivo de esta metodología es definir niveles tolerables de alteración, de modo que los cambios no superen lo que el entorno puede absorber sin perder su valor como destino turístico. A través del seguimiento de estos límites, se facilita una gestión adaptativa, orientada a garantizar la sostenibilidad y viabilidad del atractivo a largo plazo.
+      .col-lg-4
+        img(src='@/assets/curso/tema3/43.png', alt='').imageheight
+    .mb-4
+    .row.justify-content-center
+      .col-3
+        img(src='@/assets/curso/tema3/44.png', alt='').imagelista
+      .col-9 
+        p.mb-2 El Ministerio de Comercio, Industria y Turismo será el encargado de reglamentar la aplicación de esta metodología para su integración en la planificación y administración de los atractivos turísticos. En el caso de aquellos ubicados en áreas culturales o naturales protegidas, dicha reglamentación será expedida de manera conjunta con las autoridades competentes, conforme a sus respectivas jurisdicciones y competencias.
+    separador
+
+    #t_3_2.titulo-segundo.color-acento-contenido.mb-5
+      h2 3.2 Normativa de sostenibilidad turística 
+    
+    .row.justify-content-center
+      .col-lg-8
+        p.mb-2 Las directrices para el desarrollo sostenible del turismo y las prácticas de gestión sostenible son aplicables a todas las formas de turismo y a todos los tipos de destinos, incluidos tanto el turismo de masas como los diversos segmentos especializados (turismo rural, de naturaleza, cultural, de negocios, entre otros). Los principios de sostenibilidad abarcan las dimensiones ambiental, económica y sociocultural, y su correcta implementación requiere un equilibrio adecuado entre estos tres componentes para asegurar la viabilidad y sostenibilidad del sector a largo plazo.
+        p.mb-4 De acuerdo con las orientaciones internacionales en materia de sostenibilidad, el turismo sostenible debe:
+      .col-lg-4.col-md-10
+        img(src='@/assets/curso/tema3/45.png', alt='').mt-1
+    .mb-4
+    .row
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-5.mb-5.tarjeta1
+          .tarjeta-numerada__numero
+            .h2 a
+          p.text-center Utilizar de manera óptima los recursos naturales, que constituyen la base del desarrollo turístico, procurando la conservación de la biodiversidad, el mantenimiento de los procesos ecológicos esenciales y la protección del entorno.
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-5.tarjeta1
+          .tarjeta-numerada__numero
+            .h2 b
+          p.text-center Respetar la autenticidad sociocultural de las comunidades anfitrionas, preservando su patrimonio cultural y arquitectónico, sus valores tradicionales, y fomentando el respeto, la comprensión y el intercambio intercultural.
+
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 c
+          p.text-center Garantizar la viabilidad económica del turismo a largo plazo, generando beneficios socioeconómicos equitativamente distribuidos entre todos los actores, en especial para las comunidades locales. Esto incluye la generación de empleo digno, ingresos sostenibles, acceso a servicios básicos y la contribución a la reducción de la pobreza.
+    .mb-4
+    .row
+      .col-lg-1
+        img(src='@/assets/curso/tema3/46.svg', alt='').mt-1
+      .col-lg-11
+        p.mb-2 El desarrollo turístico sostenible debe entenderse como un proceso de interacción equilibrada entre el uso responsable de los recursos naturales y culturales, la mejora de la calidad de vida de las comunidades locales y el éxito económico del sector, contribuyendo además al desarrollo integral del país. La sostenibilidad turística no solo responde a las exigencias actuales del mercado, sino que se configura como una condición esencial de competitividad presente y futura (CST, 1997).
+    .mb-4
+    .subt.mb-4(data-aos="fade")
+      img(src="@/assets/curso/tema1/4.svg")
+      h3.ps-3.pe-4.mb-0 Sostenibilidad como modelo de desarrollo
+    .mb-5
+    .row.justify-content-center
+      .col-lg-4
+        img(src='@/assets/curso/tema3/47.png', alt='').imageheight
+      .col-lg-8
+        p.mb-2 La sostenibilidad plantea la necesidad de satisfacer las necesidades actuales de la sociedad sin comprometer la capacidad de las generaciones futuras para satisfacer las suyas. En este sentido, el desarrollo del país no debe basarse en la explotación excesiva de los recursos naturales, culturales o sociales, con el fin de responder a las demandas inmediatas de alimentación, vivienda, salud o empleo, ya que estos recursos constituyen la base esencial para el bienestar de las generaciones venideras.
+        p.mb-4.p-4.mt-3.cajon-color-adicional-4.imagediv El turismo, como sector estratégico, debe alinearse con este modelo de desarrollo, implementando políticas que prioricen la conservación, la inclusión social y la eficiencia económica dentro de un marco de respeto por el entorno y las comunidades.
+    .mb-5
+    .row
+      .cajon.cajon-color-adicional-2.col-4.imagehide.p-4
+        p En el marco de estos principios, el Ministerio de Comercio, Industria y Turismo ha liderado la conformación de la Unidad Sectorial de Normalización en Turismo Sostenible, orientada a la creación y adopción de normas técnicas que regulen y promuevan prácticas sostenibles, tanto en destinos turísticos como en los prestadores de servicios turísticos.
+      .col-3.p-2
+        img(src='@/assets/curso/tema3/48.png', alt='').imagehide.imageheight2
+      .col-5.p-2
+        .d-flex.align-items-center.gap-3.mb-3
+            img(src='@/assets/curso/tema3/49.svg', alt='').imagenpeq.imagehide
+        p La misión principal de esta unidad es formular, normalizar y difundir lineamientos técnicos de sostenibilidad, que orienten la planificación, gestión y evaluación del turismo en Colombia. Estas normas buscan fortalecer la gobernanza, la eficiencia operativa, la responsabilidad ambiental y la equidad social en todos los niveles del sistema turístico nacional.
+    .mb-4
+    .tarjeta.acordeoncolor.p-4.mb-0
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema1/5.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h4.mb-2.blu Destinos turístico. Área turística. Requisitos de sostenibilidad
+              p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.mincit.gov.co/prensa/noticias/documentos-noticias/norma-tecnica-sectorial-de-turismo-sostenible-nts.aspx#:~:text=La%20norma%20NTS%2DTS%20001,xxx%20de%20xxx%20de%202022.&text=Esta%20norma%20espec%C3%ADfica%20los%20requisitos,un%20destino%20o%20%C3%A1rea%20tur%C3%ADstica" target="_blank")
+                span Ir al sitio
+                i.fas.fa-globe
 </template>
 
 <script>
