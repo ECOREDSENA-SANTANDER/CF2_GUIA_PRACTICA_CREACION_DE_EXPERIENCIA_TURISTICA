@@ -121,7 +121,7 @@
 
     #t_6_1.titulo-segundo.color-acento-contenido.mb-5
       h2 6.1 Técnicas de diseño
-    .row.justify-content-center
+    .row.justify-content-center.cajon
       .col-lg-4.col-md-10
           img(src='@/assets/curso/tema6/10.png', alt='').imgajustada
       .col-lg-8
@@ -191,7 +191,7 @@
           | #[strong Fase 2. Selección de servicios turísticos a incluir ]
           li.pb-2
     p.mb-4 Una ruta debe considerar la articulación de servicios esenciales que garanticen una experiencia completa y satisfactoria:
-    .row
+    .row.cajon
       .col-5.p-2
         img(src='@/assets/curso/tema6/12.png', alt='').imagehide.imageheight
       .col-7.p-2

@@ -99,11 +99,11 @@
       h2 5.1 Narrativa
     .row.justify-content-center
       .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema5/10.png', alt='').imageheight.mt-1
+          img(src='@/assets/curso/tema5/10.png', alt='').imageheight.mt-4
       .col-lg-8
         .d-flex.align-items-center.gap-3
           p.mb-2 La narrativa es la forma en que se cuenta la historia de un destino y tiene como propósito conectar emocionalmente al turista con el lugar que visita. Este relato fortalece la identidad patrimonial, cultural y natural del destino, a la vez que enriquece la experiencia del turista al permitirle aprender sobre la cultura local y crear recuerdos significativos e inolvidables.
-          img(src='@/assets/curso/tema5/9.svg', alt='').imgpeqt3.imagehide
+          img(src='@/assets/curso/tema5/9.svg', alt='').imgpeqt3.imagehide.mt-3
         p.mb-2.mt-4 La narrativa de un destino se transmite a través de un relato turístico, el cual debe ser directo, sencillo y vinculado a una experiencia concreta. Su objetivo es sorprender al visitante mediante datos originales y elementos distintivos del lugar. Este relato puede girar en torno a la historia de los antepasados, la descripción de un plato típico, la relevancia de un monumento, un sitio emblemático del destino o un personaje histórico de interés. De esta forma, se invita al turista a escapar momentáneamente de su rutina y sumergirse en otra realidad, donde su visión interior se fusiona con el entorno, generando valor, sentido y una conexión más profunda con la experiencia vivida.
     p.mb-3.mt-4 Cada destino turístico posee un relato, formal o informal, que puede ser contado de manera significativa y auténtica, logrando una conexión emocional con el visitante. Cuando dicho relato es coherente con los productos turísticos ofrecidos, se convierte en una herramienta clave para la definición, promoción y diferenciación de las experiencias turísticas en el territorio.
     .row.sistema
@@ -219,7 +219,7 @@
                 p.mb-0.text-center Narrativa no lineal, en la que la historia se presenta de forma fragmentada o a través de diferentes líneas de tiempo.
         .col-1
     p.mb-4.mt-3 A continuación, se describen algunas de las técnicas más comunes utilizadas en la narrativa turística:
-    .row.tabscolor
+    .row.tabscolor2
       .col-8
         TabsA.color-acento-botones
           .tarjeta.p-4(titulo="Storytelling")
@@ -458,22 +458,22 @@
       p.mb-5 Es recomendable aplicar la encuesta inmediatamente después de la experiencia del usuario, para obtener respuestas más precisas y relevantes. Entre las herramientas digitales disponibles para diseñar encuestas de satisfacción, se destacan:
       .row
         .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5
+          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
             .tarjeta-numerada__numero
               img(src='@/assets/curso/tema5/48.svg', alt='').imgenpeq
             p.text-center.mb-5 #[strong Google Forms:] plataforma gratuita y accesible para crear formularios personalizados.
         .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5
+          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
             .tarjeta-numerada__numero
               img(src='@/assets/curso/tema5/49.svg', alt='').imgenpeq
             p.text-center.mb-5 #[strong Typeform:] ofrece formularios interactivos y visualmente atractivos.
         .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5
+          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
             .tarjeta-numerada__numero
               img(src='@/assets/curso/tema5/50.svg', alt='').imgenpeq
             p.text-center.mb-5 #[strong SurveyMonkey:] permite mayor profundidad en el análisis estadístico de las respuestas.
         .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5
+          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
             .tarjeta-numerada__numero
               img(src='@/assets/curso/tema5/51.svg', alt='').imgenpeq
             p.text-center.mb-4 #[strong Microsoft Forms:] integrada con el ecosistema de Office, ideal para entornos educativos y corporativos.´
@@ -482,7 +482,7 @@
         ul.lista-ul--color.lista-ul--separador
           li 
             i.lista-ul__vineta
-            | Ejemplo de encuesta de satisfacción
+            | #[strong Ejemplo de encuesta de satisfacción:]
             li.pb-2
       p.mb-5 Por favor, califique los siguientes aspectos del servicio recibido, utilizando una escala del 1 al 5:
       .row

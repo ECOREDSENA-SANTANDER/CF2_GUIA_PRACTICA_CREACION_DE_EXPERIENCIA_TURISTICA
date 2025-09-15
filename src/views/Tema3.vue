@@ -124,7 +124,7 @@
       ul.lista-ul--color.lista-ul--separador
         li 
           i.lista-ul__vineta
-          | Ejemplos representativos de atractivos turísticos en Colombia 
+          | #[strong Ejemplos representativos de atractivos turísticos en Colombia]
           li.pb-2
     .row.mb-4
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
