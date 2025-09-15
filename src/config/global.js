@@ -90,6 +90,29 @@ export default {
             titulo: 'Narrativa',
             hash: 't_5_1',
           },
+          {
+            numero: '5.2',
+            titulo: 'Itinerario',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Testeo de la experiencia',
+            hash: 't_5_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Ruta turística',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Técnicas de diseño',
+            hash: 't_6_1',
+          },
         ],
       },
     ],

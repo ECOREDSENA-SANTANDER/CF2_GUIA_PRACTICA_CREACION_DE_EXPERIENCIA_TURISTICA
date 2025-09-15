@@ -13,7 +13,7 @@
         p.mb-3 El ciclo de servicio al cliente se refiere al conjunto de etapas que tienen lugar desde el momento en que un usuario acude a una organización para adquirir un producto o solicitar un servicio, hasta que finaliza su experiencia con la percepción de haber recibido una atención satisfactoria. Este proceso no solo implica la entrega del bien o la prestación del servicio, sino también todo el entorno relacional que lo acompaña, incluyendo aspectos como el trato recibido, el tiempo de espera, la claridad en la información ofrecida, la atención postventa y la resolución de inquietudes.
         .d-flex.align-items-center.gap-3
           p.mb-2 Si bien los productos o servicios deben cumplir con estándares mínimos de calidad, la satisfacción del cliente no depende únicamente de ello. Factores como la actitud del personal, la capacidad de respuesta ante solicitudes, la comunicación efectiva y la percepción de valor agregado influyen de manera decisiva en la experiencia del usuario. Por esta razón, las organizaciones deben establecer protocolos claros de atención, formar al personal en competencias relacionales y realizar mejoras continuas en función de los resultados obtenidos en cada ciclo de servicio.
-          img(src='@/assets/curso/tema5/2.svg', alt='').imgpeqt3.imagehide
+          img(src='@/assets/curso/tema5/2.svg', alt='').imgpeq.imagehide
     .mb-5
     .row
       .col-lg-8
@@ -262,7 +262,7 @@
       .col-lg-8
         p.mb-4 Un itinerario turístico es un documento en el que se describen cronológicamente las actividades que se llevarán a cabo durante un viaje determinado. Es una herramienta fundamental para la organización, ya que permite planificar con anticipación aspectos como:
         .d-flex.align-items-center.gap-3.mb-3
-          img(src='@/assets/curso/tema5/26.png', alt='').imgpeqt3.imagehide
+          img(src='@/assets/curso/tema5/26.png', alt='').imgpeqt4.imagehide
           ul.lista-ul--color
             li 
               i.fas.fa-brain

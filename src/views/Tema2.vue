@@ -148,68 +148,105 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="a)" titulo="Medidas comunes para garantizar la seguridad turística")
             .col-md-12.mb-4.mb-md-0
-                p.mb-0 Presencia visible de fuerzas de seguridad en áreas turísticas.
-                .mb-2
-                p.mb-0 Iluminación adecuada en espacios públicos.
-                .mb-2
-                p.mb-0 Señalización clara y comprensible para visitantes.
-                .mb-2
-                p.mb-0 Supervisión constante en playas y zonas recreativas.
-                .mb-2
-                p.mb-0 Controles de acceso en sitios turísticos relevantes.
-                .mb-2
-                p.mb-0 Disponibilidad de servicios médicos de emergencia.
-                .mb-2
-                p.mb-0 Campañas de concienciación sobre seguridad turística.
-                .mb-2
-                p.mb-0 Prevención de robos, estafas y delitos comunes contra turistas.
-                .mb-2
-                p.mb-0 Supervisión especial en actividades de riesgo (aventura, deportes extremos).
-                .mb-2
-                p.mb-0 Promoción de números de emergencia visible y accesible para los visitantes.
-                .mb-4
-                p.mb-0 La seguridad turística está estrechamente ligada a la calidad del producto turístico, e involucra distintos aspectos como seguridad vial, alimentaria, jurídica y en los servicios turísticos. Su presencia genera confianza, mejora la reputación del destino y contribuye a la fidelización de los turistas.
+              ul.lista-ul--color.mt-2
+                li 
+                  i.fas.fa-brain
+                  | Presencia visible de fuerzas de seguridad en áreas turísticas.
+                li 
+                  i.fas.fa-brain
+                  | Iluminación adecuada en espacios públicos.
+                li 
+                  i.fas.fa-brain
+                  | Señalización clara y comprensible para visitantes.
+                li 
+                  i.fas.fa-brain
+                  | Supervisión constante en playas y zonas recreativas.
+                li 
+                  i.fas.fa-brain
+                  | Controles de acceso en sitios turísticos relevantes.
+                li 
+                  i.fas.fa-brain
+                  | Disponibilidad de servicios médicos de emergencia.
+                li 
+                  i.fas.fa-brain
+                  | Campañas de concienciación sobre seguridad turística.
+                li 
+                  i.fas.fa-brain
+                  | Prevención de robos, estafas y delitos comunes contra turistas.
+                li 
+                  i.fas.fa-brain
+                  | Supervisión especial en actividades de riesgo (aventura, deportes extremos).
+                li 
+                  i.fas.fa-brain
+                  | Promoción de números de emergencia visible y accesible para los visitantes.
+              p.mb-0 La seguridad turística está estrechamente ligada a la calidad del producto turístico, e involucra distintos aspectos como seguridad vial, alimentaria, jurídica y en los servicios turísticos. Su presencia genera confianza, mejora la reputación del destino y contribuye a la fidelización de los turistas.
           .row(numero="b)" titulo="Aplicación de la seguridad en la experiencia turística")
             .col-md-12.mb-4.mb-md-0
                 p.mb-0 Durante la estadía en un destino, se protege al visitante a través de:
-                .mb-4
-                p.mb-0 Seguridad en la visita a los atractivos turísticos, incluyendo accesos adecuados, horarios recomendados y condiciones climáticas aptas.
-                .mb-2
-                p.mb-0 Aumento de la confianza y atracción de más visitantes hacia destinos seguros.
-                .mb-2
-                p.mb-0 Mejora en la calidad de la experiencia turística.
-                .mb-2
-                p.mb-0 Proyección de una imagen positiva del destino y de los operadores turísticos.
-                .mb-2
-                p.mb-0 Estímulo al desarrollo económico local.
-                .mb-2
-                p.mb-0 Atracción de inversión nacional e internacional.
+                ul.lista-ul--color.mt-3
+                  li 
+                    i.fas.fa-brain
+                    | Seguridad en el acceso vial hacia el destino, garantizando rutas seguras y señalizadas.
+                  li 
+                    i.fas.fa-brain
+                    | Seguridad en la visita a los atractivos turísticos, incluyendo accesos adecuados, horarios recomendados y condiciones climáticas aptas.
+                  li 
+                    i.fas.fa-brain
+                    | Seguridad en la oferta de servicios turísticos, asegurando que los prestadores estén legalmente constituidos, cuenten con Registro Nacional de Turismo (RNT), Registro Único Tributario (RUT), y estén inscritos en Cámara de Comercio.
+                  li 
+                    i.fas.fa-brain
+                    | Seguridad en establecimientos de alojamiento y gastronomía, donde se deben cumplir las normas de higiene, protección al menor, atención adecuada y medidas de prevención sanitaria.
+                  li 
+                    i.fas.fa-brain
+                    | Seguridad en el transporte turístico, con vehículos certificados y condiciones adecuadas para la protección de los pasajeros.
           .row(numero="c)" titulo="Beneficios de implementar seguridad turística")
             .col-md-12.mb-4.mb-md-0
-                p.mb-0 Prevención de incidentes que puedan poner en riesgo la vida o la salud de los visitantes.
-                .mb-2
-                p.mb-0 Protección de pertenencias y recursos económicos del turista.
-                .mb-2
-                p.mb-0 Seguridad en la oferta de servicios turísticos, asegurando que los prestadores estén legalmente constituidos, cuenten con Registro Nacional de Turismo (RNT), Registro Único Tributario (RUT), y estén inscritos en Cámara de Comercio.
-                .mb-2
-                p.mb-0 Seguridad en establecimientos de alojamiento y gastronomía, donde se deben cumplir las normas de higiene, protección al menor, atención adecuada y medidas de prevención sanitaria.
-                .mb-2
-                p.mb-0 Seguridad en el transporte turístico, con vehículos certificados y condiciones adecuadas para la protección de los pasajeros.
+                ul.lista-ul--color.mt-3
+                  li 
+                    i.fas.fa-brain
+                    | Prevención de incidentes que puedan poner en riesgo la vida o la salud de los visitantes.
+                  li 
+                    i.fas.fa-brain
+                    | Protección de pertenencias y recursos económicos del turista.
+                  li 
+                    i.fas.fa-brain
+                    | Aumento de la confianza y atracción de más visitantes hacia destinos seguros.
+                  li 
+                    i.fas.fa-brain
+                    | Mejora en la calidad de la experiencia turística.
+                  li 
+                    i.fas.fa-brain
+                    | Proyección de una imagen positiva del destino y de los operadores turísticos.
+                  li 
+                    i.fas.fa-brain
+                    | Estímulo al desarrollo económico local.
+                  li 
+                    i.fas.fa-brain
+                    | Atracción de inversión nacional e internacional.
           .row(numero="d)" titulo="Tipos de seguridad turística")
             .col-md-12.mb-4.mb-md-0
-                p.mb-0 Seguridad médica: garantiza la disponibilidad de atención médica oportuna mediante hospitales, clínicas, centros de salud, personal capacitado y servicios de emergencia (ambulancias, respuesta rápida).
-                .mb-2
-                p.mb-0 Seguridad contra el crimen: previene delitos como robos, estafas o vandalismo mediante patrullas, cámaras de vigilancia y presencia policial en zonas clave.
-                .mb-2
-                p.mb-0 Seguridad en el transporte: asegura que los medios de transporte cumplan con los estándares técnicos, legales y operativos que minimicen los riesgos de accidentes.
-                .mb-2
-                p.mb-0 Seguridad vial: incluye mantenimiento de vías, señalización adecuada, control del tráfico y normas de tránsito para proteger a conductores y peatones.
-                .mb-2
-                p.mb-0 Seguridad jurídica: garantiza que los derechos legales de los turistas sean respetados, y que tengan acceso a mecanismos de denuncia y asesoría legal en caso necesario.
-                .mb-2
-                p.mb-0 Seguridad alimentaria: se refiere al cumplimiento de normas de higiene, manipulación y conservación de alimentos y bebidas, evitando enfermedades de origen alimentario.
-                .mb-2
-                p.mb-0 Seguridad en actividades de ocio: abarca medidas de prevención y control en actividades recreativas o deportivas, mediante el uso de equipos adecuados, supervisión profesional y protocolos de seguridad específicos.
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-brain
+                  | #[strong Seguridad médica:] garantiza la disponibilidad de atención médica oportuna mediante hospitales, clínicas, centros de salud, personal capacitado y servicios de emergencia (ambulancias, respuesta rápida).
+                li 
+                  i.fas.fa-brain
+                  | #[strong Seguridad contra el crimen:] previene delitos como robos, estafas o vandalismo mediante patrullas, cámaras de vigilancia y presencia policial en zonas clave.
+                li 
+                  i.fas.fa-brain
+                  | #[strong Seguridad en el transporte:] asegura que los medios de transporte cumplan con los estándares técnicos, legales y operativos que minimicen los riesgos de accidentes.
+                li 
+                  i.fas.fa-brain
+                  | #[strong Seguridad vial:] incluye mantenimiento de vías, señalización adecuada, control del tráfico y normas de tránsito para proteger a conductores y peatones.
+                li 
+                  i.fas.fa-brain
+                  | #[strong Seguridad jurídica:] garantiza que los derechos legales de los turistas sean respetados, y que tengan acceso a mecanismos de denuncia y asesoría legal en caso necesario.
+                li 
+                  i.fas.fa-brain
+                  | #[strong Seguridad alimentaria:] se refiere al cumplimiento de normas de higiene, manipulación y conservación de alimentos y bebidas, evitando enfermedades de origen alimentario.
+                li 
+                  i.fas.fa-brain
+                  | #[strong Seguridad en actividades de ocio:] abarca medidas de prevención y control en actividades recreativas o deportivas, mediante el uso de equipos adecuados, supervisión profesional y protocolos de seguridad específicos.
       .col-4
         img(src='@/assets/curso/tema2/9.png', alt='')
     .mb-5

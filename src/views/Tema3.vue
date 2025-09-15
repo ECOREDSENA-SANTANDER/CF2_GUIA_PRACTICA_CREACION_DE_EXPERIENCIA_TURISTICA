@@ -22,7 +22,7 @@
             .col-3
               figure
                 img(src='@/assets/curso/tema3/2.svg', alt='Texto que describa la imagen')
-          p.text-center.titulotj Sitios  naturales
+          p.text-center.titulotj Sitios naturales
           p.text-small.text-center Áreas geográficas o bienes naturales de importancia para el turismo, que pueden incluir elementos individuales o conjuntos que, por sus características, no necesariamente están agrupados.
       .col-4
         .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-4
