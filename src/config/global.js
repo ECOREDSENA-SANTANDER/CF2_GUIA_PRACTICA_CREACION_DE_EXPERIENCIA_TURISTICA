@@ -115,6 +115,12 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Plan de contingencia',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
