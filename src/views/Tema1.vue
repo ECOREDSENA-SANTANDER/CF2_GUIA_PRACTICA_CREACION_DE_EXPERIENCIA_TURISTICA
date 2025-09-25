@@ -8,8 +8,8 @@
         h1 Experiencia turística
         
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5.col-md-10.imagetema1
-          img(src='@/assets/curso/tema1/1.png', alt='')
+        .col-lg-5
+          img.d-none.d-lg-block(src='@/assets/curso/tema1/1.png', alt='')
         .col-lg-7
           p.mb-4 La experiencia turística es el conjunto de emociones, percepciones, aprendizajes y sensaciones que experimenta una persona a lo largo de todo el proceso vinculado a una actividad turística. Esta experiencia no se limita únicamente al consumo del producto o servicio turístico, sino que abarca cada una de las etapas del viaje: desde la planificación inicial, la elección del destino, el desplazamiento, la estadía, la interacción con el entorno natural y social, hasta la vivencia cultural, el trato recibido por los anfitriones y, finalmente, la memoria emocional que perdura tras el regreso.
           .bg1.p-3
@@ -17,7 +17,7 @@
               .col-lg-10
                   p.mb-0 El valor de este tipo de vivencias radica no solo en la calidad de los servicios ofrecidos, sino también en la capacidad del destino para generar vínculos emocionales, fomentar el descubrimiento de nuevas realidades y brindar momentos significativos que contribuyan al crecimiento personal del visitante.
               .col-lg-2
-                img(src='@/assets/curso/tema1/6.svg', alt='')
+                img.d-none.d-lg-block(src='@/assets/curso/tema1/6.svg', alt='')
   
     
       .row.acordeon.mb-5
@@ -125,7 +125,7 @@
       p.mb-4 De acuerdo con el tipo de experiencia local que se desee desarrollar, se deben tener en cuenta los siguientes pasos:
       .mb-5
       .row.justify-content-center 
-        .col-lg-6.col-sm.mb-5.mb-sm-0
+        .col-lg-6.mb-4
           ol.lista-ol--cuadro.lista-ol--separador
             li.d-flex 
               .lista-ol--cuadro__vineta
@@ -151,7 +151,7 @@
               .lista-ol--cuadro__vineta
                 span f
               | Diseñar el itinerario, en caso de contar con varias actividades. Se deben definir los tiempos para cada una y organizarlas secuencialmente desde la primera hasta la última. Es clave agrupar los lugares por cercanía, trazar una ruta lógica que evite retrocesos innecesarios, optimizando así el tiempo y evitando molestias para el turista.
-        .col-lg-6.col-sm.mb-5.mb-sm-0
+        .col-lg-6
           ol.lista-ol--cuadro.lista-ol--separador
             li.d-flex 
               .lista-ol--cuadro__vineta

@@ -6,164 +6,179 @@
       .titulo-principal__numero
         span 7
       h1 Plan de contingencia
-    .row.justify-content-center
+
+    .row.justify-content-center.mb-5
       .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema7/1.png', alt='')
+        img(src='@/assets/curso/tema7/1.png', alt='')
       .col-lg-8
         p.mb-3 Un plan de contingencia es un conjunto de procedimientos e instrucciones especiales que una empresa turística debe definir y aplicar cuando, aun siendo posible desarrollar las actividades de manera habitual, surgen condiciones o riesgos externos que requieren medidas adicionales para garantizar el adecuado funcionamiento del servicio.
-        p.mb-4.cajon.color-acento-contenido.p-4 El objetivo principal de estos planes es minimizar los riesgos, con el propósito fundamental de proteger la vida e integridad física de los turistas, excursionistas y del personal vinculado, contando con herramientas de actuación en caso de incidentes o accidentes. Este plan constituye un componente esencial para cualquier empresa operadora de turismo, ya que representa una garantía para el desarrollo seguro de todas las fases del itinerario
-    p.mb-4.mt-5 #[strong Enfoque de gestión:] Ciclo PHVA
-    .row
-      .col-1
-      .col-md-2.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.licolor.sinborde
-            p.text-center Planificar
-      .col-md-2.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.colortj.sinborde
-            p.text-center Hacer
-      .col-md-2.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.licolor.sinborde
-            p.text-center Verificar
-      .col-md-2.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.colortj.sinborde
-            p.text-center Actuar
-      .col-1
-    p.mb-5.mt-4 Un plan de contingencia debe mantenerse vigente y operativo, incluso después de haberse presentado una eventualidad. Su elaboración incluye cuatro etapas:
+        .bg9.p-4
+          p.mb-0 El objetivo principal de estos planes es minimizar los riesgos, con el propósito fundamental de proteger la vida e integridad física de los turistas, excursionistas y del personal vinculado, contando con herramientas de actuación en caso de incidentes o accidentes. Este plan constituye un componente esencial para cualquier empresa operadora de turismo, ya que representa una garantía para el desarrollo seguro de todas las fases del itinerario
+    
+    p.mb-0 #[strong Enfoque de gestión:] Ciclo PHVA
+    
+       
+    .row.fondo7.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
+      .col-lg-12
+         
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-10
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-3
+                .bg14.p-2
+                  p.mb-0.text-center Planificar
+              .col-lg-3
+                .bg15.p-2
+                  p.mb-0.text-center Hacer
+              .col-lg-3
+                .bg14.p-2
+                  p.mb-0.text-center Verificar
+              .col-lg-3
+                .bg15.p-2
+                  p.mb-0.text-center Actuar
+
+    p.mb-2 Un plan de contingencia debe mantenerse vigente y operativo, incluso después de haberse presentado una eventualidad. Su elaboración incluye cuatro etapas:
+    
     .row
       .row.mb-4
-        .col-md-3.col-lg.mb-5.mb-lg-0
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .tarjeta-avatar
-            img(src='@/assets/curso/tema7/2.svg' alt='')
+            img.img-t.my-3(src='@/assets/curso/tema7/2.svg' alt='')
             .tarjeta.cajon-color-adicional-11
               .p-4
-                h4.text-center.cajon-color-adicional-6 Planificar
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Planificar
                 p.mb-0.text-center Definir metas y cómo lograrlas.
-        .col-md-3.col-lg.mb-5.mb-lg-0
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .tarjeta-avatar
-            img(src='@/assets/curso/tema7/3.svg' alt='')
+            img.img-t.my-3(src='@/assets/curso/tema7/3.svg' alt='')
             .tarjeta.cajon-color-adicional-11
               .p-4
-                h4.text-center.cajon-color-adicional-6 Hacer
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Hacer
                 p.mb-0.text-center Ejecutar las acciones planificadas.
-        .col-md-3.col-lg.mb-5.mb-lg-0
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .tarjeta-avatar
-            img(src='@/assets/curso/tema7/4.svg' alt='')
+            img.img-t.my-3(src='@/assets/curso/tema7/4.svg' alt='')
             .tarjeta.cajon-color-adicional-11
               .p-4
-                h4.text-center.cajon-color-adicional-6 Verificar
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Verificar
                 p.mb-0.text-center Evaluar los resultados obtenidos.
-        .col-md-3.col-lg.mb-5.mb-lg-0
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .tarjeta-avatar
-            img(src='@/assets/curso/tema7/5.svg' alt='')
+            img.img-t.my-3(src='@/assets/curso/tema7/5.svg' alt='')
             .tarjeta.cajon-color-adicional-11
               .p-4
-                h4.text-center.cajon-color-adicional-6 Actuar
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Actuar
                 p.mb-0.text-center Corregir desviaciones y mejorar.
     .mb-5
-    .row.acordeon
+    .row.acordeon.mb-5
       .col-lg-7.col-md-12.col-sm-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Aspectos clave del plan de contingencia")
             .row.justify-content-center.align-items-center
               .col-lg-12
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-brain
-                    | Debe ser operativo y detallado, describiendo con claridad las acciones a seguir.
-                  li 
-                    i.fas.fa-brain
-                    | Debe asignar responsabilidades específicas y definir los perfiles del personal encargado de la atención de emergencias.
-                  li 
-                    i.fas.fa-brain
-                    | Debe incorporar un plan de emergencia, con recursos materiales y humanos previamente organizados para actuar de forma inmediata ante cualquier incidente.
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Debe ser operativo y detallado, describiendo con claridad las acciones a seguir.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Debe asignar responsabilidades específicas y definir los perfiles del personal encargado de la atención de emergencias.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Debe incorporar un plan de emergencia, con recursos materiales y humanos previamente organizados para actuar de forma inmediata ante cualquier incidente.
           .row.col-xl-11.m-auto(titulo="El Plan de Emergencia debe permitir")
             .row.justify-content-center.align-items-center
               .col-lg-12
-               ul.lista-ul--color
-                  li 
-                    i.fas.fa-brain
-                    | Localizar rápidamente la emergencia.
-                  li 
-                    i.fas.fa-brain
-                    | Eliminar o mitigar sus efectos.
-                  li 
-                    i.fas.fa-brain
-                    | Proteger la vida y el bienestar de los involucrados.
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Localizar rápidamente la emergencia.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Eliminar o mitigar sus efectos.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Proteger la vida y el bienestar de los involucrados.
           .row.col-xl-11.m-auto(titulo="Objetivos generales del plan de contingencia")
             .row.justify-content-center.align-items-center
               .col-lg-12
-               ul.lista-ul--color
-                li 
-                  i.fas.fa-brain
-                  | Minimizar pérdidas humanas, materiales y económicas.
-                li 
-                  i.fas.fa-brain
-                  | Establecer objetivos específicos, claros y alcanzables.
-                li 
-                  i.fas.fa-brain
-                  | Coordinar y asignar responsabilidades efectivamente.
-                li 
-                  i.fas.fa-brain
-                  | Activar acciones inmediatas y organizadas frente a la contingencia.
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Minimizar pérdidas humanas, materiales y económicas.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Establecer objetivos específicos, claros y alcanzables.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Coordinar y asignar responsabilidades efectivamente.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0  Activar acciones inmediatas y organizadas frente a la contingencia.
       .col-lg-5
         img(src="@/assets/curso/tema7/6.png", alt="")
-    .mb-4
-    .row.col-6
-      ul.lista-ul--color.lista-ul--separador
-        li 
-          i.lista-ul__vineta
-          | #[strong Ejemplo: Plan de contingencia para un recorrido en un parque natural ]
-          li.pb-2
+    
+    .ia.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema3/ia.png', alt='')
+        h3.mb-0.mx-2 Ejemplo: Plan de contingencia para un recorrido en un parque natural
+
     p.mb-4 Este tipo de recorrido se realiza en áreas protegidas, donde se requiere un manejo especial del entorno y los recursos naturales renovables. En estos espacios, los riesgos pueden ser de origen natural (como crecientes súbitas de ríos) o asociados a accidentes, enfermedades o mordeduras/picaduras de animales.
-    p.mb-5 Recomendaciones generales: 
+    
+    p.mb-4 Recomendaciones generales: 
+
     .row
       .col-4
-        ol.lista-ol--cuadro.mt-3
-          li 
+        ol.lista-ol--cuadro
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span a
             | Usar ropa y calzado adecuados para la zona a visitar.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span b
             | Portar y aplicar repelente contra mosquitos e insectos.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span c
             | Mantener una adecuada hidratación.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span d
             | Seguir siempre las instrucciones del guía. 
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span e
             | Respetar las medidas de protección ambiental del lugar. 
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span f
             | Llevar agua potable suficiente. 
       .col-4
         img(src="@/assets/curso/tema7/7.png", alt="")
       .col-4
-        ol.lista-ol--cuadro.mt-3
-          li 
+        ol.lista-ol--cuadro
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span g
             | Contar con un botiquín de primeros auxilios completo y adecuado.
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span h
             | Transitar únicamente por senderos autorizados.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span i
             | Conocer los riesgos potenciales del entorno natural.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span j
             | Tener a la mano una lista de hospitales o centros de atención médica cercanos. 
-          li 
+          li.d-flex
             .lista-ol--cuadro__vineta
               span k
             | Asegurarse de que el guía conozca previamente el lugar y pueda garantizar la seguridad del grupo.

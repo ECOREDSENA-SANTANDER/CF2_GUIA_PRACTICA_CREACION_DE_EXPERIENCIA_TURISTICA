@@ -8,17 +8,19 @@
       h1 Atractivo turístico 
     .row.justify-content-center
       .col-lg-8
-        .d-flex.align-items-center.gap-3.mb-3
-          img(src='@/assets/curso/tema3/5.svg', alt='').imgpeqt3.imagehide
-          p.mb-2 Un atractivo turístico es un recurso de carácter natural o cultural que posee la capacidad de captar el interés de los visitantes, gracias a sus características distintivas. Puede tratarse de un sitio, manifestación o elemento que destaca por su valor histórico, cultural, artístico, arquitectónico, natural, recreativo, gastronómico, lingüístico, arqueológico o astronómico. Los atractivos turísticos constituyen uno de los principales factores de motivación en la decisión del turista al seleccionar un destino, ya que influyen directamente en la expectativa y la experiencia de viaje.
+        .row.justify-content-center.align-items-center.mb-2
+          .col-lg-2
+            img.d-none.d-lg-block.img-t(src='@/assets/curso/tema3/5.svg', alt='')
+          .col-lg-10.ps-lg-0
+            p.mb-4.mb-lg-0 Un atractivo turístico es un recurso de carácter natural o cultural que posee la capacidad de captar el interés de los visitantes, gracias a sus características distintivas. Puede tratarse de un sitio, manifestación o elemento que destaca por su valor histórico, cultural, artístico, arquitectónico, natural, recreativo, gastronómico, lingüístico, arqueológico o astronómico. Los atractivos turísticos constituyen uno de los principales factores de motivación en la decisión del turista al seleccionar un destino, ya que influyen directamente en la expectativa y la experiencia de viaje.
         p.mb-4.cajon.cajon-color-adicional-5.p-4 La variedad de atractivos que puede ofrecer un destino refuerza su competitividad en el mercado turístico y promueve su desarrollo económico y social. Por esta razón, los entes gubernamentales suelen destinar recursos para su promoción, protección y mejora, a fin de posicionar estratégicamente el destino, generar empleo, preservar el patrimonio y garantizar la sostenibilidad a largo plazo. De acuerdo con el Decreto 190 de 2022, capítulo 8, sección I, artículo 2.2.4.8.1.4, los atractivos turísticos se clasifican en tres grandes tipologías:
       .col-lg-4.col-md-10
-        img(src='@/assets/curso/tema3/1.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/1.png', alt='')
     .mb-4
     
     
     .row.justify-content-center.align-items-stretch
-      .col-lg-4
+      .col-lg-4.col-md-6
         .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-lg-5.p-4
           .row.justify-content-center.align-items-stretch.mb-4
             .col-3
@@ -26,7 +28,7 @@
                 img(src='@/assets/curso/tema3/2.svg', alt='Texto que describa la imagen')
           h4.text-center.titulotj.mb-4.ps-3.pe-3.p-1 Sitios naturales
           p.text-small.text-center Áreas geográficas o bienes naturales de importancia para el turismo, que pueden incluir elementos individuales o conjuntos que, por sus características, no necesariamente están agrupados.
-      .col-lg-4
+      .col-lg-4.col-md-6
         .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-lg-5.p-4
           .row.justify-content-center.align-items-stretch.mb-4
             .col-3
@@ -34,7 +36,7 @@
                 img(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen')
           h4.text-center.titulotj.mb-4.ps-3.pe-3.p-1  Sitios culturales
           p.text-small.text-center.mb-4 Espacios relacionados con hechos históricos, transformaciones del territorio, asentamientos humanos o edificaciones con valor arqueológico, técnico o simbólico.
-      .col-lg-4
+      .col-lg-4.col-md-6
         .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-lg-5.p-4
           .row.justify-content-center.align-items-stretch.mb-4
             .col-3
@@ -54,10 +56,10 @@
     .row.fondo4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
       .col-lg-12
         .row
-          .col-lg-4.col-md-5.imageslyder.imagehidetema1
-            img(src='@/assets/curso/tema3/6.png', alt='').imagehidetema1
-          .col-lg-8.col-md-7.targetaslyder
-            SlyderF.slyder1.circl-arrow.mb-0(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
+          .col-lg-4
+            img.d-none.d-lg-block(src='@/assets/curso/tema3/6.png', alt='')
+          .col-lg-8
+            SlyderF.slyder1.circl-arrow.mb-0(columnas="col-lg-6 col-xl-4 col-md-6")(data-aos="fade-left")
               .tarjeta.tarjeta-btn.p-4
                 img.mb-3(src='@/assets/curso/tema3/7.svg', alt='')
                 .title.mb-4
@@ -262,7 +264,7 @@
         p.mb-2 La capacidad de carga turística se refiere al nivel de uso que puede soportar un atractivo turístico en un periodo determinado, en función de la afluencia de visitantes, sin comprometer la sostenibilidad ambiental, el patrimonio natural y cultural, ni afectar negativamente a la calidad de vida de la comunidad receptora. Este concepto no se limita al aprovechamiento físico del atractivo, sino que implica el establecimiento de límites máximos de uso basados en criterios técnicos, sociales, ambientales y de infraestructura.
         p.mb-4 Los factores que determinan la capacidad de carga incluyen:
       .col-lg-4.col-md-10
-        img(src='@/assets/curso/tema3/33.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/33.png', alt='')
     .mb-4
     
     
@@ -343,14 +345,14 @@
         p.mb-2 Los Límites de Cambio Aceptable constituyen una metodología de planificación, gestión y monitoreo, aplicada para establecer umbrales medibles respecto a los cambios inducidos por la actividad turística sobre las condiciones ambientales, sociales y culturales del atractivo. Esta herramienta permite evaluar la presión ejercida por el turismo y anticipar acciones que preserven la integridad del destino, incluyendo aquellas relacionadas con los efectos del cambio climático.
         p.mb-4.cajon.color-acento-contenido.p-4.mt-3 El objetivo de esta metodología es definir niveles tolerables de alteración, de modo que los cambios no superen lo que el entorno puede absorber sin perder su valor como destino turístico. A través del seguimiento de estos límites, se facilita una gestión adaptativa, orientada a garantizar la sostenibilidad y viabilidad del atractivo a largo plazo.
       .col-lg-4
-        img(src='@/assets/curso/tema3/43.png', alt='').imageheight
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/43.png', alt='').imageheight
     
     .mb-4
     .row.justify-content-center.align-items-center
-      .col-3
-        .bg6.p-3
+      .col-lg-3.col-md-9
+        .bg6.p-3.mb-lg-0.mb-4
           img(src='@/assets/curso/tema3/44.png', alt='')
-      .col-9 
+      .col-lg-9 
         p.mb-0 El Ministerio de Comercio, Industria y Turismo será el encargado de reglamentar la aplicación de esta metodología para su integración en la planificación y administración de los atractivos turísticos. En el caso de aquellos ubicados en áreas culturales o naturales protegidas, dicha reglamentación será expedida de manera conjunta con las autoridades competentes, conforme a sus respectivas jurisdicciones y competencias.
     
     separador
@@ -361,31 +363,33 @@
       .col-lg-8
         p.mb-2 Las directrices para el desarrollo sostenible del turismo y las prácticas de gestión sostenible son aplicables a todas las formas de turismo y a todos los tipos de destinos, incluidos tanto el turismo de masas como los diversos segmentos especializados (turismo rural, de naturaleza, cultural, de negocios, entre otros). Los principios de sostenibilidad abarcan las dimensiones ambiental, económica y sociocultural, y su correcta implementación requiere un equilibrio adecuado entre estos tres componentes para asegurar la viabilidad y sostenibilidad del sector a largo plazo.
         p.mb-4 De acuerdo con las orientaciones internacionales en materia de sostenibilidad, el turismo sostenible debe:
-      .col-lg-4.col-md-10
+      .col-lg-4.col-md-10.col-10.mb-lg-0.mb-4
         img(src='@/assets/curso/tema3/45.png', alt='').mt-1
+    
     .mb-4
-    .row
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5.mb-5.tarjeta1
+
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-4.col-md-6.mb-lg-0.mb-5
+        .tarjeta-numerada.color-primario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 a
-          p.text-center Utilizar de manera óptima los recursos naturales, que constituyen la base del desarrollo turístico, procurando la conservación de la biodiversidad, el mantenimiento de los procesos ecológicos esenciales y la protección del entorno.
+          p.mb-lg-5.mb-0 Utilizar de manera óptima los recursos naturales, que constituyen la base del desarrollo turístico, procurando la conservación de la biodiversidad, el mantenimiento de los procesos ecológicos esenciales y la protección del entorno.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.tarjeta1
+      .col-lg-4.col-md-6.mb-lg-0.mb-5
+        .tarjeta-numerada.color-secundario.p-5.h-100
           .tarjeta-numerada__numero
             .h2 b
-          p.text-center Respetar la autenticidad sociocultural de las comunidades anfitrionas, preservando su patrimonio cultural y arquitectónico, sus valores tradicionales, y fomentando el respeto, la comprensión y el intercambio intercultural.
+          p.mb-lg-5.mb-0 Respetar la autenticidad sociocultural de las comunidades anfitrionas, preservando su patrimonio cultural y arquitectónico, sus valores tradicionales, y fomentando el respeto, la comprensión y el intercambio intercultural.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
+      .col-lg-4.col-md-6.mb-lg-0.mb-5
+        .tarjeta-numerada.color-acento-contenido.p-5.h-100
           .tarjeta-numerada__numero
             .h2 c
-          p.text-center Garantizar la viabilidad económica del turismo a largo plazo, generando beneficios socioeconómicos equitativamente distribuidos entre todos los actores, en especial para las comunidades locales. Esto incluye la generación de empleo digno, ingresos sostenibles, acceso a servicios básicos y la contribución a la reducción de la pobreza.
+          p.mb-0 Garantizar la viabilidad económica del turismo a largo plazo, generando beneficios socioeconómicos equitativamente distribuidos entre todos los actores, en especial para las comunidades locales. Esto incluye la generación de empleo digno, ingresos sostenibles, acceso a servicios básicos y la contribución a la reducción de la pobreza.
     .mb-4
     .row
       .col-lg-1
-        img(src='@/assets/curso/tema3/46.svg', alt='').mt-1
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/46.svg', alt='').mt-1
       .col-lg-11
         p.mb-2 El desarrollo turístico sostenible debe entenderse como un proceso de interacción equilibrada entre el uso responsable de los recursos naturales y culturales, la mejora de la calidad de vida de las comunidades locales y el éxito económico del sector, contribuyendo además al desarrollo integral del país. La sostenibilidad turística no solo responde a las exigencias actuales del mercado, sino que se configura como una condición esencial de competitividad presente y futura (CST, 1997).
     .mb-4
@@ -396,21 +400,23 @@
 
     .mb-5
     .row.justify-content-center
-      .col-lg-4
-        img(src='@/assets/curso/tema3/47.png', alt='').imageheight
-      .col-lg-8
-        p.mb-2 La sostenibilidad plantea la necesidad de satisfacer las necesidades actuales de la sociedad sin comprometer la capacidad de las generaciones futuras para satisfacer las suyas. En este sentido, el desarrollo del país no debe basarse en la explotación excesiva de los recursos naturales, culturales o sociales, con el fin de responder a las demandas inmediatas de alimentación, vivienda, salud o empleo, ya que estos recursos constituyen la base esencial para el bienestar de las generaciones venideras.
-        p.mb-4.p-4.mt-3.cajon-color-adicional-4.imagediv El turismo, como sector estratégico, debe alinearse con este modelo de desarrollo, implementando políticas que prioricen la conservación, la inclusión social y la eficiencia económica dentro de un marco de respeto por el entorno y las comunidades.
+      .col-lg-5
+        img.d-none.d-lg-block(src='@/assets/curso/tema3/47.png', alt='')
+      .col-lg-7
+        p.mb-3 La sostenibilidad plantea la necesidad de satisfacer las necesidades actuales de la sociedad sin comprometer la capacidad de las generaciones futuras para satisfacer las suyas. En este sentido, el desarrollo del país no debe basarse en la explotación excesiva de los recursos naturales, culturales o sociales, con el fin de responder a las demandas inmediatas de alimentación, vivienda, salud o empleo, ya que estos recursos constituyen la base esencial para el bienestar de las generaciones venideras.
+        .bg17.p-4
+          p.mb-0 El turismo, como sector estratégico, debe alinearse con este modelo de desarrollo, implementando políticas que prioricen la conservación, la inclusión social y la eficiencia económica dentro de un marco de respeto por el entorno y las comunidades.
+    
     .mb-5
-    .row
-      .cajon.cajon-color-adicional-2.col-4.imagehide.p-4
-        p En el marco de estos principios, el Ministerio de Comercio, Industria y Turismo ha liderado la conformación de la Unidad Sectorial de Normalización en Turismo Sostenible, orientada a la creación y adopción de normas técnicas que regulen y promuevan prácticas sostenibles, tanto en destinos turísticos como en los prestadores de servicios turísticos.
-      .col-3.p-2
-        img(src='@/assets/curso/tema3/48.png', alt='').imagehide.imageheight2
-      .col-5.p-2
-        .d-flex.align-items-center.gap-3.mb-3
-            img(src='@/assets/curso/tema3/49.svg', alt='').imagenpeq.imagehide
-        p La misión principal de esta unidad es formular, normalizar y difundir lineamientos técnicos de sostenibilidad, que orienten la planificación, gestión y evaluación del turismo en Colombia. Estas normas buscan fortalecer la gobernanza, la eficiencia operativa, la responsabilidad ambiental y la equidad social en todos los niveles del sistema turístico nacional.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        .bg18.p-4.mb-lg-0.mb-4
+          p.mb-0 En el marco de estos principios, el Ministerio de Comercio, Industria y Turismo ha liderado la conformación de la Unidad Sectorial de Normalización en Turismo Sostenible, orientada a la creación y adopción de normas técnicas que regulen y promuevan prácticas sostenibles, tanto en destinos turísticos como en los prestadores de servicios turísticos.
+      .col-lg-4.col-md-9.col-10
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema3/48.png', alt='')
+      .col-lg-4
+        img.img-t.mb-2.d-none.d-lg-block(src='@/assets/curso/tema3/49.svg', alt='')
+        p.mb-0 La misión principal de esta unidad es formular, normalizar y difundir lineamientos técnicos de sostenibilidad, que orienten la planificación, gestión y evaluación del turismo en Colombia. Estas normas buscan fortalecer la gobernanza, la eficiencia operativa, la responsabilidad ambiental y la equidad social en todos los niveles del sistema turístico nacional.
     .mb-4
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center

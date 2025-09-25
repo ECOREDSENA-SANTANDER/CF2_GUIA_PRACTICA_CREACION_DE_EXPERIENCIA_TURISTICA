@@ -331,67 +331,78 @@
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Elementos de un itinerario
 
     p.mb-4.mt-3 Los principales elementos que componen un itinerario turístico son:
-    .row
-      .col-lg-3
+    
+    .row.justify-content-center.align-items-stretch.mb-4.width-25
+      .col-lg-3.col-md-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema5/28.svg' alt='')
+            img.my-2(src='@/assets/curso/tema5/28.svg' alt='')
           .tarjeta.cajon-color-adicional-8
             .p-4
-              p a) Tiempo: incluye fechas, horarios y duración estimada de cada actividad.
-      .col-lg-3
+              p.mb-0 #[b a) Tiempo:] incluye fechas, horarios y duración estimada de cada actividad.
+      .col-lg-3.col-md-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema5/29.svg' alt='')
-          .tarjeta.cajon-color-adicional-8
-            .p-4.mb-5
-              p b) Turistas: personas que realizan el recorrido..
-      .col-lg-3
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema5/30.svg' alt='')
-          .tarjeta.cajon-color-adicional-8
-            .p-4.mb-4
-              p c) Camino: rutas o vías por las cuales se desarrolla el itinerario.
-      .col-lg-3
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema5/31.svg' alt='')
+            img.my-2(src='@/assets/curso/tema5/29.svg' alt='')
           .tarjeta.cajon-color-adicional-8
             .p-4
-              p d) Puntos de llegada: sitios de interés seleccionados para ser visitados.
-    .mb-3
+              p.mb-lg-4.mb-5 #[b b) Turistas:] personas que realizan el recorrido.
+      .col-lg-3.col-md-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.my-2(src='@/assets/curso/tema5/30.svg' alt='')
+          .tarjeta.cajon-color-adicional-8
+            .p-4
+              p.mb-4 #[b c) Camino:] rutas o vías por las cuales se desarrolla el itinerario.
+      .col-lg-3.col-md-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img.my-2(src='@/assets/curso/tema5/31.svg' alt='')
+          .tarjeta.cajon-color-adicional-8
+            .p-4
+              p.mb-0 #[b d) Puntos de llegada:] sitios de interés seleccionados para ser visitados.
 
     .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de itinerarios
 
     p.mb-5.mt-3 Existen diversos tipos de itinerarios turísticos, según la tipología de turismo que se desee realizar y la ubicación geográfica de los atractivos. A continuación, se describen los más comunes:  
-    .row.mb-4
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p a) Itinerario turístico cultural 
-              p Centrado en la visita a lugares con valor arquitectónico, artístico, histórico, gastronómico o folclórico. Busca fomentar el conocimiento y la apreciación del patrimonio cultural del destino.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/32.png')})`}")
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p b) Itinerario turístico natural
-              p Diseñado para mostrar los atractivos de zonas con alto valor ambiental y paisajístico. Incluye paradas en espacios como miradores, cumbres o reservas naturales, que permiten admirar y contemplar el entorno.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/33.png')})`}")
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p c) Itinerario turístico personalizado
-              p Adaptado a los intereses y motivaciones específicas de quien lo diseña. Por ejemplo, un chef argentino de renombre internacional puede crear un recorrido por diversos restaurantes de alta cocina en la ciudad de Buenos Aires, explicando el motivo de cada parada. Este tipo de itinerario responde a un enfoque temático, como el gastronómico, y tiene un alto componente personal.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema5/34.png')})`}")
+    
+    
+    
+    .cont_5_1.mt-4(data-aos="fade-left").mb-5
+      .row.justify-content-center
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/tema5/32.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center.text-white a) Itinerario turístico cultural
+              p.mb-0.text-center.mb-0.txp Centrado en la visita a lugares con valor arquitectónico, artístico, histórico, gastronómico o folclórico. Busca fomentar el conocimiento y la apreciación del patrimonio cultural del destino.
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/tema5/33.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center.text-white b) Itinerario turístico natural
+              p.mb-0.text-center.mb-0.txp Ayudan a recuperar la figura, reduciendo centímetros en abdomen y cintura. Se recomienda su uso 30 días después del parto.
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .indicador--hover
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/tema5/34.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center.text-white c) Itinerario turístico personalizado
+              p.mb-0.text-center.mb-0.txp Adaptado a los intereses y motivaciones específicas de quien lo diseña. Por ejemplo, un chef argentino de renombre internacional puede crear un recorrido por diversos restaurantes de alta cocina en la ciudad de Buenos Aires, explicando el motivo de cada parada. Este tipo de itinerario responde a un enfoque temático, como el gastronómico, y tiene un alto componente personal.
+    
+    
+    
+    
+    
+  
     .mb-5
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
@@ -417,116 +428,136 @@
         p.mb-4 Para desarrollar una experiencia turística de calidad, es fundamental medir y controlar los servicios ofrecidos al turista o visitante.
       .col-lg-4.col-md-10.mt-1
         img(src='@/assets/curso/tema5/35.png', alt='')
-    p.mb-5.mt-3 El instrumento de verificación para la medición y control de la experiencia permite:
-    .row
-      .col-lg-4.col-md-5
-        img(src='@/assets/curso/tema5/36.png', alt='').mt-4
-      .col-lg-8.col-md-7
-        SlyderF.slyder3.circl-arrow.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/37.svg', alt='')
-            .title.mb-4
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center #[strong Garantizar la calidad del servicio:] confirma que todos los elementos necesarios (infraestructura, personal, insumos, equipos, entre otros) cumplen con los estándares de calidad previamente establecidos.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/38.svg', alt='')
-            .title.mb-4
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center #[strong Asegurar el cumplimiento de requisitos:] verifica que los prestadores de servicios turísticos cumplen con las normativas legales, de seguridad, ambientales y de sostenibilidad antes de recibir a los visitantes.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/39.svg', alt='')
-            .title.mb-4
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center #[strong Identificar y prevenir fallas:] detecta posibles deficiencias o riesgos que puedan afectar negativamente la experiencia, permitiendo su corrección anticipada.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/40.svg', alt='')
-            .title.mb-4
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center #[strong Optimizar la experiencia turística:] al asegurar que todo esté en orden, se mejora la satisfacción del visitante, lo cual fortalece la percepción positiva del destino y fomenta la fidelización.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/41.svg', alt='')
-            .title.mb-4
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center #[strong Evaluar la preparación operativa:] permite medir el nivel de alistamiento de los servicios (transporte, guías, alojamiento, actividades, etc.) antes del inicio, garantizando que el itinerario se desarrolle sin contratiempos.
-      p.mb-5 El instrumento de verificación para la medición y control de la experiencia permite:
-      .row.sistema
-        .col-lg-12.col-md-12
-          p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
-          img(src='@/assets/curso/tema5/43.png', alt='')
-      .mb-5
+    
+    .row.fondo4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
+      .col-lg-12
+    
+        p.mb-4 El instrumento de verificación para la medición y control de la experiencia permite:
+        
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-4.col-md-5
+            img(src='@/assets/curso/tema5/36.png', alt='')
+          .col-lg-8.col-md-7
+            SlyderF.slyder3.circl-arrow.mb-0(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema5/37.svg', alt='')
+                .title.mb-4
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-12
+                    p.text-center #[strong Garantizar la calidad del servicio:] confirma que todos los elementos necesarios (infraestructura, personal, insumos, equipos, entre otros) cumplen con los estándares de calidad previamente establecidos.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema5/38.svg', alt='')
+                .title.mb-4
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-12
+                    p.text-center #[strong Asegurar el cumplimiento de requisitos:] verifica que los prestadores de servicios turísticos cumplen con las normativas legales, de seguridad, ambientales y de sostenibilidad antes de recibir a los visitantes.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema5/39.svg', alt='')
+                .title.mb-4
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-12
+                    p.text-center #[strong Identificar y prevenir fallas:] detecta posibles deficiencias o riesgos que puedan afectar negativamente la experiencia, permitiendo su corrección anticipada.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema5/40.svg', alt='')
+                .title.mb-4
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-12
+                    p.text-center #[strong Optimizar la experiencia turística:] al asegurar que todo esté en orden, se mejora la satisfacción del visitante, lo cual fortalece la percepción positiva del destino y fomenta la fidelización.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema5/41.svg', alt='')
+                .title.mb-4
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-12
+                    p.mb-5.text-center #[strong Evaluar la preparación operativa:] permite medir el nivel de alistamiento de los servicios (transporte, guías, alojamiento, actividades, etc.) antes del inicio, garantizando que el itinerario se desarrolle sin contratiempos.
+      
+    p.mb-5 El instrumento de verificación para la medición y control de la experiencia permite:
+    .row.sistema
+      .col-lg-12.col-md-12
+        p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
+        img(src='@/assets/curso/tema5/43.png', alt='')
+    .mb-5
+    .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Encuesta de satisfacción 
+    .mb-3
+    .row.justify-content-center
+      .col-lg-8
+        .d-flex.align-items-center.gap-3
+          img(src='@/assets/curso/tema5/44.svg', alt='').imagenpeq.imagehide
+          p.mb-2 La encuesta de satisfacción es un instrumento utilizado para medir el grado de satisfacción de los clientes y su nivel de compromiso con una marca, producto o servicio. Aplicar este tipo de encuesta permite conocer de manera directa las percepciones, opiniones y expectativas de los usuarios.
+        p.mb-2.mt-2 Actualmente, existen múltiples métodos para aplicar encuestas, pero las encuestas en línea se han consolidado como una de las alternativas más eficaces, debido a su bajo costo, facilidad de aplicación y rapidez en la recolección de datos. Este tipo de encuestas también permite identificar clientes insatisfechos y tomar acciones correctivas oportunas, evitando la pérdida de fidelidad hacia el producto o servicio.
+      .col-lg-4.col-md-10
+          img(src='@/assets/curso/tema5/45.png', alt='')
+    .mb-4
+    p.mb-5 Una encuesta de satisfacción bien estructurada debe incluir preguntas que evalúen aspectos clave como:
+    
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        .bgb.p-4.mb-lg-0.mb-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-3
+              img(src='@/assets/curso/tema5/45.svg', alt='')
+            .col-lg-9
+              h5.mb-0 La calidad en la prestación del servicio.
+              
+      .col-lg-4
+        .bgb.p-4.mb-lg-0.mb-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-3
+              img(src='@/assets/curso/tema5/46.svg', alt='')
+            .col-lg-9
+              h5.mb-0 La experiencia del cliente durante la interacción.
+      .col-lg-4
+        .bgb.p-4.mb-lg-0.mb-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-3
+              img(src='@/assets/curso/tema5/47.svg', alt='')
+            .col-lg-9
+              h5.mb-0 La percepción general de satisfacción.
+    
+    
+   
+    p.mb-5 Es recomendable aplicar la encuesta inmediatamente después de la experiencia del usuario, para obtener respuestas más precisas y relevantes. Entre las herramientas digitales disponibles para diseñar encuestas de satisfacción, se destacan:
+    
+    
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-md-6.col-lg-3.mb-4
+        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
+          .tarjeta-numerada__numero
+            img.disappearing-image(src='@/assets/curso/tema5/48.svg', alt='')
+          p.mb-4.mx-lg-2 #[strong Google Forms:] plataforma gratuita y accesible para crear formularios personalizados.
+      .col-md-6.col-lg-3.mb-4
+        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
+          .tarjeta-numerada__numero
+            img.disappearing-image(src='@/assets/curso/tema5/49.svg', alt='')
+          p.mb-4.mx-lg-2 #[strong Typeform:] ofrece formularios interactivos y visualmente atractivos.
+      .col-md-6.col-lg-3.mb-4
+        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
+          .tarjeta-numerada__numero
+            img.disappearing-image(src='@/assets/curso/tema5/50.svg', alt='')
+          p.mb-4.mx-lg-2 #[strong SurveyMonkey:] permite mayor profundidad en el análisis estadístico de las respuestas.
+      .col-md-6.col-lg-3.mb-4
+        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
+          .tarjeta-numerada__numero
+            img.disappearing-image(src='@/assets/curso/tema5/51.svg', alt='')
+          p.mb-0.mx-lg-2 #[strong Microsoft Forms:] integrada con el ecosistema de Office, ideal para entornos educativos y corporativos.
+    
+    
+    .ia.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema3/ia.png', alt='')
+        h3.mb-0.mx-2 Ejemplo de encuesta de satisfacción
 
-      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Encuesta de satisfacción 
 
-      .mb-3
-      .row.justify-content-center
-        .col-lg-8
-          .d-flex.align-items-center.gap-3
-            img(src='@/assets/curso/tema5/44.svg', alt='').imagenpeq.imagehide
-            p.mb-2 La encuesta de satisfacción es un instrumento utilizado para medir el grado de satisfacción de los clientes y su nivel de compromiso con una marca, producto o servicio. Aplicar este tipo de encuesta permite conocer de manera directa las percepciones, opiniones y expectativas de los usuarios.
-          p.mb-2.mt-2 Actualmente, existen múltiples métodos para aplicar encuestas, pero las encuestas en línea se han consolidado como una de las alternativas más eficaces, debido a su bajo costo, facilidad de aplicación y rapidez en la recolección de datos. Este tipo de encuestas también permite identificar clientes insatisfechos y tomar acciones correctivas oportunas, evitando la pérdida de fidelidad hacia el producto o servicio.
-        .col-lg-4.col-md-10
-            img(src='@/assets/curso/tema5/45.png', alt='').imageheight3
-      .mb-4
-      p.mb-5 Una encuesta de satisfacción bien estructurada debe incluir preguntas que evalúen aspectos clave como:
-      .row
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5.mb-5
-            .d-flex.align-items-center.gap-3
-              img(src='@/assets/curso/tema5/45.svg', alt='').imagenpeq.mb-3
-              p La calidad en la prestación del servicio.
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5
-            .d-flex.align-items-center.gap-3
-              img(src='@/assets/curso/tema5/46.svg', alt='').imagenpeq
-              p La experiencia del cliente durante la interacción.
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5
-            .d-flex.align-items-center.gap-3
-              img(src='@/assets/curso/tema5/47.svg', alt='').imagenpeq.mb-3
-              p La percepción general de satisfacción.
-      p.mb-5 Es recomendable aplicar la encuesta inmediatamente después de la experiencia del usuario, para obtener respuestas más precisas y relevantes. Entre las herramientas digitales disponibles para diseñar encuestas de satisfacción, se destacan:
-      .row
-        .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
-            .tarjeta-numerada__numero
-              img(src='@/assets/curso/tema5/48.svg', alt='').imgenpeq
-            p.text-center.mb-5 #[strong Google Forms:] plataforma gratuita y accesible para crear formularios personalizados.
-        .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
-            .tarjeta-numerada__numero
-              img(src='@/assets/curso/tema5/49.svg', alt='').imgenpeq
-            p.text-center.mb-5 #[strong Typeform:] ofrece formularios interactivos y visualmente atractivos.
-        .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
-            .tarjeta-numerada__numero
-              img(src='@/assets/curso/tema5/50.svg', alt='').imgenpeq
-            p.text-center.mb-5 #[strong SurveyMonkey:] permite mayor profundidad en el análisis estadístico de las respuestas.
-        .col-md-3.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.cajon-color-adicional-8.p-5.sinborde
-            .tarjeta-numerada__numero
-              img(src='@/assets/curso/tema5/51.svg', alt='').imgenpeq
-            p.text-center.mb-4 #[strong Microsoft Forms:] integrada con el ecosistema de Office, ideal para entornos educativos y corporativos.´
-      .mb-5
-      .row.col-5
-        ul.lista-ul--color.lista-ul--separador
-          li 
-            i.lista-ul__vineta
-            | #[strong Ejemplo de encuesta de satisfacción:]
-            li.pb-2
-      p.mb-5 Por favor, califique los siguientes aspectos del servicio recibido, utilizando una escala del 1 al 5:
-      .row
-        .cajon.cajon-color-adicional-9.col-4.imagehide.p-4
-          p.text-center.fondop #[strong Escala de valoración:]
-          ol.lista-ol--cuadro.listajustada
+    p.mb-4 Por favor, califique los siguientes aspectos del servicio recibido, utilizando una escala del 1 al 5:
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
+        .bg12.p-3
+          .fondop.p-1.mb-3.mx-lg-4
+            p.mb-0 #[strong Escala de valoración:]
+          ol.lista-ol--cuadro.listajustada.mx-lg-4
             li 
               .lista-ol--cuadro__vineta
                 span 1=
@@ -543,22 +574,25 @@
               .lista-ol--cuadro__vineta
                 span 4=
               | Satisfecho
-            li 
+            li.mb-0 
               .lista-ol--cuadro__vineta
                 span 5=
               | Muy satisfecho
-        .col-3
-          img(src='@/assets/curso/tema5/52.png', alt='').imagehide.imgajustada3
-        .col-5.p-2
-          .d-flex.align-items-center.gap-3.mb-3
-            img(src='@/assets/curso/tema5/53.svg', alt='').imagenpeq.imagehide
-          p.mt-5 Este ejemplo describe cómo se estructuran los ítems en una encuesta de satisfacción dirigida a usuarios o clientes que han recibido un servicio. El objetivo es que los participantes del curso comprendan cómo se formulan las preguntas, cómo se aplica una escala de valoración y qué aspectos clave deben evaluarse. Cada ítem está diseñado para recoger información específica sobre la experiencia del usuario, lo que permite identificar fortalezas y oportunidades de mejora en la prestación del servicio.
-      .mb-4
-      .row
-        .col-1
-        .col-lg-4
-          img(src='@/assets/curso/tema5/54.png', alt='').imgajustada
-          ol.lista-ol--cuadro.mt-5.cajon-color-adicional-8.p-4
+      .col-lg-4
+        img(src='@/assets/curso/tema5/52.png', alt='')
+      .col-lg-5
+        img.img-t.mb-3(src='@/assets/curso/tema5/53.svg', alt='')
+        p Este ejemplo describe cómo se estructuran los ítems en una encuesta de satisfacción dirigida a usuarios o clientes que han recibido un servicio. El objetivo es que los participantes del curso comprendan cómo se formulan las preguntas, cómo se aplica una escala de valoración y qué aspectos clave deben evaluarse. Cada ítem está diseñado para recoger información específica sobre la experiencia del usuario, lo que permite identificar fortalezas y oportunidades de mejora en la prestación del servicio.
+    
+    
+  
+    
+    .mb-4
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        img.mb-2(src='@/assets/curso/tema5/54.png', alt='')
+        .bg13.p-3.mb-lg-0.mb-4
+          ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta
                 span 1
@@ -579,14 +613,14 @@
               .lista-ol--cuadro__vineta
                 span 5
               | Instalaciones o medios utilizados.
-            li 
+            li.mb-0
               .lista-ol--cuadro__vineta
                 span 6
               | Satisfacción general con la experiencia.
-        .col-lg-6
-          p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
-          img(src='@/assets/curso/tema5/55.png', alt='')
-        .col-1
+      .col-lg-6
+        p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 5.] Tabla de evaluación de experiencia turística
+        img(src='@/assets/curso/tema5/55.png', alt='Tabla de valoración de aspectos como alojamiento, alimentación, transporte y satisfacción general, con escala del 1 al 5.')
+
     .mb-4
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center

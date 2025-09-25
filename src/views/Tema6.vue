@@ -22,35 +22,37 @@
       .col-lg-4.col-md-10
           img(src='@/assets/curso/tema6/3.png', alt='').imgajustada
     .mb-5
-    .row
-      .col-lg-5.col-md-10
-         .d-flex.align-items-center.gap-3
-          img(src='@/assets/curso/tema6/4.svg', alt='').imagehide
-          p.mb-2 Los participantes de una ruta turística deben cumplir con ciertos criterios que abarcan desde el interés turístico de la actividad realizada hasta la calidad de los servicios ofrecidos y la infraestructura disponible. Estos estándares deben establecerse en común acuerdo, tomando en cuenta las expectativas de la demanda turística.
-         p.mb-2.mt-3 Una ruta turística se compone de atractivos locales, elementos patrimoniales, comunidades y facilidades organizadas en forma de red, debidamente señalizadas y reconocidas como de interés turístico.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-2
+            img.img-t.mb-3(src='@/assets/curso/tema6/4.svg', alt='')
+          .col-lg-10.ps-lg-0.mb-3
+            p.mb-0 Los participantes de una ruta turística deben cumplir con ciertos criterios que abarcan desde el interés turístico de la actividad realizada hasta la calidad de los servicios ofrecidos y la infraestructura disponible. Estos estándares deben establecerse en común acuerdo, tomando en cuenta las expectativas de la demanda turística.
+          p.mb-2 Una ruta turística se compone de atractivos locales, elementos patrimoniales, comunidades y facilidades organizadas en forma de red, debidamente señalizadas y reconocidas como de interés turístico.
       .col-lg-7
-        .cajon.cajon-color-adicional-10.p-4
+        .cajon.cajon-color-adicional-10.p-5
          p.mb-3 Entre los elementos que caracterizan una ruta se destacan:
-         ul.lista-ul--color
-          li 
-            i.fas.fa-brain
-            | Una producción, actividad o temática particular que la diferencia de otras rutas.
-          li 
-            i.fas.fa-brain
-            | Un itinerario desarrollado con base en la red vial u otros medios de comunicación.
-          li 
-            i.fas.fa-brain
-            | Una organización local encargada de brindar información sobre la ruta, con participación activa de personas vinculadas a la actividad.
-          li 
-            i.fas.fa-brain
-            | Un sistema de promoción asociado.
-          li 
-            i.fas.fa-brain
-            | Un sistema de señalización que facilite el recorrido.
-          li 
-            i.fas.fa-brain
-            | Un mapa con información explícita sobre el itinerario y sus componentes.
-    .mb-5
+         ul.lista-ul
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Una producción, actividad o temática particular que la diferencia de otras rutas.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Un itinerario desarrollado con base en la red vial u otros medios de comunicación.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Una organización local encargada de brindar información sobre la ruta, con participación activa de personas vinculadas a la actividad.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Un sistema de promoción asociado.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Un sistema de señalización que facilite el recorrido.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Un mapa con información explícita sobre el itinerario y sus componentes.
+
 
     .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
@@ -59,7 +61,7 @@
     .mb-4
     .row
       .col-8
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-boton.activo
           .row(numero="a)" titulo="Ruta gastronómica").p-3
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Es un itinerario organizado que permite conocer y disfrutar de procesos productivos agropecuarios o industriales, así como degustar la gastronomía local. Estas rutas se diseñan en torno a un producto gastronómico emblemático, al cual usualmente se debe su nombre. Ofrecen una experiencia sensorial vinculada con la cocina, la producción agroindustrial, las actividades rurales, el contacto con la naturaleza y las expresiones culturales de la región. Entre las actividades experienciales que pueden incluirse se encuentran: degustaciones de alimentos y bebidas, visitas a productores locales, clases de cocina tradicional, participación en festivales gastronómicos y recorridos por mercados típicos.
@@ -76,37 +78,37 @@
     .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de rutas temáticas
-
-    .mb-3
-    .row
-      .col-3
-        .tarjeta.cajon-color-adicional-8.p-4.cajon-height
-          .row.justify-content-center.mb-3
-            .col-9
+    
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-3
+        .overflow-hidden.h-100.bg13.p-4
+          .row.justify-content-center.mb-4
+            .col-12
               figure
                 img(src='@/assets/curso/tema6/6.png', alt='Texto que describa la imagen')
-          p.text-small.text-center.mb-5 a) Ruta temática autoguiada: se realiza de forma autónoma, mediante el uso de materiales como folletos, audioguías o señalización (flechas, estacas pintadas, símbolos) que orientan e interpretan el recorrido.
-      .col-3
-        .tarjeta.cajon-color-adicional-8.p-4.cajon-height
-          .row.justify-content-center.mb-3
-            .col-9
+          p #[b a) Ruta temática autoguiada:] se realiza de forma autónoma, mediante el uso de materiales como folletos, audioguías o señalización (flechas, estacas pintadas, símbolos) que orientan e interpretan el recorrido.
+      .col-lg-3
+        .overflow-hidden.h-100.bg13.p-4
+          .row.justify-content-center.mb-4
+            .col-12
               figure
                 img(src='@/assets/curso/tema6/7.png', alt='Texto que describa la imagen')
-          p.text-small.text-center.mb-4 b) Ruta temática guiada: consiste en un recorrido grupal acompañado por un guía especializado. Este adapta la interpretación a las necesidades del grupo, incorpora eventos espontáneos y facilita la interacción con los participantes. (Ríos y Rubilar, 2006).
-      .col-3
-        .tarjeta.cajon-color-adicional-8.p-4
-          .row.justify-content-center.mb-3
-            .col-9
+          p #[b b) Ruta temática guiada:] consiste en un recorrido grupal acompañado por un guía especializado. Este adapta la interpretación a las necesidades del grupo, incorpora eventos espontáneos y facilita la interacción con los participantes. (Ríos y Rubilar, 2006).
+      .col-lg-3
+        .overflow-hidden.h-100.bg13.p-4
+          .row.justify-content-center.mb-4
+            .col-12
               figure
                 img(src='@/assets/curso/tema6/8.png', alt='Texto que describa la imagen')
-          p.text-small.text-center c) Ruta agroturística: permite conocer e interactuar con procesos agrícolas, ganaderos y agroindustriales, así como con la vida rural en general. Promueve el desarrollo sostenible, la valorización del campo y la diversificación económica de las comunidades rurales. Las actividades experienciales pueden incluir la siembra, cosecha, ordeño, visitas a huertas, cultivos y participación en labores cotidianas del entorno rural.
-      .col-3
-        .tarjeta.cajon-color-adicional-8.p-4
-          .row.justify-content-center.mb-3
-            .col-9
+          p #[b c) Ruta agroturística:] permite conocer e interactuar con procesos agrícolas, ganaderos y agroindustriales, así como con la vida rural en general. Promueve el desarrollo sostenible, la valorización del campo y la diversificación económica de las comunidades rurales. Las actividades experienciales pueden incluir la siembra, cosecha, ordeño, visitas a huertas, cultivos y participación en labores cotidianas del entorno rural.
+      .col-lg-3
+        .overflow-hidden.h-100.bg13.p-4
+          .row.justify-content-center.mb-4
+            .col-12
               figure
                 img(src='@/assets/curso/tema6/9.png', alt='Texto que describa la imagen')
-          p.text-small.text-center d) Ruta natural: se diseña para recorrer espacios de alto valor ecológico o paisajístico, como parques naturales, bosques, montañas, senderos, ríos o humedales. Su propósito es fomentar el disfrute responsable del entorno, la educación ambiental y la conservación. Las actividades asociadas incluyen senderismo, avistamiento de aves, fotografía de naturaleza, ecoturismo, entre otras.
+          p #[b d) Ruta natural:] se diseña para recorrer espacios de alto valor ecológico o paisajístico, como parques naturales, bosques, montañas, senderos, ríos o humedales. Su propósito es fomentar el disfrute responsable del entorno, la educación ambiental y la conservación. Las actividades asociadas incluyen senderismo, avistamiento de aves, fotografía de naturaleza, ecoturismo, entre otras.
+    
     .mb-5
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
@@ -121,25 +123,26 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=sRs2FSEgRZU" target="_blank")
                 span Ir al sitio
                 i.fas.fa-circle-play
+    
     separador
-
     #t_6_1.titulo-segundo.color-acento-contenido.mb-5
       h2 6.1 Técnicas de diseño
+
     .row.justify-content-center.cajon
       .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema6/10.png', alt='').imgajustada
+        img(src='@/assets/curso/tema6/10.png', alt='')
       .col-lg-8
         p.mb-3 El diseño de una ruta turística debe concebirse como la creación de un producto turístico integral, o de varios productos interrelacionados, que ofrezcan una experiencia coherente, atractiva, de calidad y accesible para el turista. Para diseñar una ruta temática alineada con el turismo de intereses especializados, es fundamental:
-        ul.lista-ul--color
-          li 
-            i.fas.fa-brain
-            | Conocer las tipologías de turismo que pueden desarrollarse en el territorio, con base en los recursos disponibles y las particularidades locales.
-          li 
-            i.fas.fa-brain
-            | Analizar las necesidades, preferencias y tendencias de la demanda turística, así como los perfiles de los mercados emisores.
-          li 
-            i.fas.fa-brain
-            | Identificar las oportunidades y fortalezas de la oferta turística existente, evaluando su estado actual y su potencial de desarrollo.
+        ul.lista-ul
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Conocer las tipologías de turismo que pueden desarrollarse en el territorio, con base en los recursos disponibles y las particularidades locales.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Analizar las necesidades, preferencias y tendencias de la demanda turística, así como los perfiles de los mercados emisores.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Identificar las oportunidades y fortalezas de la oferta turística existente, evaluando su estado actual y su potencial de desarrollo.
     .mb-5
 
     .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
@@ -147,16 +150,15 @@
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Fases del diseño de una ruta turística
 
     p.mb-4 El proceso de diseño se puede estructurar en dos grandes fases:
-    .row.col-5
-      ul.lista-ul--color.lista-ul--separador
-        li 
-          i.lista-ul__vineta
-          | #[strong Fase 1. Estructuración de la ruta ]
-          li.pb-2
-    .mb-4
+    
+    .ia.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema3/ia.png', alt='')
+        h3.mb-0.mx-2 Fase 1. Estructuración de la ruta
+
     .row
       .col-8
-        LineaTiempoD.color-acento-contenido
+        LineaTiempoD.color-acento-boton.activo
           .row(numero="a)" titulo="Inventario turístico").p-3
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Realizar un levantamiento detallado de los atractivos turísticos de la zona (naturales, culturales, históricos, gastronómicos, etc.).
@@ -171,16 +173,16 @@
               p.mb-0 Definir las rutas viables en función de los atractivos seleccionados, las condiciones de la infraestructura y el perfil del turista objetivo.
           .row(numero="e)" titulo="Determinación de puntos clave").p-3
             .col-md-12.mb-4.mb-md-0
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-brain
-                  | Punto de salida.
-                li 
-                  i.fas.fa-brain
-                  | Puntos de parada con estancia.
-                li 
-                  i.fas.fa-brain
-                  | Punto de llegada.
+              ul.lista-ul
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Punto de salida.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Puntos de parada con estancia.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Punto de llegada.
           .row(numero="f)" titulo="Evaluación de rutas alternativas").p-3
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Considerar variantes posibles en el recorrido, especialmente entre los puntos intermedios.
@@ -189,39 +191,38 @@
               p.mb-0 Identificar trayectos cortos o circuitos dentro de los puntos de parada que puedan enriquecer la experiencia turística.
       .col-4
         img(src='@/assets/curso/tema6/11.png', alt='').mt-2
-    .mb-5
-    .row.col-5
-      ul.lista-ul--color.lista-ul--separador
-        li 
-          i.lista-ul__vineta
-          | #[strong Fase 2. Selección de servicios turísticos a incluir ]
-          li.pb-2
+
+
+    .ia.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema3/ia.png', alt='')
+        h3.mb-0.mx-2 Fase 2. Selección de servicios turísticos a incluir
+
     p.mb-4 Una ruta debe considerar la articulación de servicios esenciales que garanticen una experiencia completa y satisfactoria:
     .row.cajon
-      .col-5.p-2
-        img(src='@/assets/curso/tema6/12.png', alt='').imagehide.imageheight
-      .col-7.p-2
-        .d-flex.align-items-center.gap-3.mb-3
-          img(src='@/assets/curso/tema6/13.svg', alt='').imagenpeq.imagehide
-        ul.lista-ul--color
-          li 
-            i.fas.fa-brain
-            | Transporte (interno y de llegada / salida).
-          li 
-            i.fas.fa-brain
-            | Alojamiento.
-          li 
-            i.fas.fa-brain
-            | Alimentación.
-          li 
-            i.fas.fa-brain
-            | Guianza turística y servicios de interpretación.
-          li 
-            i.fas.fa-brain
-            | Actividades recreativas y culturales.
-          li 
-            i.fas.fa-brain
-            | Otros servicios complementarios (seguros, asistencia médica, tiendas de recuerdos, entre otros).
+      .col-5
+        img(src='@/assets/curso/tema6/12.png', alt='')
+      .col-7
+        img.img-t.mb-3(src='@/assets/curso/tema6/13.svg', alt='')
+        ul.lista-ul
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Transporte (interno y de llegada / salida).
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Alojamiento.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Alimentación.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Guianza turística y servicios de interpretación.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Actividades recreativas y culturales.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check1
+            p.mb-0 Otros servicios complementarios (seguros, asistencia médica, tiendas de recuerdos, entre otros).
     .mb-5
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center

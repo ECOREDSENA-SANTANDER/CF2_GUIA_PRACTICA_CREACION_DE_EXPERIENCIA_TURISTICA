@@ -6,21 +6,23 @@
       .titulo-principal__numero
         span 2
       h1 Destino turístico
-    .row
-      .col-1.col-md-1.imagehide.p-3
-        img(src='@/assets/curso/tema2/1.svg', alt='').imagehide
-      .col-11.col-md-11.p-2
+
+    .row.mb-4
+      .col-lg-1
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/1.svg', alt='')
+      .col-lg-11
         p Un destino turístico es un espacio geográfico donde se concentran recursos naturales, culturales y servicios que permiten el desarrollo de actividades turísticas. Puede contar o no con delimitaciones administrativas específicas, y constituye una unidad fundamental de análisis dentro del sector turístico. En este espacio, el visitante puede pernoctar, acceder a una oferta integrada de productos, servicios y experiencias a lo largo de la cadena de valor del turismo, tales como alojamiento, gastronomía, transporte, actividades recreativas, culturales o de naturaleza.
-    .row
-      .cajon.cajon-color-adicional-2.col-4.imagehide.p-4
-        p El destino reúne diversos actores como autoridades locales, prestadores de servicios turísticos, comunidades anfitrionas y organizaciones privadas que interactúan para ofrecer una experiencia cohesionada al visitante. Además, puede conformar redes con otros destinos cercanos, articulándose como parte de un sistema turístico más amplio o una región turística.
-      .col-3.p-2
-        img(src='@/assets/curso/tema2/2.png', alt='').imagehide
-      .col-5.p-2
-        .d-flex.align-items-center.gap-3.mb-3
-            img(src='@/assets/curso/tema2/3.svg', alt='').imagenpeq.imagehide
-        p Más allá de su dimensión física, un destino posee también una dimensión simbólica e inmaterial, expresada en su identidad, imagen de marca y posicionamiento en el mercado, elementos que influyen directamente en su capacidad de atraer turistas y en su competitividad. La percepción que genera un destino a través de su reputación, autenticidad, accesibilidad, sostenibilidad y calidad de servicios es determinante para su éxito y sostenibilidad a largo plazo.
-    .mb-4
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        .bg1.p-3.mb-lg-0.mb-4
+          p.mb-0.mx-lg-1 El destino reúne diversos actores como autoridades locales, prestadores de servicios turísticos, comunidades anfitrionas y organizaciones privadas que interactúan para ofrecer una experiencia cohesionada al visitante. Además, puede conformar redes con otros destinos cercanos, articulándose como parte de un sistema turístico más amplio o una región turística.
+      .col-lg-3
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/2.png', alt='')
+      .col-lg-5
+        img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema2/3.svg', alt='')
+        p.mb-0 Más allá de su dimensión física, un destino posee también una dimensión simbólica e inmaterial, expresada en su identidad, imagen de marca y posicionamiento en el mercado, elementos que influyen directamente en su capacidad de atraer turistas y en su competitividad. La percepción que genera un destino a través de su reputación, autenticidad, accesibilidad, sostenibilidad y calidad de servicios es determinante para su éxito y sostenibilidad a largo plazo.
+
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -35,36 +37,40 @@
                 span Ir al sitio
                 i.fas.fa-globe
     .mb-5
-    .row.sistema
-        .col-lg-6
-          p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 1.] Santuario de Nuestra Señora del Rosario de las Lajas. Ipiales – Nariño.  
-          img.mb-3(src='@/assets/curso/tema2/4.png', alt='Santuario de Las Lajas, iglesia neogótica construida sobre un puente en un cañón rodeado de vegetación, en Nariño, Colombia.')
-          figcaption #[b Tomado:] https://aventureros360.com.co/blog/conocer-el-santuario-de-nuestra-senora-de-las-lajas-un-viaje-a-la-joya-arquitectonica-de-colombia/
-        .col-lg-6
-          p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 2.] Plaza Mayor de Villa de Leyva.
-          img.mb-3(src='@/assets/curso/tema2/5.png', alt='Plaza principal de Villa de Leyva al anochecer, vista desde un pórtico colonial iluminado.')
-          figcaption
-            p.mb-3.my-1 #[b Tomado:] https://colombia.travel/es/villa-de-leyva/conoce-la-plaza-mayor-de-villa-de-leyva
+    .row
+      .col-lg-6
+        p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 1.] Santuario de Nuestra Señora del Rosario de las Lajas. Ipiales – Nariño.  
+        img.mb-3(src='@/assets/curso/tema2/4.png', alt='Santuario de Las Lajas, iglesia neogótica construida sobre un puente en un cañón rodeado de vegetación, en Nariño, Colombia.')
+        figcaption.mb-lg-0.mb-4 #[b Tomado:] https://aventureros360.com.co/blog/conocer-el-santuario-de-nuestra-senora-de-las-lajas-un-viaje-a-la-joya-arquitectonica-de-colombia/
+      .col-lg-6
+        p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 2.] Plaza Mayor de Villa de Leyva.
+        img.mb-3(src='@/assets/curso/tema2/5.png', alt='Plaza principal de Villa de Leyva al anochecer, vista desde un pórtico colonial iluminado.')
+        figcaption
+          p.mb-3.my-1 #[b Tomado:] https://colombia.travel/es/villa-de-leyva/conoce-la-plaza-mayor-de-villa-de-leyva
+   
     .mb-5
     
     .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Facilidades turísticas 
 
-    .row
-      .col-1.col-md-1.imagehide.p-3
-        img(src='@/assets/curso/tema2/6.svg', alt='').imagehide
-      .col-11.col-md-11.p-2
-        p La experiencia turística comprende el involucramiento emocional de los turistas o visitantes con los productos y servicios que se ofrecen en un destino. Esta experiencia está estrechamente vinculada con la infraestructura disponible, por lo que resulta fundamental promover y fortalecer su mejora continua mediante la adopción de estándares de calidad. En este contexto, la implementación de facilidades turísticas se convierte en una labor esencial para el desarrollo competitivo del sector.
-    .row
-      .cajon.cajon-color-adicional-3.col-7.imagehide.p-4
-        p Se entiende por facilidad turística todo elemento espacial (generalmente de carácter arquitectónico) que complementa y apoya la actividad turística. Su objetivo es dotar al destino de infraestructura social o física, así como de equipamiento adecuado (mobiliario, señalética, elementos informativos, entre otros), a lo largo de las distintas fases del desarrollo turístico: creación, perfeccionamiento y consolidación. Estas facilidades contribuyen a mejorar la experiencia del visitante, reducir el impacto ambiental y elevar la calidad de los servicios, posicionando al destino como un producto competitivo (Ministerio de Turismo MINTUR, 2014).
-      .col-5.p-2
+    .row.mb-4
+      .col-lg-1
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/6.svg', alt='')
+      .col-lg-11
+        p.mb-0 La experiencia turística comprende el involucramiento emocional de los turistas o visitantes con los productos y servicios que se ofrecen en un destino. Esta experiencia está estrechamente vinculada con la infraestructura disponible, por lo que resulta fundamental promover y fortalecer su mejora continua mediante la adopción de estándares de calidad. En este contexto, la implementación de facilidades turísticas se convierte en una labor esencial para el desarrollo competitivo del sector.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        .bg9.p-4.mb-4.mb-lg-0
+          p.mb-0 Se entiende por facilidad turística todo elemento espacial (generalmente de carácter arquitectónico) que complementa y apoya la actividad turística. Su objetivo es dotar al destino de infraestructura social o física, así como de equipamiento adecuado (mobiliario, señalética, elementos informativos, entre otros), a lo largo de las distintas fases del desarrollo turístico: creación, perfeccionamiento y consolidación. Estas facilidades contribuyen a mejorar la experiencia del visitante, reducir el impacto ambiental y elevar la calidad de los servicios, posicionando al destino como un producto competitivo (Ministerio de Turismo MINTUR, 2014).
+      .col-lg-5.col-md-10.col-10
         img(src='@/assets/curso/tema2/7.png', alt='').imagehide
-    .mb-5
+    
+    p.mb-5 Tipos de facilidades turísticas:
     .row.acordeon
       .col-lg-3
-        img(src='@/assets/curso/tema2/22.png', alt='').imagehide
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/22.png', alt='').imagehide
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="a) Facilidades de observación y vigilancia")
@@ -166,16 +172,16 @@
       h2 2.1 Seguridad turística 
     
     .row
-      .col-7
+      .col-lg-7
         p La seguridad turística se refiere a la protección integral de la vida, la salud y la integridad física, psicológica y económica de los visitantes, prestadores de servicios y comunidades anfitrionas. Este concepto incluye un conjunto de medidas orientadas a minimizar riesgos durante el desarrollo de actividades turísticas, especialmente aquellas que, como en el turismo de aventura, implican un riesgo real o percibido. Según la Norma Técnica Colombiana NTC 6725 de 2023, este tipo de actividades, de carácter recreativo o deportivo con fines turísticos y comerciales, pueden comprometer la seguridad de las personas y el entorno si no se gestionan adecuadamente.
         .bg2.p-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-2
-              img.img-t.img-a(src='@/assets/curso/tema2/23.svg', alt='').imagehide
+            .col-lg-2.mb-lg-0.mb-4
+              img.img-t.img-a(src='@/assets/curso/tema2/23.svg', alt='')
             .col-lg-10
               p.mb-0 De acuerdo con la Política Pública de Turismo de Naturaleza (2012), la seguridad turística comprende también medidas preventivas y de gestión que buscan preservar la integridad física, emocional y patrimonial de los turistas. Su implementación efectiva no solo mejora la experiencia del visitante, sino que también fortalece la competitividad y sostenibilidad del destino.
-      .col-5
-        img(src='@/assets/curso/tema2/8.png', alt='').imagehide
+      .col-lg-5
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/8.png', alt='').imagehide
     .mb-5
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -282,7 +288,7 @@
                   i.fas.fa-circle-check
                   p.mb-0 #[strong Seguridad en actividades de ocio:] abarca medidas de prevención y control en actividades recreativas o deportivas, mediante el uso de equipos adecuados, supervisión profesional y protocolos de seguridad específicos.
       .col-4
-        img(src='@/assets/curso/tema2/9.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/9.png', alt='')
     .mb-5
 
     .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
@@ -303,37 +309,38 @@
                 p.mb-0 (ONU, 1948).
             
       .col-lg-4
-        img(src='@/assets/curso/tema2/11.png', alt='').imagehide
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/11.png', alt='').imagehide
     
     .mb-5
-    .row
-      .cajon.cajon-color-adicional-2.col-5.imagehide.p-4
-        p La Carta de Turismo y el Código del Turista de 1985 establece que es deber de las autoridades públicas garantizar la protección integral de los turistas y visitantes, así como la seguridad de sus bienes. Reconociendo la particular vulnerabilidad de los turistas extranjeros, se señala la importancia de prestar especial atención a sus necesidades específicas. Para ello, se promueve la creación de mecanismos adecuados de información, prevención, protección, seguros y asistencia, orientados a salvaguardar su integridad durante la estancia en el destino.
-      .col-3.p-2
-        img(src='@/assets/curso/tema2/12.png', alt='').imagehide.imgajustada
-      .col-4.p-2
-        p Asimismo, la carta hace un llamado a los turistas y visitantes a respetar las leyes, costumbres y valores de las comunidades receptoras. Se invita a evitar cualquier acto que pueda considerarse ilegal, ofensivo o perjudicial para la población local o el entorno, promoviendo así un comportamiento responsable. También se establece la prohibición de participar en actividades como el tráfico de drogas, armas, antigüedades, especies protegidas, o el uso y transporte de sustancias peligrosas o prohibidas por las reglamentaciones nacionales.
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-5
+        .bg1.p-4.mb-lg-0.mb-4
+          p.mb-0 La Carta de Turismo y el Código del Turista de 1985 establece que es deber de las autoridades públicas garantizar la protección integral de los turistas y visitantes, así como la seguridad de sus bienes. Reconociendo la particular vulnerabilidad de los turistas extranjeros, se señala la importancia de prestar especial atención a sus necesidades específicas. Para ello, se promueve la creación de mecanismos adecuados de información, prevención, protección, seguros y asistencia, orientados a salvaguardar su integridad durante la estancia en el destino.
+      .col-lg-3.col-md-9.col-10
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema2/12.png', alt='')
+      .col-lg-4
+        p.mb-0 Asimismo, la carta hace un llamado a los turistas y visitantes a respetar las leyes, costumbres y valores de las comunidades receptoras. Se invita a evitar cualquier acto que pueda considerarse ilegal, ofensivo o perjudicial para la población local o el entorno, promoviendo así un comportamiento responsable. También se establece la prohibición de participar en actividades como el tráfico de drogas, armas, antigüedades, especies protegidas, o el uso y transporte de sustancias peligrosas o prohibidas por las reglamentaciones nacionales.
     
-    p En conjunto, este instrumento normativo internacional busca consolidar un turismo seguro, respetuoso y sostenible, que proteja tanto al visitante como al destino, y que fomente relaciones armónicas y éticas entre los diferentes actores del sector.
+    p.mb-0 En conjunto, este instrumento normativo internacional busca consolidar un turismo seguro, respetuoso y sostenible, que proteja tanto al visitante como al destino, y que fomente relaciones armónicas y éticas entre los diferentes actores del sector.
+
 
     separador
-
     #t_2_2.titulo-segundo.color-acento-contenido.mb-5
         h2 2.2 Reglamentación legal  
     
     .row.justify-content-center.mb-4
-      .col-lg-5.col-md-10.imagetema1
-        img(src='@/assets/curso/tema2/13.png', alt='')
+      .col-lg-5.col-md-9.col-10
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema2/13.png', alt='')
       .col-lg-7
         p.mb-4 La reglamentación legal de un destino turístico se refiere al conjunto de normas, leyes y disposiciones que regulan las actividades tanto de los prestadores de servicios turísticos como de los turistas, con el fin de garantizar la calidad, sostenibilidad, seguridad y legalidad de la oferta turística. Estas normas abarcan diversos aspectos fundamentales, entre ellos: el registro y control de prestadores de servicios, la protección del patrimonio cultural y natural, la promoción del turismo sostenible, la prevención del tráfico ilegal de fauna, flora y bienes culturales, y la garantía de condiciones seguras y accesibles para todos los visitantes.
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-10
             p.mb-0 Este marco legal busca fomentar un turismo responsable y ordenado, que contribuya al desarrollo social, económico y ambiental del territorio, promoviendo además la conservación del patrimonio y el respeto por las comunidades receptoras.
           .col-lg-2
-            img(src='@/assets/curso/tema2/24.svg', alt='')
+            img.d-none.d-lg-block(src='@/assets/curso/tema2/24.svg', alt='')
         
     .mb-3
-    .row.mb-5
+    .row.mb-4
       .col-lg-5
         p Normativa vigente que regula y protege la actividad turística en Colombia :
         ul.lista-ul
@@ -407,49 +414,49 @@
               .col-lg-6.justify-content-center
                 p #[strong Registro Nacional de Turismo (RNT)]
                 p Todos los prestadores de servicios turísticos como  establecimientos de alojamiento, gastronomía, transporte turístico, agencias de viajes y operadores turísticos deben estar inscritos en el RNT. Este registro garantiza la identificación, legalidad y cumplimiento de los requisitos mínimos establecidos por la normativa nacional.
-              .col-lg-4.imagehide
+              .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema2/15.png', alt='')
+                  img.d-none.d-lg-block(src='@/assets/curso/tema2/15.png', alt='')
             .row
               .col-lg-1
               .col-lg-6.justify-content-center
                 p #[strong Obligaciones de los prestadores de servicios turísticos]
                 p Los prestadores deben operar conforme a las actividades declaradas en el Registro Único Tributario (RUT) y la Cámara de Comercio, cumpliendo con la normativa del sector, la legislación tributaria y las obligaciones con la seguridad social. Además, deben respetar la diversidad cultural, adoptar buenas prácticas y brindar información veraz, clara y actualizada a los turistas.
-              .col-lg-4.imagehide
+              .col-lg-4
                 figure
-                 img(src='@/assets/curso/tema2/16.png', alt='')
+                 img.d-none.d-lg-block(src='@/assets/curso/tema2/16.png', alt='')
             .row
               .col-lg-1
               .col-lg-6.justify-content-center
                 p #[strong Protección de los atractivos turísticos]
                 p Los territorios deben contar con normas específicas para la conservación, uso responsable y promoción de sus recursos turísticos, incluyendo la gestión sostenible de áreas protegidas y la prevención de afectaciones ambientales o culturales.
-              .col-lg-4.imagehide
+              .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema2/17.png', alt='')
+                  img.d-none.d-lg-block(src='@/assets/curso/tema2/17.png', alt='')
             .row
               .col-lg-1
               .col-lg-6.justify-content-center
                 p #[strong Calidad turística]
                 p Se establecen estándares de calidad con el fin de asegurar que los servicios prestados cumplan con los criterios exigidos en cuanto a infraestructura, atención al cliente, seguridad y sostenibilidad, fortaleciendo la experiencia del visitante.
-              .col-lg-4.imagehide
+              .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema2/18.png', alt='')
+                  img.d-none.d-lg-block(src='@/assets/curso/tema2/18.png', alt='')
             .row
               .col-lg-1
               .col-lg-6.justify-content-center
                 p #[strong Normas territoriales específicas]
                 p Pueden existir regulaciones particulares según el destino o jurisdicción, orientadas a regular el ingreso, uso y disfrute de atractivos turísticos, parques naturales o áreas de especial protección.
-              .col-lg-4.imagehide
+              .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema2/19.png', alt='')
+                  img.d-none.d-lg-block(src='@/assets/curso/tema2/19.png', alt='')
             .row
               .col-lg-1
               .col-lg-6.justify-content-center
                 p #[strong Control y sanciones]
                 p Entidades como el Ministerio de Comercio, Industria y Turismo (MinCIT), la Superintendencia de Industria y Comercio, las Autoridades Turísticas Territoriales, la Policía de Turismo y otras instituciones competentes tienen la facultad de inspeccionar, vigilar y sancionar a los actores del sector que incumplan la normativa vigente.
-              .col-lg-4.imagehide
+              .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema2/20.png', alt='')
+                  img.d-none.d-lg-block(src='@/assets/curso/tema2/20.png', alt='')
     .mb-5
     .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
@@ -480,7 +487,7 @@
                 h4 Velar por la seguridad de los turistas
                 p Incluye la protección física, la prevención de fraudes, y la disponibilidad de asistencia en situaciones de emergencia.
           .col-lg-3
-            img(src='@/assets/curso/tema2/21.png', alt='')
+            img.d-none.d-lg-block(src='@/assets/curso/tema2/21.png', alt='')
 
 
     .mb-5
