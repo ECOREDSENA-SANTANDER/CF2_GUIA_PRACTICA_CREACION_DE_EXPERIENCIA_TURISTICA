@@ -38,14 +38,19 @@
     .row.sistema
         .col-lg-6
           p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 1.] Santuario de Nuestra Señora del Rosario de las Lajas. Ipiales – Nariño.  
-          img(src='@/assets/curso/tema2/4.png', alt='')
+          img.mb-3(src='@/assets/curso/tema2/4.png', alt='Santuario de Las Lajas, iglesia neogótica construida sobre un puente en un cañón rodeado de vegetación, en Nariño, Colombia.')
+          figcaption #[b Tomado:] https://aventureros360.com.co/blog/conocer-el-santuario-de-nuestra-senora-de-las-lajas-un-viaje-a-la-joya-arquitectonica-de-colombia/
         .col-lg-6
           p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 2.] Plaza Mayor de Villa de Leyva.
-          img(src='@/assets/curso/tema2/5.png', alt='')
+          img.mb-3(src='@/assets/curso/tema2/5.png', alt='Plaza principal de Villa de Leyva al anochecer, vista desde un pórtico colonial iluminado.')
+          figcaption
+            p.mb-3.my-1 #[b Tomado:] https://colombia.travel/es/villa-de-leyva/conoce-la-plaza-mayor-de-villa-de-leyva
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Facilidades turísticas 
+    
+    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Facilidades turísticas 
+
     .row
       .col-1.col-md-1.imagehide.p-3
         img(src='@/assets/curso/tema2/6.svg', alt='').imagehide
@@ -58,211 +63,248 @@
         img(src='@/assets/curso/tema2/7.png', alt='').imagehide
     .mb-5
     .row.acordeon
-      .col-lg-1
-      .col-lg-10.col-md-12.col-sm-12
+      .col-lg-3
+        img(src='@/assets/curso/tema2/22.png', alt='').imagehide
+      .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="a) Facilidades de observación y vigilancia")
             .row.justify-content-center.align-items-center
               .col-lg-12
-                p.mb-0 Miradores.
-                .mb-4
-                p.mb-0 Torres de avistamiento de aves.
-                .mb-4
-                p.mb-0 Torres de vigilancia (salvavidas).
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Miradores.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Torres de avistamiento de aves.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Torres de vigilancia (salvavidas).
           .row.col-xl-11.m-auto(titulo="b) Facilidades de recorrido y descanso")
             .row.justify-content-center.align-items-center
               .col-lg-12
-                p.mb-0 
-                  .mb-4
-                p.mb-0 Senderos (incluye puentes peatonales de luces menores).
-                .mb-4
-                p.mb-0 Campamentos turísticos.
-                .mb-4
-                p.mb-0 Refugios.
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Senderos (incluye puentes peatonales de luces menores).
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Campamentos turísticos.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Refugios.
           .row.col-xl-11.m-auto(titulo="c) Facilidades de servicio y equipamiento")
             .row.justify-content-center.align-items-center
               .col-lg-12
-                p.mb-0 Baterías sanitarias.
-                .mb-4
-                p.mb-0 Módulos de uso múltiple: duchas, vestidores, áreas de descanso, lavandería, bodega.
-                .mb-4
-                p.mb-0 Estacionamientos.
-                .mb-4
-                p.mb-0 Mobiliario turístico, compuesto por:
-                .mb-4
-                ol.lista-ol
-                  li 
-                    i.lista-ul__vineta
-                    | 1) Estaciones de sombra y descanso.
-                  li 
-                    i.lista-ul__vineta
-                    | 2) Bolardos.
-                  li 
-                    i.lista-ul__vineta
-                    | 3) Bancas.
-                  li 
-                    i.lista-ul__vineta
-                    | 4) Mesas.
-                ol.lista-ol
-                  li 
-                    i.lista-ul__vineta
-                    | 5) Basureros.
-                  li 
-                    i.lista-ul__vineta
-                    | 6) Señalética turística.
-                  li 
-                    i.lista-ul__vineta
-                    | 7) Señalización informativa.
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Baterías sanitarias.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Módulos de uso múltiple: duchas, vestidores, áreas de descanso, lavandería, bodega.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Estacionamientos.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Mobiliario turístico, compuesto por:
+                .row.justify-content-center
+                  .col-lg-6
+                    ol.lista-ol
+                      li 
+                        i.lista-ul__vineta
+                        | 1) Estaciones de sombra y descanso.
+                      li 
+                        i.lista-ul__vineta
+                        | 2) Bolardos.
+                      li 
+                        i.lista-ul__vineta
+                        | 3) Bancas.
+                      li 
+                        i.lista-ul__vineta
+                        | 4) Mesas.
+                  .col-lg-6
+                    ol.lista-ol
+                      li 
+                        i.lista-ul__vineta
+                        | 5) Basureros.
+                      li 
+                        i.lista-ul__vineta
+                        | 6) Señalética turística.
+                      li 
+                        i.lista-ul__vineta
+                        | 7) Señalización informativa.
           .row.col-xl-11.m-auto(titulo="d) Facilidades de apoyo a la gestión turística")
             .row.justify-content-center.align-items-center
               .col-lg-12
-                p.mb-0 Centros de recepción y equipamiento para visitantes.
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0  Centros de recepción y equipamiento para visitantes.
           .row.col-xl-11.m-auto(titulo="e) Condicionantes para la implementación de facilidades turísticas")
             .row.justify-content-center.align-items-center
               .col-lg-12
                 p.mb-0 Existen diversos factores propios del destino que influyen en el diseño, ubicación e implementación de las facilidades turísticas, entre los cuales se destacan:
-                .mb-4
-                p.mb-0 #[strong Clima:] temperatura, precipitaciones y humedad.
-                .mb-4
-                p.mb-0 #[strong Terreno:] topografía, pendientes, calidad del suelo.
-                .mb-4
-                p.mb-0 #[strong Cielo:] nivel de nubosidad y exposición solar.
-                .mb-4
-                p.mb-0 #[strong Vistas:] visibilidad y calidad del paisaje.
-                .mb-4
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 #[strong Clima:] temperatura, precipitaciones y humedad.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 #[strong Terreno:] topografía, pendientes, calidad del suelo.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 #[strong Cielo:] nivel de nubosidad y exposición solar.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 #[strong Vistas:] visibilidad y calidad del paisaje.
                 p.mb-0 Estos factores, además de tener un impacto en la infraestructura, también contribuyen a definir la identidad cultural y las costumbres locales, elementos fundamentales para una adecuada planificación turística.
-    .mb-5
+    .mb-0
+    separador
     #t_2_1.titulo-segundo.color-acento-contenido.mb-5
       h2 2.1 Seguridad turística 
     
     .row
       .col-7
-        p La seguridad turística es un componente esencial para el desarrollo sostenible del sector, ya que influye directamente en la percepción y satisfacción de los visitantes. Un entorno seguro no solo protege a los turistas, sino que también contribuye a la reputación y competitividad del destino. La seguridad turística abarca diversos aspectos, incluyendo la protección de los bienes y servicios turísticos, la prevención de riesgos y la gestión de emergencias.
-        .cajon.cajon-color-adicional-4.p-4
-          p Es fundamental que los destinos turísticos implementen estrategias integrales de seguridad que involucren a todos los actores del sector, desde las autoridades locales hasta los prestadores de servicios y las comunidades anfitrionas. Estas estrategias deben contemplar la capacitación del personal, la mejora de la infraestructura, la promoción de buenas prácticas y la colaboración con las fuerzas de seguridad pública.
+        p La seguridad turística se refiere a la protección integral de la vida, la salud y la integridad física, psicológica y económica de los visitantes, prestadores de servicios y comunidades anfitrionas. Este concepto incluye un conjunto de medidas orientadas a minimizar riesgos durante el desarrollo de actividades turísticas, especialmente aquellas que, como en el turismo de aventura, implican un riesgo real o percibido. Según la Norma Técnica Colombiana NTC 6725 de 2023, este tipo de actividades, de carácter recreativo o deportivo con fines turísticos y comerciales, pueden comprometer la seguridad de las personas y el entorno si no se gestionan adecuadamente.
+        .bg2.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-2
+              img.img-t.img-a(src='@/assets/curso/tema2/23.svg', alt='').imagehide
+            .col-lg-10
+              p.mb-0 De acuerdo con la Política Pública de Turismo de Naturaleza (2012), la seguridad turística comprende también medidas preventivas y de gestión que buscan preservar la integridad física, emocional y patrimonial de los turistas. Su implementación efectiva no solo mejora la experiencia del visitante, sino que también fortalece la competitividad y sostenibilidad del destino.
       .col-5
         img(src='@/assets/curso/tema2/8.png', alt='').imagehide
     .mb-5
-    .row
-      .col-8
-        LineaTiempoD.color-acento-contenido
-          .row(numero="a)" titulo="Medidas comunes para garantizar la seguridad turística")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        LineaTiempoD.color-acento-boton.activo
+          .row(numero="a)"  titulo="Medidas comunes para garantizar la seguridad turística")
             .col-md-12.mb-4.mb-md-0
-              ul.lista-ul--color.mt-2
-                li 
-                  i.fas.fa-brain
-                  | Presencia visible de fuerzas de seguridad en áreas turísticas.
-                li 
-                  i.fas.fa-brain
-                  | Iluminación adecuada en espacios públicos.
-                li 
-                  i.fas.fa-brain
-                  | Señalización clara y comprensible para visitantes.
-                li 
-                  i.fas.fa-brain
-                  | Supervisión constante en playas y zonas recreativas.
-                li 
-                  i.fas.fa-brain
-                  | Controles de acceso en sitios turísticos relevantes.
-                li 
-                  i.fas.fa-brain
-                  | Disponibilidad de servicios médicos de emergencia.
-                li 
-                  i.fas.fa-brain
-                  | Campañas de concienciación sobre seguridad turística.
-                li 
-                  i.fas.fa-brain
-                  | Prevención de robos, estafas y delitos comunes contra turistas.
-                li 
-                  i.fas.fa-brain
-                  | Supervisión especial en actividades de riesgo (aventura, deportes extremos).
-                li 
-                  i.fas.fa-brain
-                  | Promoción de números de emergencia visible y accesible para los visitantes.
+              ul.lista-ul
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Presencia visible de fuerzas de seguridad en áreas turísticas.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Iluminación adecuada en espacios públicos.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Señalización clara y comprensible para visitantes.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Supervisión constante en playas y zonas recreativas.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Controles de acceso en sitios turísticos relevantes.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Disponibilidad de servicios médicos de emergencia.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Campañas de concienciación sobre seguridad turística.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Prevención de robos, estafas y delitos comunes contra turistas.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Supervisión especial en actividades de riesgo (aventura, deportes extremos).
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Promoción de números de emergencia visible y accesible para los visitantes.
               p.mb-0 La seguridad turística está estrechamente ligada a la calidad del producto turístico, e involucra distintos aspectos como seguridad vial, alimentaria, jurídica y en los servicios turísticos. Su presencia genera confianza, mejora la reputación del destino y contribuye a la fidelización de los turistas.
           .row(numero="b)" titulo="Aplicación de la seguridad en la experiencia turística")
             .col-md-12.mb-4.mb-md-0
-                p.mb-0 Durante la estadía en un destino, se protege al visitante a través de:
-                ul.lista-ul--color.mt-3
-                  li 
-                    i.fas.fa-brain
-                    | Seguridad en el acceso vial hacia el destino, garantizando rutas seguras y señalizadas.
-                  li 
-                    i.fas.fa-brain
-                    | Seguridad en la visita a los atractivos turísticos, incluyendo accesos adecuados, horarios recomendados y condiciones climáticas aptas.
-                  li 
-                    i.fas.fa-brain
-                    | Seguridad en la oferta de servicios turísticos, asegurando que los prestadores estén legalmente constituidos, cuenten con Registro Nacional de Turismo (RNT), Registro Único Tributario (RUT), y estén inscritos en Cámara de Comercio.
-                  li 
-                    i.fas.fa-brain
-                    | Seguridad en establecimientos de alojamiento y gastronomía, donde se deben cumplir las normas de higiene, protección al menor, atención adecuada y medidas de prevención sanitaria.
-                  li 
-                    i.fas.fa-brain
-                    | Seguridad en el transporte turístico, con vehículos certificados y condiciones adecuadas para la protección de los pasajeros.
+                p.mb-4 Durante la estadía en un destino, se protege al visitante a través de:
+                ul.lista-ul
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Seguridad en el acceso vial hacia el destino, garantizando rutas seguras y señalizadas.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Seguridad en la visita a los atractivos turísticos, incluyendo accesos adecuados, horarios recomendados y condiciones climáticas aptas.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Seguridad en la oferta de servicios turísticos, asegurando que los prestadores estén legalmente constituidos, cuenten con Registro Nacional de Turismo (RNT), Registro Único Tributario (RUT), y estén inscritos en Cámara de Comercio.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Seguridad en establecimientos de alojamiento y gastronomía, donde se deben cumplir las normas de higiene, protección al menor, atención adecuada y medidas de prevención sanitaria.
+                  li.d-flex.mb-0
+                    i.fas.fa-circle-check
+                    p.mb-0 Seguridad en el transporte turístico, con vehículos certificados y condiciones adecuadas para la protección de los pasajeros.
           .row(numero="c)" titulo="Beneficios de implementar seguridad turística")
             .col-md-12.mb-4.mb-md-0
-                ul.lista-ul--color.mt-3
-                  li 
-                    i.fas.fa-brain
-                    | Prevención de incidentes que puedan poner en riesgo la vida o la salud de los visitantes.
-                  li 
-                    i.fas.fa-brain
-                    | Protección de pertenencias y recursos económicos del turista.
-                  li 
-                    i.fas.fa-brain
-                    | Aumento de la confianza y atracción de más visitantes hacia destinos seguros.
-                  li 
-                    i.fas.fa-brain
-                    | Mejora en la calidad de la experiencia turística.
-                  li 
-                    i.fas.fa-brain
-                    | Proyección de una imagen positiva del destino y de los operadores turísticos.
-                  li 
-                    i.fas.fa-brain
-                    | Estímulo al desarrollo económico local.
-                  li 
-                    i.fas.fa-brain
-                    | Atracción de inversión nacional e internacional.
+              ul.lista-ul
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Prevención de incidentes que puedan poner en riesgo la vida o la salud de los visitantes.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Protección de pertenencias y recursos económicos del turista.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Aumento de la confianza y atracción de más visitantes hacia destinos seguros.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Mejora en la calidad de la experiencia turística.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Proyección de una imagen positiva del destino y de los operadores turísticos.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Estímulo al desarrollo económico local.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 Atracción de inversión nacional e internacional.
           .row(numero="d)" titulo="Tipos de seguridad turística")
             .col-md-12.mb-4.mb-md-0
-              ul.lista-ul--color.mt-3
-                li 
-                  i.fas.fa-brain
-                  | #[strong Seguridad médica:] garantiza la disponibilidad de atención médica oportuna mediante hospitales, clínicas, centros de salud, personal capacitado y servicios de emergencia (ambulancias, respuesta rápida).
-                li 
-                  i.fas.fa-brain
-                  | #[strong Seguridad contra el crimen:] previene delitos como robos, estafas o vandalismo mediante patrullas, cámaras de vigilancia y presencia policial en zonas clave.
-                li 
-                  i.fas.fa-brain
-                  | #[strong Seguridad en el transporte:] asegura que los medios de transporte cumplan con los estándares técnicos, legales y operativos que minimicen los riesgos de accidentes.
-                li 
-                  i.fas.fa-brain
-                  | #[strong Seguridad vial:] incluye mantenimiento de vías, señalización adecuada, control del tráfico y normas de tránsito para proteger a conductores y peatones.
-                li 
-                  i.fas.fa-brain
-                  | #[strong Seguridad jurídica:] garantiza que los derechos legales de los turistas sean respetados, y que tengan acceso a mecanismos de denuncia y asesoría legal en caso necesario.
-                li 
-                  i.fas.fa-brain
-                  | #[strong Seguridad alimentaria:] se refiere al cumplimiento de normas de higiene, manipulación y conservación de alimentos y bebidas, evitando enfermedades de origen alimentario.
-                li 
-                  i.fas.fa-brain
-                  | #[strong Seguridad en actividades de ocio:] abarca medidas de prevención y control en actividades recreativas o deportivas, mediante el uso de equipos adecuados, supervisión profesional y protocolos de seguridad específicos.
+              ul.lista-ul
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[strong Seguridad médica:] garantiza la disponibilidad de atención médica oportuna mediante hospitales, clínicas, centros de salud, personal capacitado y servicios de emergencia (ambulancias, respuesta rápida).
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[strong Seguridad contra el crimen:] previene delitos como robos, estafas o vandalismo mediante patrullas, cámaras de vigilancia y presencia policial en zonas clave.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[strong Seguridad en el transporte:] asegura que los medios de transporte cumplan con los estándares técnicos, legales y operativos que minimicen los riesgos de accidentes.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[strong Seguridad vial:] incluye mantenimiento de vías, señalización adecuada, control del tráfico y normas de tránsito para proteger a conductores y peatones.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[strong Seguridad jurídica:] garantiza que los derechos legales de los turistas sean respetados, y que tengan acceso a mecanismos de denuncia y asesoría legal en caso necesario.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[strong Seguridad alimentaria:] se refiere al cumplimiento de normas de higiene, manipulación y conservación de alimentos y bebidas, evitando enfermedades de origen alimentario.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[strong Seguridad en actividades de ocio:] abarca medidas de prevención y control en actividades recreativas o deportivas, mediante el uso de equipos adecuados, supervisión profesional y protocolos de seguridad específicos.
       .col-4
         img(src='@/assets/curso/tema2/9.png', alt='')
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Enfoque internacional 
-    .row
-      .col-7
-        p La Organización Mundial del Turismo (OMT) promueve el reconocimiento del derecho fundamental de toda persona a viajar con seguridad. Esta perspectiva posiciona al turismo como una herramienta clave para la construcción de paz, el entendimiento intercultural y el desarrollo sostenible entre naciones.
-        .bloque-texto-b.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            h2.mb-0 Toda persona tiene derecho a circular libremente y a elegir su residencia en el territorio de un Estado. Toda persona tiene derecho a salir  de cualquier país, incluso del propio, y a regresar a su país. 
-            i.fas.fa-quote-right
-      .col-5
+
+    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Enfoque internacional 
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8
+        p.mb-0 La Organización Mundial del Turismo (OMT) promueve el reconocimiento del derecho fundamental de toda persona a viajar con seguridad. Esta perspectiva posiciona al turismo como una herramienta clave para la construcción de paz, el entendimiento intercultural y el desarrollo sostenible entre naciones.
+        .row
+          .col-lg-12
+            .bloque-texto-d.color-secundario.p-4
+              .bloque-texto-d__texto.mb-2
+                i.fas.fa-quote-left
+                h4 Toda persona tiene derecho a circular libremente y a elegir su residencia en el territorio de un Estado. Toda persona tiene derecho a salir  de cualquier país, incluso del propio, y a regresar a su país. 
+                i.fas.fa-quote-right
+              .bloque-texto-d__autor 
+                p.mb-0 (ONU, 1948).
+            
+      .col-lg-4
         img(src='@/assets/curso/tema2/11.png', alt='').imagehide
+    
     .mb-5
     .row
       .cajon.cajon-color-adicional-2.col-5.imagehide.p-4
@@ -279,33 +321,60 @@
     #t_2_2.titulo-segundo.color-acento-contenido.mb-5
         h2 2.2 Reglamentación legal  
     
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       .col-lg-5.col-md-10.imagetema1
         img(src='@/assets/curso/tema2/13.png', alt='')
       .col-lg-7
         p.mb-4 La reglamentación legal de un destino turístico se refiere al conjunto de normas, leyes y disposiciones que regulan las actividades tanto de los prestadores de servicios turísticos como de los turistas, con el fin de garantizar la calidad, sostenibilidad, seguridad y legalidad de la oferta turística. Estas normas abarcan diversos aspectos fundamentales, entre ellos: el registro y control de prestadores de servicios, la protección del patrimonio cultural y natural, la promoción del turismo sostenible, la prevención del tráfico ilegal de fauna, flora y bienes culturales, y la garantía de condiciones seguras y accesibles para todos los visitantes.
-        p.mb-4 Este marco legal busca fomentar un turismo responsable y ordenado, que contribuya al desarrollo social, económico y ambiental del territorio, promoviendo además la conservación del patrimonio y el respeto por las comunidades receptoras.
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-10
+            p.mb-0 Este marco legal busca fomentar un turismo responsable y ordenado, que contribuya al desarrollo social, económico y ambiental del territorio, promoviendo además la conservación del patrimonio y el respeto por las comunidades receptoras.
+          .col-lg-2
+            img(src='@/assets/curso/tema2/24.svg', alt='')
+        
     .mb-3
-    .row
-      .col-5.p-2
+    .row.mb-5
+      .col-lg-5
         p Normativa vigente que regula y protege la actividad turística en Colombia :
-        p #[strong Ley 2068 de 2020:] Ley General de Turismo la cual establece los principios y lineamientos generales de la actividad turística en el país.
-        p #[strong Ley 2068 de 2020, artículo 52:] enfatiza el papel del turismo en el desarrollo social, económico y cultural.
-        p #[strong Ley 99 de 1993, artículo 3:] introduce el principio de desarrollo sostenible como eje transversal de las actividades económicas, incluido el turismo.
-        p #[strong Decreto 1836 de 2021:] regula el Registro Nacional de Turismo (RNT), obligatorio para los prestadores de servicios turísticos.
-        p #[strong Decreto 1379 de 2021:] regula el ejercicio del guionaje turístico en Colombia, estableciendo requisitos y competencias para los guías.
-      .col-3
-        img(src='@/assets/curso/tema2/14.png', alt='').imagehide.imgajustada2
-      .col-4.p-2
-        p #[strong Normas Técnicas Colombianas (NTC):] establecen estándares de calidad para distintos servicios turísticos, como alojamiento, gastronomía, guianza, entre otros.
-        p #[strong Resolución 0958 de 2010:] define criterios para la calidad turística en diferentes modalidades del sector.
-        p #[strong Ley 2111 de 2021:] modifica el Código Penal en relación con los delitos ambientales, incluyendo afectaciones al entorno por actividades turísticas irresponsables.
-        p #[strong Ley 1185 de 2008:] modifica la Ley General de Cultura (Ley 397 de 1997) e incluye medidas para prevenir el tráfico ilícito del patrimonio cultural.
-        p #[strong Decreto 190 de 2022, capítulo 8, secciones I, II y III:] define disposiciones relacionadas con la identificación, promoción y protección de atractivos turísticos en el ordenamiento territorial.
+        ul.lista-ul
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Ley 2068 de 2020:] Ley General de Turismo la cual establece los principios y lineamientos generales de la actividad turística en el país.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Ley 2068 de 2020, artículo 52:] enfatiza el papel del turismo en el desarrollo social, económico y cultural.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Ley 99 de 1993, artículo 3:] introduce el principio de desarrollo sostenible como eje transversal de las actividades económicas, incluido el turismo.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Decreto 1836 de 2021:] regula el Registro Nacional de Turismo (RNT), obligatorio para los prestadores de servicios turísticos.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0  #[strong Decreto 1379 de 2021:] regula el ejercicio del guionaje turístico en Colombia, estableciendo requisitos y competencias para los guías.
+      .col-lg-2
+        img.d-none.d-lg-block(src='@/assets/curso/tema2/14.png', alt='')
+      .col-lg-5
+        ul.lista-ul
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Normas Técnicas Colombianas (NTC):] establecen estándares de calidad para distintos servicios turísticos, como alojamiento, gastronomía, guianza, entre otros.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Resolución 0958 de 2010:] define criterios para la calidad turística en diferentes modalidades del sector.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Ley 2111 de 2021:] modifica el Código Penal en relación con los delitos ambientales, incluyendo afectaciones al entorno por actividades turísticas irresponsables.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Ley 1185 de 2008:] modifica la Ley General de Cultura (Ley 397 de 1997) e incluye medidas para prevenir el tráfico ilícito del patrimonio cultural.
+          li.d-flex.mb-0
+            i.fas.fa-circle-check
+            p.mb-0 #[strong Decreto 190 de 2022, capítulo 8, secciones I, II y III:] define disposiciones relacionadas con la identificación, promoción y protección de atractivos turísticos en el ordenamiento territorial.
     .mb-3
     p En conjunto, este instrumento normativo internacional busca consolidar un turismo seguro, respetuoso y sostenible, que proteja tanto al visitante como al destino, y que fomente relaciones armónicas y éticas entre los diferentes actores del sector.
     .mb-4
-    .tarjeta.acordeoncolor.p-4.mb-0
+    .tarjeta.acordeoncolor.p-4.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/5.svg")
@@ -318,15 +387,21 @@
               a.boton.color-acento-botones(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=172558#:~:text=La%20actividad%20tur%C3%ADstica%2C%20conforme%20al,la%20identidad%20cultural%20de%20las" target="_blank")
                 span Ir al sitio
                 i.fas.fa-globe
-    .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Aspectos clave de la reglamentación legal en destinos turísticos
+    
+    
+    .titulo2.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Aspectos clave de la reglamentación legal en destinos turísticos
+    
     p La reglamentación legal del turismo abarca un conjunto de medidas orientadas a regular la actividad turística, garantizar su calidad, sostenibilidad y seguridad, y asegurar el cumplimiento de los deberes tanto de los prestadores de servicios como de los visitantes. Entre sus principales componentes se encuentran:
+    
     .mb-5
-    .row.prinslyder.justify-content-center
-        .tarjeta.p-4.mb-5.tema4
-          SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
+    
+    .row.fondo2.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
+      .col-lg-12
+
+        .tarjetap.p-4.mb-0
+          SlyderA(tipo="b")(data-aos="zoom-in-left")
             .row
               .col-lg-1
               .col-lg-6.justify-content-center
@@ -376,31 +451,38 @@
                 figure
                   img(src='@/assets/curso/tema2/20.png', alt='')
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Importancia de la reglamentación legal en el turismo
+    .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Importancia de la reglamentación legal en el turismo
+
     p Una adecuada reglamentación legal contribuye significativamente a:
     .mb-5
-    .row.tabscolor
-      .col-9
-        TabsA.color-acento-botones
-          .tarjeta.p-4(titulo="Garantizar la calidad de los servicios turísticos")
-            h4 Garantizar la calidad de los servicios turísticos
-            p Mejora la experiencia del visitante y fortalece la reputación  del destino.
-          .tarjeta.p-4(titulo="Proteger el patrimonio cultural y natural")
-            h4 Proteger el patrimonio cultural y natural
-            p Asegura la conservación de los atractivos para las generaciones futuras.
-          .tarjeta.p-4(titulo="Fomentar el turismo sostenible")
-            h4 Fomentar el turismo sostenible
-            p Minimiza los impactos negativos sobre el medio ambiente y las comunidades receptoras.
-          .tarjeta.p-4(titulo="Impulsar el desarrollo económico")
-            h4 Impulsar el desarrollo económico
-            p El turismo, como motor de crecimiento, debe gestionarse bajo principios de responsabilidad y equidad.
-          .tarjeta.p-4(titulo="Velar por la seguridad de los turistas")
-            h4 Velar por la seguridad de los turistas
-            p Incluye la protección física, la prevención de fraudes, y la disponibilidad de asistencia en situaciones de emergencia.
-      .col-3
-        img(src='@/assets/curso/tema2/21.png', alt='').imagehide.imgajustada3
+    
+    .row.fondo3.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
+      .col-lg-12
+
+        .row
+          .col-lg-9
+            TabsA.color-acento-botones.mod
+              .tarjeta.p-4.bg5(titulo="Garantizar la calidad de los servicios turísticos")
+                h4 Garantizar la calidad de los servicios turísticos
+                p Mejora la experiencia del visitante y fortalece la reputación  del destino.
+              .tarjeta.p-4.bg5(titulo="Proteger el patrimonio cultural y natural")
+                h4 Proteger el patrimonio cultural y natural
+                p Asegura la conservación de los atractivos para las generaciones futuras.
+              .tarjeta.p-4.bg5(titulo="Fomentar el turismo sostenible")
+                h4 Fomentar el turismo sostenible
+                p Minimiza los impactos negativos sobre el medio ambiente y las comunidades receptoras.
+              .tarjeta.p-4.bg5(titulo="Impulsar el desarrollo económico")
+                h4 Impulsar el desarrollo económico
+                p El turismo, como motor de crecimiento, debe gestionarse bajo principios de responsabilidad y equidad.
+              .tarjeta.p-4.bg5(titulo="Velar por la seguridad de los turistas")
+                h4 Velar por la seguridad de los turistas
+                p Incluye la protección física, la prevención de fraudes, y la disponibilidad de asistencia en situaciones de emergencia.
+          .col-lg-3
+            img(src='@/assets/curso/tema2/21.png', alt='')
+
+
     .mb-5
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center

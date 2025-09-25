@@ -16,9 +16,11 @@
       .col-lg-4.col-md-10
         img(src='@/assets/curso/tema4/1.png', alt='')
     .mb-2
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Funcionamiento de la geolocalización
+
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Funcionamiento de la geolocalización
+
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/3.png')})`}"
@@ -28,32 +30,36 @@
         br
         p.mb-0 Además, los dispositivos móviles integran otras tecnologías complementarias como sensores inerciales, redes Wi-Fi disponibles, Bluetooth (para posicionamiento en interiores) y datos de redes celulares, que mejoran la precisión y permiten el uso continúo incluso en zonas con cobertura satelital limitada.
     .mb-4
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Aplicaciones cotidianas de la geolocalización
+
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Aplicaciones cotidianas de la geolocalización
+
     .row.justify-content-center
       .col-lg-8
         p.mb-4 De forma constante, las personas utilizan herramientas de geolocalización, por ejemplo, cuando desean desplazarse a un lugar desconocido y consultan aplicaciones de mapas, sistemas GPS, redes sociales o sitios web especializados en recomendaciones geográficas.
         p.mb-2 Asimismo, al capturar fotografías con un teléfono inteligente, la función de geolocalización suele registrar las coordenadas del lugar en el que se tomó la imagen, integrando estos datos en el archivo digital como metainformación. Esto permite, posteriormente, organizar y compartir contenido basado en ubicaciones específicas.
       .col-lg-4.col-md-10
-        img(src='@/assets/curso/tema4/4.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema4/4.png', alt='')
+   
+   
     .mb-5
-    .row
-      .col-6
-        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-4
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.mb-lg-0.mb-4
+        .bg7.p-lg-5.p-4
           .row.justify-content-center.mb-3
             .col-3
               figure
-                img(src='@/assets/curso/tema3/2.svg', alt='Texto que describa la imagen')
+                img.mb-3.d-none.d-lg-block(src='@/assets/curso/tema4/7.svg', alt='Texto que describa la imagen')
           p #[strong a) Transformación de los mapas y herramientas digitales]
           p El uso de mapas ha evolucionado considerablemente gracias a la geolocalización. Los mapas ya no son herramientas estáticas y difíciles de interpretar, sino plataformas dinámicas, interactivas y adaptadas a las necesidades del usuario. Un claro ejemplo de esta transformación es Google Maps, que ofrece mapas en dos y tres dimensiones, permite calcular rutas, visualizar las calles a nivel de piso mediante Street View y acceder a información en tiempo real sobre tráfico, transporte público y establecimientos cercanos.
           p Estas herramientas no solo permiten orientarse, sino que facilitan la planificación de viajes, la toma de decisiones informadas y una experiencia más autónoma para el visitante.
-      .col-6
-        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-4
+      .col-lg-6
+        .bg8.p-lg-5.p-4
           .row.justify-content-center.mb-3
             .col-3
               figure
-                img(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen')
+                img.mb-3.d-none.d-lg-block(src='@/assets/curso/tema4/8.svg', alt='Texto que describa la imagen')
           p #[strong b) Geolocalización y redes sociales]
           p La dimensión social de la geolocalización ha cobrado gran relevancia en la era digital. Los usuarios comparten constantemente su ubicación a través de redes sociales, asociándola con experiencias, opiniones o recomendaciones sobre lugares visitados, lo que influye directamente en la reputación en línea de destinos, comercios y servicios turísticos.
           p Una de las plataformas pioneras en esta integración es Foursquare, donde los usuarios pueden hacer check-in en establecimientos, comentar su experiencia y calificar el servicio. Este tipo de interacción social convierte la ubicación en un elemento de marketing georreferenciado, que potencia el posicionamiento de destinos y negocios en entornos digitales altamente competitivos.
@@ -72,9 +78,11 @@
                 span Ir al sitio
                 i.fas.fa-circle-play
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Tipos de herramientas de geolocalización
+
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de herramientas de geolocalización
+
     .row.justify-content-center
       .col-lg-4.col-md-10
         img(src='@/assets/curso/tema4/5.png', alt='').mt-2
@@ -97,7 +105,7 @@
     .mb-4
     p.mb-4 Como ejemplo ilustrativo, se invita a consultar el siguiente video, el cual permite comprender de manera visual y práctica el funcionamiento, la utilidad y las aplicaciones de las herramientas de geolocalización en diversos contextos, especialmente en el ámbito turístico y tecnológico.
     .mb-4
-    .tarjeta.acordeoncolor.p-4.mb-0
+    .tarjeta.acordeoncolor.p-4.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema3/32.svg")
@@ -110,14 +118,24 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=_40v8FSqYUw" target="_blank")
                 span Ir al sitio
                 i.fas.fa-circle-play
-    .mb-5
-    .row.justify-content-center
-      .col-1
-      .col-lg-10
-        .d-flex.align-items-center.gap-3.mb-3
-          img(src='@/assets/curso/tema4/6.svg', alt='')
-          p.mb-4.cajon.color-acento-contenido.p-4 La geolocalización se ha consolidado como una herramienta esencial en el desarrollo del turismo moderno, al facilitar la orientación, la personalización de servicios y la toma de decisiones informadas por parte de los visitantes. Su integración en plataformas digitales, redes sociales y sistemas de información turística permite una interacción más dinámica entre el turista y el destino, fortaleciendo la experiencia del usuario y promoviendo una gestión más eficiente por parte de los prestadores de servicios turísticos.
-      .col-1
+
+
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-11
+        .row.justify-content-center.align-items-center
+          .col-lg-3.sob.d-none.d-lg-block(data-aos="fade-left")
+            img.img-t(src="@/assets/curso/tema4/6.svg", alt="alt")
+          .col-lg-10(data-aos="fade-right").ps-lg-0
+            .bg9.p-4
+              .row.justify-content-center
+                .col-lg-10.ps-lg-4(data-aos="fade-left")
+                  p.mb-lg-4.my-lg-4 La geolocalización se ha consolidado como una herramienta esencial en el desarrollo del turismo moderno, al facilitar la orientación, la personalización de servicios y la toma de decisiones informadas por parte de los visitantes. Su integración en plataformas digitales, redes sociales y sistemas de información turística permite una interacción más dinámica entre el turista y el destino, fortaleciendo la experiencia del usuario y promoviendo una gestión más eficiente por parte de los prestadores de servicios turísticos.
+
+
+
+
+
+
 </template>
 
 <script>

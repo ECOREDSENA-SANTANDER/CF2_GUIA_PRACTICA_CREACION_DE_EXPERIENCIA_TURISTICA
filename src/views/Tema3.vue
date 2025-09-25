@@ -15,216 +15,229 @@
       .col-lg-4.col-md-10
         img(src='@/assets/curso/tema3/1.png', alt='')
     .mb-4
-    .row
-      .col-4
-        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-4
-          .row.justify-content-center.mb-3
+    
+    
+    .row.justify-content-center.align-items-stretch
+      .col-lg-4
+        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-lg-5.p-4
+          .row.justify-content-center.align-items-stretch.mb-4
             .col-3
               figure
                 img(src='@/assets/curso/tema3/2.svg', alt='Texto que describa la imagen')
-          p.text-center.titulotj Sitios naturales
+          h4.text-center.titulotj.mb-4.ps-3.pe-3.p-1 Sitios naturales
           p.text-small.text-center Áreas geográficas o bienes naturales de importancia para el turismo, que pueden incluir elementos individuales o conjuntos que, por sus características, no necesariamente están agrupados.
-      .col-4
-        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-4
-          .row.justify-content-center.mb-3
+      .col-lg-4
+        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-lg-5.p-4
+          .row.justify-content-center.align-items-stretch.mb-4
             .col-3
               figure
                 img(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen')
-          p.text-center.titulotj Sitios culturales
+          h4.text-center.titulotj.mb-4.ps-3.pe-3.p-1  Sitios culturales
           p.text-small.text-center.mb-4 Espacios relacionados con hechos históricos, transformaciones del territorio, asentamientos humanos o edificaciones con valor arqueológico, técnico o simbólico.
-      .col-4
-        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-4
-          .row.justify-content-center.mb-3
+      .col-lg-4
+        .tarjeta--boton.color-adicional-1.cajon-color-adicional-6.p-lg-5.p-4
+          .row.justify-content-center.align-items-stretch.mb-4
             .col-3
               figure
                 img(src='@/assets/curso/tema3/4.svg', alt='Texto que describa la imagen')
-          p.text-center.titulotj Festividades y eventos
+          h4.text-center.titulotj.mb-4.ps-3.pe-3.p-1  Festividades y eventos
           p.text-small.text-center Manifestaciones de carácter tradicional o contemporáneo que congregan a la comunidad local como protagonista o espectadora, y que representan parte de su identidad cultural.
+    
+    
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Tipos de atractivos turísticos  
+    .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de atractivos turísticos  
+    
     p.mb-4 De acuerdo con el tipo de experiencia local que se desee desarrollar, se deben tener en cuenta los siguientes pasos:
-    .row
-      .col-lg-4.col-md-5.imageslyder.imagehidetema1
-        img(src='@/assets/curso/tema3/6.png', alt='').imagehidetema1
-      .col-lg-8.col-md-7.targetaslyder
-        SlyderF.slyder1.circl-arrow.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/7.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos naturales
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Playas, montañas, desiertos, lagunas, ríos, costas, llanuras, bosques, reservas naturales, parques nacionales, zoológicos, jardines botánicos.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/8.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos recreativos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Parques temáticos, centros vacacionales, parques acuáticos, casinos, zonas de campamento, campos deportivos, miradores y espacios para actividades al aire libre o acuáticas.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/9.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos culturales
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Museos, bibliotecas, centros culturales, monumentos, sitios declarados patrimonio de la humanidad, esculturas y centros de interpretación cultural.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/10.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos gastronómicos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Restaurantes, platos típicos, ferias gastronómicas, rutas culinarias, experiencias en cocinas tradicionales, escuelas de gastronomía.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/11.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos arqueológicos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Yacimientos y ruinas arqueológicas, museos especializados, santuarios, sitios de excavación y conservación del patrimonio precolombino.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/12.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos históricos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Centros históricos, ciudades patrimoniales, museos de historia, ferrocarriles antiguos, sitios donde ocurrieron hechos de relevancia nacional o regional.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/13.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos arquitectónicos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Templos, castillos, palacios, torres, puentes, rascacielos y edificaciones representativas de distintos estilos arquitectónicos (gótico, barroco, neoclásico, colonial, islámico, moderno, entre otros).
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/14.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos artísticos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Galerías, teatros, carnavales, festivales musicales, ferias de danza y expresiones del arte popular y contemporáneo.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/15.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos lingüísticos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Territorios con presencia de comunidades étnicas, regiones donde se conservan lenguas originarias o se promueve el aprendizaje de otros idiomas.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema3/16.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Atractivos astronómicos
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Observatorios, reservas de cielo oscuro, lugares ideales para la observación astronómica y eventos celestes.
-    .row.col-5
-      ul.lista-ul--color.lista-ul--separador
-        li 
-          i.lista-ul__vineta
-          | #[strong Ejemplos representativos de atractivos turísticos en Colombia]
-          li.pb-2
-    .row.mb-4
+    
+    .row.fondo4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
+      .col-lg-12
+        .row
+          .col-lg-4.col-md-5.imageslyder.imagehidetema1
+            img(src='@/assets/curso/tema3/6.png', alt='').imagehidetema1
+          .col-lg-8.col-md-7.targetaslyder
+            SlyderF.slyder1.circl-arrow.mb-0(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/7.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos naturales
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Playas, montañas, desiertos, lagunas, ríos, costas, llanuras, bosques, reservas naturales, parques nacionales, zoológicos, jardines botánicos.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/8.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos recreativos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Parques temáticos, centros vacacionales, parques acuáticos, casinos, zonas de campamento, campos deportivos, miradores y espacios para actividades al aire libre o acuáticas.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/9.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos culturales
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Museos, bibliotecas, centros culturales, monumentos, sitios declarados patrimonio de la humanidad, esculturas y centros de interpretación cultural.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/10.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos gastronómicos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Restaurantes, platos típicos, ferias gastronómicas, rutas culinarias, experiencias en cocinas tradicionales, escuelas de gastronomía.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/11.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos arqueológicos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Yacimientos y ruinas arqueológicas, museos especializados, santuarios, sitios de excavación y conservación del patrimonio precolombino.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/12.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos históricos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Centros históricos, ciudades patrimoniales, museos de historia, ferrocarriles antiguos, sitios donde ocurrieron hechos de relevancia nacional o regional.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/13.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos arquitectónicos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Templos, castillos, palacios, torres, puentes, rascacielos y edificaciones representativas de distintos estilos arquitectónicos (gótico, barroco, neoclásico, colonial, islámico, moderno, entre otros).
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/14.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos artísticos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Galerías, teatros, carnavales, festivales musicales, ferias de danza y expresiones del arte popular y contemporáneo.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/15.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos lingüísticos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Territorios con presencia de comunidades étnicas, regiones donde se conservan lenguas originarias o se promueve el aprendizaje de otros idiomas.
+              .tarjeta.tarjeta-btn.p-4
+                img.mb-3(src='@/assets/curso/tema3/16.svg', alt='')
+                .title.mb-4
+                  h4.text-center.mb-0 Atractivos astronómicos
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Observatorios, reservas de cielo oscuro, lugares ideales para la observación astronómica y eventos celestes.
+    
+    .ia.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/tema3/ia.png', alt='')
+        h3.mb-0.mx-2 Ejemplos representativos de atractivos turísticos en Colombia 
+
+    .row.justify-content-center.align-items-center.mb-0
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/17.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Parque Nacional del Chicamocha (PANACHI) Aratoca, Santander.
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/17.png')})`}")
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Parque Nacional del Chicamocha (PANACHI) Aratoca, Santander.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/18.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Parque Cerro del Santísimo Floridablanca, Santander.
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Parque Cerro del Santísimo Floridablanca, Santander.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/19.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Parque Natural El Gallineral San Gil, Santander. 
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Parque Natural El Gallineral San Gil, Santander. 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/20.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Embalse de Topocoro Santander (Girón, Zapatoca, Betulia, entre otros municipios).
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Embalse de Topocoro Santander (Girón, Zapatoca, Betulia, entre otros municipios).
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/21.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Parque del Café Montenegro, Quindío.
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Parque del Café Montenegro, Quindío.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/22.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Museo del Oro Bogotá, Cundinamarca.
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Museo del Oro Bogotá, Cundinamarca.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/23.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center La Piedra del Peñol Guatapé, Antioquia. 
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center La Piedra del Peñol Guatapé, Antioquia. 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/24.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Castillo de San Felipe de Barajas Cartagena de Indias, Bolívar.
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Castillo de San Felipe de Barajas Cartagena de Indias, Bolívar.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/25.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Restaurante El Cielo Bogotá (Chapinero). 
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Restaurante El Cielo Bogotá (Chapinero). 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/26.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Parque Arqueológico de San Agustín – San Agustín, Huila.
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Parque Arqueológico de San Agustín – San Agustín, Huila.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/27.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Carnaval de Barranquilla Atlántico.
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/27.png')})`}")
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Carnaval de Barranquilla Atlántico.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
+        .tarjeta.tarjeta-flip
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/28.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Comunidad indígena Wayuu Riohacha, La Guajira
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/29.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Lago de Tarapoto Puerto Nariño, Amazonas.
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-        .tarjeta.tarjeta-flip.color-acento-contenido
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/30.svg')})`}")
-            .tarjeta-flip__contenido.p-4
-              img.mb-3(src='@/assets/curso/tema3/31.svg', alt='').imagenpeq.imgcenter
-              p.mb-0.text-center Bioparque Los Ocarros Villavicencio, Meta.
+            .tarjeta-flip__contenido.p-5
+              img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+              h4.mb-4.text-center Comunidad indígena Wayuu Riohacha, La Guajira
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        .row
+          .col-lg-6.col-md-6.mb-4.mb-xl-0.mt-4
+            .tarjeta.tarjeta-flip
+              .tarjeta-flip__contenedor
+                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/29.svg')})`}")
+                .tarjeta-flip__contenido.p-5
+                  img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+                  h4.mb-4.text-center Lago de Tarapoto Puerto Nariño, Amazonas.
+          .col-lg-6.col-md-6.mb-4.mb-xl-0.mt-4
+            .tarjeta.tarjeta-flip
+              .tarjeta-flip__contenedor
+                .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/30.svg')})`}")
+                .tarjeta-flip__contenido.p-5
+                  img.mb-4.img-t.img-a.my-4(src='@/assets/curso/tema3/31.svg', alt='')
+                  h4.mb-4.text-center Bioparque Los Ocarros Villavicencio, Meta.
+    
+  
     .mb-5
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
@@ -251,40 +264,65 @@
       .col-lg-4.col-md-10
         img(src='@/assets/curso/tema3/33.png', alt='')
     .mb-4
-    .row.justify-content-center
-      .col-7
-        ul.lista-ul--color
-          li.licolor.p-1
-            .d-flex.align-items-center.gap-3 
-              img(src='@/assets/curso/tema3/35.svg', alt='').imagenpeq
-              | Disponibilidad de recursos hídricos: tanto para la población local como para la actividad turística.
-          li.licolor.p-1
-            .d-flex.align-items-center.gap-3 
-              img(src='@/assets/curso/tema3/36.svg', alt='').imagenpeq
-              | Acceso a servicios públicos esenciales: como saneamiento básico, energía y recolección de residuos.
-          li.licolor.p-1
-            .d-flex.align-items-center.gap-3 
-              img(src='@/assets/curso/tema3/37.svg', alt='').imagenpeq
-              | Riesgo de impactos ambientales: como la degradación de ecosistemas, pérdida de biodiversidad o contaminación.
-          li.licolor.p-1
-            .d-flex.align-items-center.gap-3 
-              img(src='@/assets/curso/tema3/38.svg', alt='').imagenpeq
-              | Riesgo de impactos sociales y económicos: tales como desplazamientos de comunidades locales, aumento del costo de vida o alteraciones en las dinámicas culturales.
-          li.licolor.p-1
-            .d-flex.align-items-center.gap-3 
-              img(src='@/assets/curso/tema3/39.svg', alt='').imagenpeq
-              | Necesidad de preservar y proteger el atractivo turístico: garantizando su conservación a largo plazo.
-          li.licolor.p-1
-            .d-flex.align-items-center.gap-3 
-              img(src='@/assets/curso/tema3/40.svg', alt='').imagenpeq
-              | Nivel de satisfacción del visitante: que debe mantenerse sin comprometer la sostenibilidad del destino.
-          li.licolor.p-1
-            .d-flex.align-items-center.gap-3 
-              img(src='@/assets/curso/tema3/41.svg', alt='').imagenpeq
-              | Capacidad de la infraestructura turística: alojamiento, transporte, accesos y servicios para atender la demanda sin sobrecargar el entorno.
-      .col-3
-        img(src='@/assets/curso/tema3/34.png', alt='').imagelista
-    .mb-5
+    
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-11
+        .row.justify-content-center.align-items-end
+          .col-lg-9(data-aos="fade-right").ps-lg-0
+            .crd.crd--avatarHorizontal.crd--first.py-1
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema3/35.svg", alt="alt")
+                .col
+                  p.mb-0 #[b Disponibilidad de recursos hídricos:] tanto para la población local como para la actividad turística.
+            .crd.crd--avatarHorizontal.py-1
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema3/36.svg", alt="alt")
+                .col
+                  p.mb-0 #[b Acceso a servicios públicos esenciales:] como saneamiento básico, energía y recolección de residuos.
+            .crd.crd--avatarHorizontal.crd--.py-1
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema3/37.svg", alt="alt")
+                .col
+                  p.mb-0 #[b Riesgo de impactos ambientales:] como la degradación de ecosistemas, pérdida de biodiversidad o contaminación.
+            .crd.crd--avatarHorizontal.py-1
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema3/38.svg", alt="alt")
+                .col
+                  p.mb-0 #[b Riesgo de impactos sociales y económicos:] tales como desplazamientos de comunidades locales, aumento del costo de vida o alteraciones en las dinámicas culturales.
+            .crd.crd--avatarHorizontal.crd--.py-1
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema3/39.svg", alt="alt")
+                .col
+                  p.mb-0 #[b Necesidad de preservar y proteger el atractivo turístico:] garantizando su conservación a largo plazo.
+            .crd.crd--avatarHorizontal.py-1
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema3/40.svg", alt="alt")
+                .col
+                  p.mb-0 #[b Nivel de satisfacción del visitante:] que debe mantenerse sin comprometer la sostenibilidad del destino.
+            .crd.crd--avatarHorizontal.crd--last.py-1
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img(src="@/assets/curso/tema3/41.svg", alt="alt")
+                .col
+                  p.mb-0 #[b Capacidad de la infraestructura turística:] alojamiento, transporte, accesos y servicios para atender la demanda sin sobrecargar el entorno.
+          .col-lg-4.sob1.d-none.d-lg-block(data-aos="fade-left")
+            img.mb-4(src="@/assets/curso/tema3/34.png", alt="alt")
+    
+    
     .row
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -292,10 +330,13 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 La autoridad competente establecerá la capacidad de carga, según el tipo de atractivo turístico, en concordancia con los lineamientos del Ministerio de Comercio, Industria y Turismo. En el caso de atractivos turísticos ubicados dentro de áreas protegidas del Sistema Nacional de Áreas Protegidas (SINAP), la capacidad de carga será determinada por la respectiva autoridad ambiental, en armonía con las disposiciones del Ministerio de Ambiente y Desarrollo Sostenible. Cualquier impacto derivado de la actividad turística deberá ser moderado, mitigado, compensado o corregido, mediante la implementación de medidas de manejo, conforme a la normativa ambiental vigente.
+    
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Límites de Cambio Aceptable (LCA) 
+    
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Límites de Cambio Aceptable (LCA) 
+
     .mb-4
     .row.justify-content-center
       .col-lg-8
@@ -303,14 +344,16 @@
         p.mb-4.cajon.color-acento-contenido.p-4.mt-3 El objetivo de esta metodología es definir niveles tolerables de alteración, de modo que los cambios no superen lo que el entorno puede absorber sin perder su valor como destino turístico. A través del seguimiento de estos límites, se facilita una gestión adaptativa, orientada a garantizar la sostenibilidad y viabilidad del atractivo a largo plazo.
       .col-lg-4
         img(src='@/assets/curso/tema3/43.png', alt='').imageheight
+    
     .mb-4
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-3
-        img(src='@/assets/curso/tema3/44.png', alt='').imagelista
+        .bg6.p-3
+          img(src='@/assets/curso/tema3/44.png', alt='')
       .col-9 
-        p.mb-2 El Ministerio de Comercio, Industria y Turismo será el encargado de reglamentar la aplicación de esta metodología para su integración en la planificación y administración de los atractivos turísticos. En el caso de aquellos ubicados en áreas culturales o naturales protegidas, dicha reglamentación será expedida de manera conjunta con las autoridades competentes, conforme a sus respectivas jurisdicciones y competencias.
+        p.mb-0 El Ministerio de Comercio, Industria y Turismo será el encargado de reglamentar la aplicación de esta metodología para su integración en la planificación y administración de los atractivos turísticos. En el caso de aquellos ubicados en áreas culturales o naturales protegidas, dicha reglamentación será expedida de manera conjunta con las autoridades competentes, conforme a sus respectivas jurisdicciones y competencias.
+    
     separador
-
     #t_3_2.titulo-segundo.color-acento-contenido.mb-5
       h2 3.2 Normativa de sostenibilidad turística 
     
@@ -346,9 +389,11 @@
       .col-lg-11
         p.mb-2 El desarrollo turístico sostenible debe entenderse como un proceso de interacción equilibrada entre el uso responsable de los recursos naturales y culturales, la mejora de la calidad de vida de las comunidades locales y el éxito económico del sector, contribuyendo además al desarrollo integral del país. La sostenibilidad turística no solo responde a las exigencias actuales del mercado, sino que se configura como una condición esencial de competitividad presente y futura (CST, 1997).
     .mb-4
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Sostenibilidad como modelo de desarrollo
+
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Sostenibilidad como modelo de desarrollo
+
     .mb-5
     .row.justify-content-center
       .col-lg-4

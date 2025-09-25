@@ -168,9 +168,11 @@
               span k
             | Asegurarse de que el guía conozca previamente el lugar y pueda garantizar la seguridad del grupo.
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Determinación del riesgo 
+
+    .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Determinación del riesgo 
+
     p.mb-5 #[strong Tabla 2.] Contiene ejemplo de riesgo y posible plan de acción 
     img(src="@/assets/curso/tema7/8.png", alt="")
     .mb-5

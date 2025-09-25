@@ -35,9 +35,11 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Finalmente, es fundamental comprender que el ciclo del servicio no debe asumirse como un conjunto mecánico de tareas. Lo esencial es cómo el cliente experimenta cada interacción. Una experiencia positiva, consistente y empática incrementa significativamente la posibilidad de que el cliente vuelva a elegir la organización y recomiende sus servicios. En este sentido, el ciclo del servicio al cliente representa una herramienta clave para la competitividad y sostenibilidad empresarial.
     .mb-4
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Fases del ciclo de servicio
+
+    .titulo5.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Fases del ciclo de servicio
+
     p.mb-3 Las fases del ciclo de servicio representan las etapas que conforman la experiencia integral del cliente, desde el primer contacto con una organización hasta después de haber recibido el producto o servicio. Estas fases son fundamentales para comprender, gestionar y optimizar la calidad del servicio prestado, permitiendo a las organizaciones identificar oportunidades de mejora, fortalecer la relación con el cliente y garantizar una experiencia satisfactoria y coherente en cada punto de contacto.
     p.mb-0 A continuación, se describen las principales fases del ciclo de servicio:
     .mb-5
@@ -71,12 +73,15 @@
               .col-lg-12
                 p.mb-0 Se refiere a las acciones posteriores a la experiencia, incluyendo la evaluación del servicio recibido, la posibilidad de presentar reclamaciones o felicitaciones, la generación de comentarios o reseñas y la decisión de recomendar o volver a adquirir el servicio. Esta fase es esencial para retroalimentar a la organización, identificar áreas de mejora y consolidar la fidelización del cliente.
     .mb-4
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-8
         p.mb-3 El análisis detallado de cada fase del ciclo de servicio permite a las organizaciones adoptar un enfoque más estratégico en la gestión de la experiencia del cliente. Cada interacción, por pequeña que sea, tiene el potencial de reforzar la percepción positiva o generar insatisfacción, por lo que la coherencia en la calidad del servicio a lo largo de todas las etapas es indispensable.
-        .d-flex.align-items-center.gap-3
-          img(src='@/assets/curso/tema5/8.svg', alt='').imgpeqt3.imagehide
-          p.mb-4.cajon.color-acento-contenido.p-4 La información de ubicación recopilada es interpretada y representada visualmente a través de mapas digitales interactivos, permitiendo que la posición del usuario o del objeto rastreado sea visualizada en tiempo real. Esta funcionalidad es ampliamente utilizada en sectores como el transporte, la logística, el comercio, el marketing digital y, de manera significativa, en el turismo.
+        .bg9.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-2
+              img.img-t.img-a(src='@/assets/curso/tema5/8.svg', alt='')
+            .col-lg-10
+              p.mb-0 Además, comprender el ciclo de servicio no solo contribuye a elevar los estándares de atención, sino que también favorece la diferenciación competitiva en sectores donde la oferta puede ser similar. Una experiencia bien gestionada, centrada en el cliente y orientada a la mejora continua, se traduce en mayor fidelización, posicionamiento favorable en el mercado y sostenibilidad organizacional.
       .col-lg-4.col-md-10
         img(src='@/assets/curso/tema5/7.png', alt='')
     .mb-4
@@ -106,57 +111,75 @@
           img(src='@/assets/curso/tema5/9.svg', alt='').imgpeqt3.imagehide.mt-3
         p.mb-2.mt-4 La narrativa de un destino se transmite a través de un relato turístico, el cual debe ser directo, sencillo y vinculado a una experiencia concreta. Su objetivo es sorprender al visitante mediante datos originales y elementos distintivos del lugar. Este relato puede girar en torno a la historia de los antepasados, la descripción de un plato típico, la relevancia de un monumento, un sitio emblemático del destino o un personaje histórico de interés. De esta forma, se invita al turista a escapar momentáneamente de su rutina y sumergirse en otra realidad, donde su visión interior se fusiona con el entorno, generando valor, sentido y una conexión más profunda con la experiencia vivida.
     p.mb-3.mt-4 Cada destino turístico posee un relato, formal o informal, que puede ser contado de manera significativa y auténtica, logrando una conexión emocional con el visitante. Cuando dicho relato es coherente con los productos turísticos ofrecidos, se convierte en una herramienta clave para la definición, promoción y diferenciación de las experiencias turísticas en el territorio.
-    .row.sistema
-      .col-lg-12.col-md-12
-        p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 3.] Relación relato y experiencia turística.
-        img(src='@/assets/curso/tema5/11.png', alt='')
-    p.mb-4.mt-5 La narrativa, expresada como un relato turístico, reúne las siguientes características:
-    .row
-      .col-lg-4.col-md-5.coltema5
-        img(src='@/assets/curso/tema5/12.png', alt='').mt-3.imagetema5
-      .col-lg-8.col-md-7
-        SlyderF.slyder2.circl-arrow.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/13.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Funcional
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Contribuye a reducir el nivel de desconocimiento sobre el destino, optimiza el tiempo de ubicación y desplazamiento, facilita la planificación de gastos durante el viaje y sugiere itinerarios y actividades específicas.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/14.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Comprensible
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Permite una fácil comprensión del destino, evitando contenidos complejos o excesivamente abstractos. Se centra en un mensaje principal, claro, simple e interesante.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/15.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Cercana
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Está dirigida directamente al lector, visitante o residente, utilizando un lenguaje dinámico, motivador y entretenido.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/16.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Tangible
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Invita al público a vivir una experiencia real, concreta y participativa.
-          .tarjeta.tarjeta-btn.p-4
-            img.mb-3(src='@/assets/curso/tema5/17.svg', alt='')
-            .title.mb-4
-              h4.text-center.mb-0 Emotiva
-            .row.justify-content-center.align-items-center.mb-2
-              .col-lg-12
-                p.text-center Se construye a partir de las prácticas culturales locales, generando una conexión emocional entre los habitantes del lugar y los visitantes.
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Tipos de narrativa
+    
+    p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 3.] Relación relato y experiencia turística.
+    
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-12
+        .bg10.p-4.mb-3
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-9
+              img.mb-4.mt-4(src='@/assets/curso/tema5/11.svg', alt='Diagrama que representa la relación entre los componentes turísticos y la construcción del relato en una experiencia.')
+        figcaption.mb-5 #[b Fuente:] Instituto del patrimonio turístico (2016). 
+          p.mb-0 Autores varios (2018 p.4), Relatos turísticos: Propuestas para incorporar el patrimonio cultural y natural en los servicios y rutas turísticas de Arica y Camarones. Ediciones Universidad Central de Chile. https://www.ucentral.cl/ucentral/site/docs/20200110/20200110142007/relatos_turisticos_arica.pdf
+    p.mb-4 La narrativa, expresada como un relato turístico, reúne las siguientes características:
+    
+    .row.fndd.p-4.p-lg-5.p-md-3.mb-5(data-aos="fade-down")
+      .col-lg-12
+        
+        .row.justify-content-center.align-items-end.mb-0(data-aos="fade-left")
+          .col-lg-4.col-md-5.col-7
+            img.img-t.d-none.d-lg-block.mva(src='@/assets/curso/tema5/12.png', alt='')
+          .col-lg-8.mb-lg-0.mb-4
+            SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
+              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/13.svg', alt='')
+                .title.mb-4
+                  .bg11.p-1
+                    h4.text-center.mb-0 Funcional
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Contribuye a reducir el nivel de desconocimiento sobre el destino, optimiza el tiempo de ubicación y desplazamiento, facilita la planificación de gastos durante el viaje y sugiere itinerarios y actividades específicas.
+              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/14.svg', alt='')
+                .title.mb-4
+                  .bg11.p-1
+                    h4.text-center.mb-0 Comprensible
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Permite una fácil comprensión del destino, evitando contenidos complejos o excesivamente abstractos. Se centra en un mensaje principal, claro, simple e interesante.
+              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/15.svg', alt='')
+                .title.mb-4
+                  .bg11.p-1
+                    h4.text-center.mb-0 Cercana
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Está dirigida directamente al lector, visitante o residente, utilizando un lenguaje dinámico, motivador y entretenido.
+              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/16.svg', alt='')
+                .title.mb-4
+                  .bg11.p-1
+                    h4.text-center.mb-0 Tangible
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Invita al público a vivir una experiencia real, concreta y participativa.
+              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/17.svg', alt='')
+                .title.mb-4
+                  .bg11.p-1
+                    h4.text-center.mb-0 Emotiva
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-12
+                    p.text-center Se construye a partir de las prácticas culturales locales, generando una conexión emocional entre los habitantes del lugar y los visitantes.
+    
+    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de narrativa
+    
     p.mb-4.mt-5 En el turismo se pueden identificar diversos tipos de narrativa, entre los cuales se destacan los siguientes:
     
-    TabsC.color-acento-botones
+    TabsC.color-primario
       .py-3.py-md-4(titulo="Narrativa sostenible").cajon-color-adicional-5
         .row
           .col-1
@@ -198,47 +221,54 @@
             figure
               img(src='@/assets/curso/tema5/22.png', alt='Texto que describa la imagen')
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Técnicas de narrativa
-    .mb-5
-    .row
-      .row.mb-4
-        .col-1
-        .col-md-5.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema5/23.svg' alt='')
-            .tarjeta.cajon-color-adicional-7
-              .p-4
-                p.mb-0.text-center Narrativa lineal, donde los acontecimientos se desarrollan en orden cronológico.
-        .col-md-5.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema5/24.svg' alt='')
-            .tarjeta.cajon-color-adicional-7
-              .p-4
-                p.mb-0.text-center Narrativa no lineal, en la que la historia se presenta de forma fragmentada o a través de diferentes líneas de tiempo.
-        .col-1
+
+    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Técnicas de narrativa
+
+    p.mb-4 Las técnicas de narrativa hacen referencia a los métodos y estructuras utilizados para desarrollar y presentar una historia de forma coherente, atractiva y convincente. Estas técnicas integran elementos como la trama, los personajes, el conflicto, el punto de vista y la estructura narrativa.
+    p.mb-3 La narrativa puede adoptar distintas formas, tales como:
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.mb-4.mb-lg-0
+        .tarjeta-avatar
+          img.imaa.mb-0.my-2(src='@/assets/curso/tema5/23.svg' alt='')
+          .tarjeta.cajon-color-adicional-7
+            .p-0
+              p.mb-3.ps-3.pe-3.text-center Narrativa lineal, donde los acontecimientos se desarrollan en orden cronológico.
+      .col-lg-5.mb-4.mb-lg-0
+        .tarjeta-avatar
+          img.imaa.mb-0.my-2(src='@/assets/curso/tema5/24.svg' alt='')
+          .tarjeta.cajon-color-adicional-7
+            .p-0
+              p.mb-3.ps-3.pe-3.text-center Narrativa no lineal, en la que la historia se presenta de forma fragmentada o a través de diferentes líneas de tiempo.
+  
+
     p.mb-4.mt-3 A continuación, se describen algunas de las técnicas más comunes utilizadas en la narrativa turística:
-    .row.tabscolor2
-      .col-8
-        TabsA.color-acento-botones
-          .tarjeta.p-4(titulo="Storytelling")
-            h4 Storytelling
-            p Consiste en contar historias cautivadoras que conectan con las emociones del turista, generando una experiencia auténtica y significativa.
-          .tarjeta.p-4(titulo="Narrativa visual")
-            h4 Narrativa visual
-            p Emplea imágenes, videos y otros recursos visuales para narrar historias y transmitir emociones de forma efectiva.
-          .tarjeta.p-4(titulo="Narrativa sensorial")
-            h4 Narrativa sensorial
-            p Apela a los cinco sentidos (vista, oído, olfato, gusto y tacto) con el fin de crear una experiencia inmersiva, envolvente y memorable.
-          .tarjeta.p-4(titulo="Narrativa histórica")
-            h4 Narrativa histórica
-            p Incorpora hechos y relatos del pasado para contextualizar el destino, fomentando el interés cultural y la comprensión del patrimonio.
-          .tarjeta.p-4(titulo="Narrativa personalizada")
-            h4 Narrativa personalizada
-            p Adapta el relato a los intereses, motivaciones y características específicas de cada tipo de turista, permitiendo una conexión más directa y significativa con la experiencia.
-      .col-4
-        img(src='@/assets/curso/tema5/25.png', alt='').imagehide.imgajustada3
+    
+    .row.fondo33.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
+      .col-lg-12
+
+        .row
+          .col-lg-8
+            TabsA.color-acento-botones.mod
+              .tarjeta.p-4.bg5(titulo="<em>Storytelling</em>")
+                h4 Storytelling
+                p Consiste en contar historias cautivadoras que conectan con las emociones del turista, generando una experiencia auténtica y significativa.
+              .tarjeta.p-4.bg5(titulo="Narrativa visual")
+                h4 Narrativa visual
+                p Emplea imágenes, videos y otros recursos visuales para narrar historias y transmitir emociones de forma efectiva.
+              .tarjeta.p-4.bg5(titulo="Narrativa sensorial")
+                h4 Narrativa sensorial
+                p Apela a los cinco sentidos (vista, oído, olfato, gusto y tacto) con el fin de crear una experiencia inmersiva, envolvente y memorable.
+              .tarjeta.p-4.bg5(titulo="Narrativa histórica")
+                h4 Narrativa histórica
+                p Incorpora hechos y relatos del pasado para contextualizar el destino, fomentando el interés cultural y la comprensión del patrimonio.
+              .tarjeta.p-4.bg5(titulo="Narrativa personalizada")
+                h4 Narrativa personalizada
+                p Adapta el relato a los intereses, motivaciones y características específicas de cada tipo de turista, permitiendo una conexión más directa y significativa con la experiencia.
+          .col-lg-4
+            img(src='@/assets/curso/tema5/25.png', alt='')
     .mb-5
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
@@ -261,41 +291,45 @@
     .row.justify-content-center
       .col-lg-8
         p.mb-4 Un itinerario turístico es un documento en el que se describen cronológicamente las actividades que se llevarán a cabo durante un viaje determinado. Es una herramienta fundamental para la organización, ya que permite planificar con anticipación aspectos como:
-        .d-flex.align-items-center.gap-3.mb-3
-          img(src='@/assets/curso/tema5/26.png', alt='').imgpeqt4.imagehide
-          ul.lista-ul--color
-            li 
-              i.fas.fa-brain
-              | ¿Qué se hará durante el viaje?
-            li 
-              i.fas.fa-brain
-              | Sitios a visitar.
-            li 
-              i.fas.fa-brain
-              | Actividades a realizar.
-            li 
-              i.fas.fa-brain
-              | Horarios asignados para cada actividad.
-            li 
-              i.fas.fa-brain
-              | Duración estimada de cada experiencia.
-            li 
-              i.fas.fa-brain
-              | Fechas de inicio y finalización del recorrido.
-            li 
-              i.fas.fa-brain
-              | Tiempos de traslado entre destinos.
-            li 
-              i.fas.fa-brain
-              | Espacios destinados al descanso y a la alimentación.
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-4
+            img(src='@/assets/curso/tema5/26.png', alt='')
+          .col-lg-8
+            ul.lista-ul
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0 ¿Qué se hará durante el viaje?
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0 Sitios a visitar.
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0 Actividades a realizar.
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0  Horarios asignados para cada actividad.
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0 Duración estimada de cada experiencia.
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0 Fechas de inicio y finalización del recorrido.
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0 Tiempos de traslado entre destinos.
+              li.d-flex.mb-1
+                i.fas.fa-circle-check
+                p.mb-0  Espacios destinados al descanso y a la alimentación.
         
       .col-lg-4.col-md-10
         img(src='@/assets/curso/tema5/27.png', alt='').tarjeta1
     p.mb-4.mt-3 Además, un itinerario turístico especifica los lugares de interés que deben ser visitados por los turistas. Puede adaptarse a distintas temáticas o enfoques; por ejemplo, un itinerario gastronómico incluirá los lugares donde se pueden degustar los platos típicos de la región.
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Elementos de un itinerario
+
+    .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Elementos de un itinerario
+
     p.mb-4.mt-3 Los principales elementos que componen un itinerario turístico son:
     .row
       .col-lg-3
@@ -327,9 +361,11 @@
             .p-4
               p d) Puntos de llegada: sitios de interés seleccionados para ser visitados.
     .mb-3
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Tipos de itinerarios
+
+    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de itinerarios
+
     p.mb-5.mt-3 Existen diversos tipos de itinerarios turísticos, según la tipología de turismo que se desee realizar y la ubicación geográfica de los atractivos. A continuación, se describen los más comunes:  
     .row.mb-4
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -423,9 +459,11 @@
           p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
           img(src='@/assets/curso/tema5/43.png', alt='')
       .mb-5
-      .subt.mb-4(data-aos="fade")
-        img(src="@/assets/curso/tema1/4.svg")
-        h3.ps-3.pe-4.mb-0 Encuesta de satisfacción 
+
+      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Encuesta de satisfacción 
+
       .mb-3
       .row.justify-content-center
         .col-lg-8

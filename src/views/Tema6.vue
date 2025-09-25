@@ -51,9 +51,11 @@
             i.fas.fa-brain
             | Un mapa con información explícita sobre el itinerario y sus componentes.
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Tipos de rutas turísticas
+
+    .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de rutas turísticas
+
     .mb-4
     .row
       .col-8
@@ -70,9 +72,11 @@
       .col-4
         img(src='@/assets/curso/tema6/5.png', alt='')
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Tipos de rutas temáticas
+
+    .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de rutas temáticas
+
     .mb-3
     .row
       .col-3
@@ -137,9 +141,11 @@
             i.fas.fa-brain
             | Identificar las oportunidades y fortalezas de la oferta turística existente, evaluando su estado actual y su potencial de desarrollo.
     .mb-5
-    .subt.mb-4(data-aos="fade")
-      img(src="@/assets/curso/tema1/4.svg")
-      h3.ps-3.pe-4.mb-0 Fases del diseño de una ruta turística
+
+    .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Fases del diseño de una ruta turística
+
     p.mb-4 El proceso de diseño se puede estructurar en dos grandes fases:
     .row.col-5
       ul.lista-ul--color.lista-ul--separador
