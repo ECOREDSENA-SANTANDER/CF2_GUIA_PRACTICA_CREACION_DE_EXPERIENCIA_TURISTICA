@@ -9,7 +9,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-10
-        img(src='@/assets/curso/tema7/1.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema7/1.png', alt='')
       .col-lg-8
         p.mb-3 Un plan de contingencia es un conjunto de procedimientos e instrucciones especiales que una empresa turística debe definir y aplicar cuando, aun siendo posible desarrollar las actividades de manera habitual, surgen condiciones o riesgos externos que requieren medidas adicionales para garantizar el adecuado funcionamiento del servicio.
         .bg9.p-4
@@ -24,22 +24,22 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-10
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-3
+              .col-lg-3.col-md-6.mb-4.mb-lg-0
                 .bg14.p-2
                   p.mb-0.text-center Planificar
-              .col-lg-3
+              .col-lg-3.col-md-6.mb-4.mb-lg-0
                 .bg15.p-2
                   p.mb-0.text-center Hacer
-              .col-lg-3
+              .col-lg-3.col-md-6.mb-4.mb-lg-0
                 .bg14.p-2
                   p.mb-0.text-center Verificar
-              .col-lg-3
+              .col-lg-3.col-md-6.mb-4.mb-lg-0
                 .bg15.p-2
                   p.mb-0.text-center Actuar
 
     p.mb-2 Un plan de contingencia debe mantenerse vigente y operativo, incluso después de haberse presentado una eventualidad. Su elaboración incluye cuatro etapas:
     
-    .row
+    .row.mb-4
       .row.mb-4
         .col-lg-3.col-md-6.mb-4.mb-lg-0
           .tarjeta-avatar
@@ -73,7 +73,7 @@
                 .bg11.p-1.mb-4.mx-lg-3
                   h4.text-center.mb-0.ps-3.pe-3 Actuar
                 p.mb-0.text-center Corregir desviaciones y mejorar.
-    .mb-5
+    
     .row.acordeon.mb-5
       .col-lg-7.col-md-12.col-sm-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -120,7 +120,7 @@
                     i.fas.fa-circle-check
                     p.mb-0  Activar acciones inmediatas y organizadas frente a la contingencia.
       .col-lg-5
-        img(src="@/assets/curso/tema7/6.png", alt="")
+        img.d-none.d-lg-block(src="@/assets/curso/tema7/6.png", alt="")
     
     .ia.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -131,8 +131,8 @@
     
     p.mb-4 Recomendaciones generales: 
 
-    .row
-      .col-4
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.mb-lg-0.mb-4
         ol.lista-ol--cuadro
           li.d-flex 
             .lista-ol--cuadro__vineta
@@ -158,9 +158,9 @@
             .lista-ol--cuadro__vineta
               span f
             | Llevar agua potable suficiente. 
-      .col-4
-        img(src="@/assets/curso/tema7/7.png", alt="")
-      .col-4
+      .col-lg-4.col-md-9.col-10
+        img.mb-lg-0.mb-4(src="@/assets/curso/tema7/7.png", alt="")
+      .col-lg-4
         ol.lista-ol--cuadro
           li.d-flex 
             .lista-ol--cuadro__vineta

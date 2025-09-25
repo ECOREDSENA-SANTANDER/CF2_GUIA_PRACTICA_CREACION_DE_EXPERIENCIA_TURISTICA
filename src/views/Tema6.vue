@@ -6,32 +6,37 @@
       .titulo-principal__numero
         span 6
       h1 Ruta turística
-    .row.justify-content-center
-      .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema6/1.png', alt='').imgajustada
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
+      .col-lg-4
+        img.d-none.d-lg-block(src='@/assets/curso/tema6/1.png', alt='')
       .col-lg-8
         p.mb-3 La palabra ruta proviene del latín rupta y posteriormente del francés route. Hace referencia al recorrido, dirección, camino o itinerario que se sigue con un propósito determinado. En el contexto turístico, una ruta integra una serie de atractivos, servicios turísticos y complementarios.
-        .d-flex.align-items-center.gap-3
-          p.mb-2 Una ruta turística es un recorrido planificado que permite visitar y conocer atractivos culturales o naturales ubicados en zonas con potencial o desarrollo turístico, dotadas de facilidades y comodidades adecuadas para recibir visitantes. Estas rutas están compuestas por un conjunto de puntos organizados en forma de red dentro de una región determinada y, al estar debidamente señalizadas, despiertan un interés especial. Generalmente, se estructuran en torno a una temática que las identifica y les da nombre, como por ejemplo: Ruta del Café o Ruta del Vino.
-          img(src='@/assets/curso/tema6/2.svg', alt='').imgpeq.imagehide
-    .mb-5
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-9.col-md-9
+            p.mb-lg-0.mb-4 Una ruta turística es un recorrido planificado que permite visitar y conocer atractivos culturales o naturales ubicados en zonas con potencial o desarrollo turístico, dotadas de facilidades y comodidades adecuadas para recibir visitantes. Estas rutas están compuestas por un conjunto de puntos organizados en forma de red dentro de una región determinada y, al estar debidamente señalizadas, despiertan un interés especial. Generalmente, se estructuran en torno a una temática que las identifica y les da nombre, como por ejemplo: Ruta del Café o Ruta del Vino.
+          .col-lg-3.col-md-3.col-9
+            img(src='@/assets/curso/tema6/2.svg', alt='')
+ 
+ 
     .row.justify-content-center
-      .col-lg-8.cajon.color-acento-contenido.p-4
-        p.mb-5 La ruta debe brindar a quienes la recorren una experiencia placentera, con actividades alineadas a los elementos distintivos del territorio. Además, debe proyectar una imagen integral construida a partir de la complementariedad entre los sitios visitados, los servicios prestados y el lenguaje comunicacional utilizado.
-        p.mb-3 En el proceso de implementación de una ruta turística, es fundamental establecer de manera objetiva las condiciones necesarias para su funcionamiento. Esto incluye identificar a los actores locales que potencialmente puedan integrarse a la ruta, de acuerdo con las actividades que desarrollen en su entorno.
-      .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema6/3.png', alt='').imgajustada
+      .col-lg-8
+        .bg9.p-4.mb-lg-0.mb-5
+          p.mb-4.my-lg-4 La ruta debe brindar a quienes la recorren una experiencia placentera, con actividades alineadas a los elementos distintivos del territorio. Además, debe proyectar una imagen integral construida a partir de la complementariedad entre los sitios visitados, los servicios prestados y el lenguaje comunicacional utilizado.
+          p.mb-4 En el proceso de implementación de una ruta turística, es fundamental establecer de manera objetiva las condiciones necesarias para su funcionamiento. Esto incluye identificar a los actores locales que potencialmente puedan integrarse a la ruta, de acuerdo con las actividades que desarrollen en su entorno.
+      .col-lg-4.col-md-9.col-10
+          img(src='@/assets/curso/tema6/3.png', alt='')
+    
     .mb-5
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-2
+          .col-lg-2.d-none.d-lg-block
             img.img-t.mb-3(src='@/assets/curso/tema6/4.svg', alt='')
           .col-lg-10.ps-lg-0.mb-3
             p.mb-0 Los participantes de una ruta turística deben cumplir con ciertos criterios que abarcan desde el interés turístico de la actividad realizada hasta la calidad de los servicios ofrecidos y la infraestructura disponible. Estos estándares deben establecerse en común acuerdo, tomando en cuenta las expectativas de la demanda turística.
-          p.mb-2 Una ruta turística se compone de atractivos locales, elementos patrimoniales, comunidades y facilidades organizadas en forma de red, debidamente señalizadas y reconocidas como de interés turístico.
+          p.mb-4.mb-lg-0 Una ruta turística se compone de atractivos locales, elementos patrimoniales, comunidades y facilidades organizadas en forma de red, debidamente señalizadas y reconocidas como de interés turístico.
       .col-lg-7
-        .cajon.cajon-color-adicional-10.p-5
+        .cajon.cajon-color-adicional-10.p-4
          p.mb-3 Entre los elementos que caracterizan una ruta se destacan:
          ul.lista-ul
           li.d-flex.mb-0
@@ -60,7 +65,7 @@
 
     .mb-4
     .row
-      .col-8
+      .col-lg-8
         LineaTiempoD.color-acento-boton.activo
           .row(numero="a)" titulo="Ruta gastronómica").p-3
             .col-md-12.mb-4.mb-md-0
@@ -71,7 +76,7 @@
           .row(numero="c)" titulo="Rutas temáticas").p-3
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Son recorridos que conectan puntos relacionados entre sí, ya sea por su valor histórico, artístico, social o ambiental. Suelen estar diseñadas para recorrerse a pie y están complementadas con señalización interpretativa. Estas rutas suelen vincularse con otros servicios como centros de visitantes, zonas recreativas o áreas de camping.            
-      .col-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema6/5.png', alt='')
     .mb-5
 
@@ -79,29 +84,29 @@
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de rutas temáticas
     
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4
+      .col-lg-3.col-md-6.mb-4
         .overflow-hidden.h-100.bg13.p-4
           .row.justify-content-center.mb-4
             .col-12
               figure
                 img(src='@/assets/curso/tema6/6.png', alt='Texto que describa la imagen')
           p #[b a) Ruta temática autoguiada:] se realiza de forma autónoma, mediante el uso de materiales como folletos, audioguías o señalización (flechas, estacas pintadas, símbolos) que orientan e interpretan el recorrido.
-      .col-lg-3
+      .col-lg-3.col-md-6.mb-4
         .overflow-hidden.h-100.bg13.p-4
           .row.justify-content-center.mb-4
             .col-12
               figure
                 img(src='@/assets/curso/tema6/7.png', alt='Texto que describa la imagen')
           p #[b b) Ruta temática guiada:] consiste en un recorrido grupal acompañado por un guía especializado. Este adapta la interpretación a las necesidades del grupo, incorpora eventos espontáneos y facilita la interacción con los participantes. (Ríos y Rubilar, 2006).
-      .col-lg-3
+      .col-lg-3.col-md-6.mb-4
         .overflow-hidden.h-100.bg13.p-4
           .row.justify-content-center.mb-4
             .col-12
               figure
                 img(src='@/assets/curso/tema6/8.png', alt='Texto que describa la imagen')
           p #[b c) Ruta agroturística:] permite conocer e interactuar con procesos agrícolas, ganaderos y agroindustriales, así como con la vida rural en general. Promueve el desarrollo sostenible, la valorización del campo y la diversificación económica de las comunidades rurales. Las actividades experienciales pueden incluir la siembra, cosecha, ordeño, visitas a huertas, cultivos y participación en labores cotidianas del entorno rural.
-      .col-lg-3
+      .col-lg-3.col-md-6.mb-4
         .overflow-hidden.h-100.bg13.p-4
           .row.justify-content-center.mb-4
             .col-12
@@ -109,7 +114,7 @@
                 img(src='@/assets/curso/tema6/9.png', alt='Texto que describa la imagen')
           p #[b d) Ruta natural:] se diseña para recorrer espacios de alto valor ecológico o paisajístico, como parques naturales, bosques, montañas, senderos, ríos o humedales. Su propósito es fomentar el disfrute responsable del entorno, la educación ambiental y la conservación. Las actividades asociadas incluyen senderismo, avistamiento de aves, fotografía de naturaleza, ecoturismo, entre otras.
     
-    .mb-5
+
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -129,8 +134,8 @@
       h2 6.1 Técnicas de diseño
 
     .row.justify-content-center.cajon
-      .col-lg-4.col-md-10
-        img(src='@/assets/curso/tema6/10.png', alt='')
+      .col-lg-4.col-md-9
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema6/10.png', alt='')
       .col-lg-8
         p.mb-3 El diseño de una ruta turística debe concebirse como la creación de un producto turístico integral, o de varios productos interrelacionados, que ofrezcan una experiencia coherente, atractiva, de calidad y accesible para el turista. Para diseñar una ruta temática alineada con el turismo de intereses especializados, es fundamental:
         ul.lista-ul
@@ -156,8 +161,8 @@
         img(src='@/assets/curso/tema3/ia.png', alt='')
         h3.mb-0.mx-2 Fase 1. Estructuración de la ruta
 
-    .row
-      .col-8
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
         LineaTiempoD.color-acento-boton.activo
           .row(numero="a)" titulo="Inventario turístico").p-3
             .col-md-12.mb-4.mb-md-0
@@ -189,7 +194,7 @@
           .row(numero="g)" titulo="Recorridos internos").p-3
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Identificar trayectos cortos o circuitos dentro de los puntos de parada que puedan enriquecer la experiencia turística.
-      .col-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema6/11.png', alt='').mt-2
 
 
@@ -199,11 +204,12 @@
         h3.mb-0.mx-2 Fase 2. Selección de servicios turísticos a incluir
 
     p.mb-4 Una ruta debe considerar la articulación de servicios esenciales que garanticen una experiencia completa y satisfactoria:
-    .row.cajon
-      .col-5
-        img(src='@/assets/curso/tema6/12.png', alt='')
-      .col-7
-        img.img-t.mb-3(src='@/assets/curso/tema6/13.svg', alt='')
+    
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
+      .col-lg-5.col-md-9.col-10
+        img.mb-lg-0.mb-4(src='@/assets/curso/tema6/12.png', alt='')
+      .col-lg-7
+        img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema6/13.svg', alt='')
         ul.lista-ul
           li.d-flex.mb-0
             i.fas.fa-circle-check1
@@ -223,7 +229,8 @@
           li.d-flex.mb-0
             i.fas.fa-circle-check1
             p.mb-0 Otros servicios complementarios (seguros, asistencia médica, tiendas de recuerdos, entre otros).
-    .mb-5
+    
+    
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1

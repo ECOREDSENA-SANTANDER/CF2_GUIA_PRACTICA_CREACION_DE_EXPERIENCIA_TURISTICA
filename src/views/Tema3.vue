@@ -381,7 +381,7 @@
             .h2 b
           p.mb-lg-5.mb-0 Respetar la autenticidad sociocultural de las comunidades anfitrionas, preservando su patrimonio cultural y arquitectónico, sus valores tradicionales, y fomentando el respeto, la comprensión y el intercambio intercultural.
 
-      .col-lg-4.col-md-6.mb-lg-0.mb-5
+      .col-lg-4.col-md-9.mb-lg-0.mb-5
         .tarjeta-numerada.color-acento-contenido.p-5.h-100
           .tarjeta-numerada__numero
             .h2 c

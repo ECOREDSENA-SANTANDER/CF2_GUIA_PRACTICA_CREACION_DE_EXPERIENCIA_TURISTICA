@@ -7,34 +7,39 @@
         span 5
       h1 Ciclo de servicio
     .row.justify-content-center
-      .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema5/1.png', alt='')
+      .col-lg-4
+        img.d-none.d-lg-block(src='@/assets/curso/tema5/1.png', alt='')
       .col-lg-8
         p.mb-3 El ciclo de servicio al cliente se refiere al conjunto de etapas que tienen lugar desde el momento en que un usuario acude a una organización para adquirir un producto o solicitar un servicio, hasta que finaliza su experiencia con la percepción de haber recibido una atención satisfactoria. Este proceso no solo implica la entrega del bien o la prestación del servicio, sino también todo el entorno relacional que lo acompaña, incluyendo aspectos como el trato recibido, el tiempo de espera, la claridad en la información ofrecida, la atención postventa y la resolución de inquietudes.
-        .d-flex.align-items-center.gap-3
-          p.mb-2 Si bien los productos o servicios deben cumplir con estándares mínimos de calidad, la satisfacción del cliente no depende únicamente de ello. Factores como la actitud del personal, la capacidad de respuesta ante solicitudes, la comunicación efectiva y la percepción de valor agregado influyen de manera decisiva en la experiencia del usuario. Por esta razón, las organizaciones deben establecer protocolos claros de atención, formar al personal en competencias relacionales y realizar mejoras continuas en función de los resultados obtenidos en cada ciclo de servicio.
-          img(src='@/assets/curso/tema5/2.svg', alt='').imgpeq.imagehide
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-9
+            p.mb-0 Si bien los productos o servicios deben cumplir con estándares mínimos de calidad, la satisfacción del cliente no depende únicamente de ello. Factores como la actitud del personal, la capacidad de respuesta ante solicitudes, la comunicación efectiva y la percepción de valor agregado influyen de manera decisiva en la experiencia del usuario. Por esta razón, las organizaciones deben establecer protocolos claros de atención, formar al personal en competencias relacionales y realizar mejoras continuas en función de los resultados obtenidos en cada ciclo de servicio.
+          .col-lg-3
+            img.d-none.d-lg-block(src='@/assets/curso/tema5/2.svg', alt='')
+
     .mb-5
-    .row
+
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        .cajon.cajon-color-adicional-4.p-4
-         p.mb-3 Un ciclo inicia cuando el cliente formula una necesidad o solicitud, y culmina cuando dicha necesidad ha sido resuelta de manera satisfactoria. A lo largo de este proceso se producen interacciones clave entre el cliente y la organización, denominadas “momentos de la verdad”. Estos momentos representan instancias decisivas en las que el cliente forma una impresión del servicio, positiva o negativa, dependiendo de cómo haya sido tratado. Una sola experiencia desfavorable en estos momentos puede impactar negativamente la percepción general del servicio y reducir la probabilidad de recompra o recomendación.
-      .col-lg-4.col-md-10.mt-2
-          img(src='@/assets/curso/tema5/3.png', alt='')
+        .bg17.p-4.mb-lg-0.mb-4
+          p.mb-0.my-0.my-lg-2.mb-lg-3 Un ciclo inicia cuando el cliente formula una necesidad o solicitud, y culmina cuando dicha necesidad ha sido resuelta de manera satisfactoria. A lo largo de este proceso se producen interacciones clave entre el cliente y la organización, denominadas “momentos de la verdad”. Estos momentos representan instancias decisivas en las que el cliente forma una impresión del servicio, positiva o negativa, dependiendo de cómo haya sido tratado. Una sola experiencia desfavorable en estos momentos puede impactar negativamente la percepción general del servicio y reducir la probabilidad de recompra o recomendación.
+      .col-lg-4.col-md-10.col-10
+        img(src='@/assets/curso/tema5/3.png', alt='')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg.d-none.d-lg-block
+        img.img-t(src='@/assets/curso/tema5/4.svg', alt='')
+      .col-lg-11 
+        p.mb-0 Por ello, las empresas deben prestar especial atención a la forma en que se desarrollan los momentos de la verdad, reconociendo su relevancia estratégica en la fidelización del cliente. El análisis del ciclo de servicio permite identificar fortalezas y debilidades en la interacción organización-cliente, lo que facilita el diseño de estrategias de mejora continua, tanto en los procesos operativos como en la gestión de relaciones.
     .mb-4
-    .row 
-      .d-flex.align-items-center.gap-3.mb-3
-        img(src='@/assets/curso/tema5/4.svg', alt='').imagenpeq.imagehide
-        p.mb-2 Por ello, las empresas deben prestar especial atención a la forma en que se desarrollan los momentos de la verdad, reconociendo su relevancia estratégica en la fidelización del cliente. El análisis del ciclo de servicio permite identificar fortalezas y debilidades en la interacción organización-cliente, lo que facilita el diseño de estrategias de mejora continua, tanto en los procesos operativos como en la gestión de relaciones.
-    .mb-4
-    .row
+    .row.mb-5
       .bloque-texto-g.cajon-color-adicional-7.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema5/5.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Finalmente, es fundamental comprender que el ciclo del servicio no debe asumirse como un conjunto mecánico de tareas. Lo esencial es cómo el cliente experimenta cada interacción. Una experiencia positiva, consistente y empática incrementa significativamente la posibilidad de que el cliente vuelva a elegir la organización y recomiende sus servicios. En este sentido, el ciclo del servicio al cliente representa una herramienta clave para la competitividad y sostenibilidad empresarial.
-    .mb-4
+    
 
     .titulo5.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
@@ -45,7 +50,7 @@
     .mb-5
     .row.acordeon
       .col-lg-3
-        img(src="@/assets/curso/tema5/6.png", alt="")
+        img.d-none.d-lg-block(src="@/assets/curso/tema5/6.png", alt="")
       .col-lg-9.col-md-12.col-sm-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Acceso al servicio")
@@ -75,15 +80,15 @@
     .mb-4
     .row.justify-content-center.mb-5
       .col-lg-8
-        p.mb-3 El análisis detallado de cada fase del ciclo de servicio permite a las organizaciones adoptar un enfoque más estratégico en la gestión de la experiencia del cliente. Cada interacción, por pequeña que sea, tiene el potencial de reforzar la percepción positiva o generar insatisfacción, por lo que la coherencia en la calidad del servicio a lo largo de todas las etapas es indispensable.
-        .bg9.p-4
+        p.mb-lg-3.mb-4 El análisis detallado de cada fase del ciclo de servicio permite a las organizaciones adoptar un enfoque más estratégico en la gestión de la experiencia del cliente. Cada interacción, por pequeña que sea, tiene el potencial de reforzar la percepción positiva o generar insatisfacción, por lo que la coherencia en la calidad del servicio a lo largo de todas las etapas es indispensable.
+        .bg9.p-4.mb-lg-0.mb-0
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-2
+            .col-lg-2.mb-lg-0.mb-4
               img.img-t.img-a(src='@/assets/curso/tema5/8.svg', alt='')
             .col-lg-10
               p.mb-0 Además, comprender el ciclo de servicio no solo contribuye a elevar los estándares de atención, sino que también favorece la diferenciación competitiva en sectores donde la oferta puede ser similar. Una experiencia bien gestionada, centrada en el cliente y orientada a la mejora continua, se traduce en mayor fidelización, posicionamiento favorable en el mercado y sostenibilidad organizacional.
       .col-lg-4.col-md-10
-        img(src='@/assets/curso/tema5/7.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema5/7.png', alt='')
     .mb-4
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
@@ -102,15 +107,19 @@
 
     #t_5_1.titulo-segundo.color-acento-contenido.mb-5
       h2 5.1 Narrativa
-    .row.justify-content-center
-      .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema5/10.png', alt='').imageheight.mt-4
-      .col-lg-8
-        .d-flex.align-items-center.gap-3
-          p.mb-2 La narrativa es la forma en que se cuenta la historia de un destino y tiene como propósito conectar emocionalmente al turista con el lugar que visita. Este relato fortalece la identidad patrimonial, cultural y natural del destino, a la vez que enriquece la experiencia del turista al permitirle aprender sobre la cultura local y crear recuerdos significativos e inolvidables.
-          img(src='@/assets/curso/tema5/9.svg', alt='').imgpeqt3.imagehide.mt-3
-        p.mb-2.mt-4 La narrativa de un destino se transmite a través de un relato turístico, el cual debe ser directo, sencillo y vinculado a una experiencia concreta. Su objetivo es sorprender al visitante mediante datos originales y elementos distintivos del lugar. Este relato puede girar en torno a la historia de los antepasados, la descripción de un plato típico, la relevancia de un monumento, un sitio emblemático del destino o un personaje histórico de interés. De esta forma, se invita al turista a escapar momentáneamente de su rutina y sumergirse en otra realidad, donde su visión interior se fusiona con el entorno, generando valor, sentido y una conexión más profunda con la experiencia vivida.
-    p.mb-3.mt-4 Cada destino turístico posee un relato, formal o informal, que puede ser contado de manera significativa y auténtica, logrando una conexión emocional con el visitante. Cuando dicho relato es coherente con los productos turísticos ofrecidos, se convierte en una herramienta clave para la definición, promoción y diferenciación de las experiencias turísticas en el territorio.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.col-md-9.col-10
+        img.d-none.d-lg-block(src='@/assets/curso/tema5/10.png', alt='')
+      .col-lg-7
+        .row.justify-content-center.align-items-center.mb-3
+          .col-lg-10
+            p.mb-0 La narrativa es la forma en que se cuenta la historia de un destino y tiene como propósito conectar emocionalmente al turista con el lugar que visita. Este relato fortalece la identidad patrimonial, cultural y natural del destino, a la vez que enriquece la experiencia del turista al permitirle aprender sobre la cultura local y crear recuerdos significativos e inolvidables.
+          .col-lg-2.d-none.d-lg-block
+            img.img-t(src='@/assets/curso/tema5/9.svg', alt='')
+        p.mb-0 La narrativa de un destino se transmite a través de un relato turístico, el cual debe ser directo, sencillo y vinculado a una experiencia concreta. Su objetivo es sorprender al visitante mediante datos originales y elementos distintivos del lugar. Este relato puede girar en torno a la historia de los antepasados, la descripción de un plato típico, la relevancia de un monumento, un sitio emblemático del destino o un personaje histórico de interés. De esta forma, se invita al turista a escapar momentáneamente de su rutina y sumergirse en otra realidad, donde su visión interior se fusiona con el entorno, generando valor, sentido y una conexión más profunda con la experiencia vivida.
+    
+    p.mb-3 Cada destino turístico posee un relato, formal o informal, que puede ser contado de manera significativa y auténtica, logrando una conexión emocional con el visitante. Cuando dicho relato es coherente con los productos turísticos ofrecidos, se convierte en una herramienta clave para la definición, promoción y diferenciación de las experiencias turísticas en el territorio.
     
     p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 3.] Relación relato y experiencia turística.
     
@@ -120,7 +129,7 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-9
               img.mb-4.mt-4(src='@/assets/curso/tema5/11.svg', alt='Diagrama que representa la relación entre los componentes turísticos y la construcción del relato en una experiencia.')
-        figcaption.mb-5 #[b Fuente:] Instituto del patrimonio turístico (2016). 
+        figcaption.mb-5.enl #[b Fuente:] Instituto del patrimonio turístico (2016). 
           p.mb-0 Autores varios (2018 p.4), Relatos turísticos: Propuestas para incorporar el patrimonio cultural y natural en los servicios y rutas turísticas de Arica y Camarones. Ediciones Universidad Central de Chile. https://www.ucentral.cl/ucentral/site/docs/20200110/20200110142007/relatos_turisticos_arica.pdf
     p.mb-4 La narrativa, expresada como un relato turístico, reúne las siguientes características:
     
@@ -180,44 +189,39 @@
     p.mb-4.mt-5 En el turismo se pueden identificar diversos tipos de narrativa, entre los cuales se destacan los siguientes:
     
     TabsC.color-primario
-      .py-3.py-md-4(titulo="Narrativa sostenible").cajon-color-adicional-5
-        .row
-          .col-1
-          .col-md-5.mb-4.mb-md-0.mt-3.p-4
+      .py-4.py-lg-5(titulo="Narrativa sostenible").cajon-color-adicional-5.p-4
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-5
             p #[strong Narrativa sostenible:] se enfoca en minimizar el impacto negativo sobre el medio ambiente y las comunidades locales. Promueve el uso responsable de los recursos naturales, la conservación del patrimonio cultural y la generación de beneficios económicos para la población del destino.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema5/18.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Narrativa de naturaleza").cajon-color-adicional-5
-        .row
-          .col-1
-          .col-md-5.mb-4.mb-md-0.mt-3.p-4
+      .py-4.py-lg-5(titulo="Narrativa de naturaleza").cajon-color-adicional-5.p-4
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-5
             p #[strong Narrativa de naturaleza:] está basada en la exploración y apreciación de los entornos naturales. Los viajeros buscan conectar con la naturaleza, realizar actividades al aire libre, disfrutar de la fauna y flora local, y comprender la importancia de conservar los ecosistemas.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema5/19.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Narrativa cultural").cajon-color-adicional-5
-        .row
-          .col-1
-          .col-md-5.mb-4.mb-md-0.mt-3.p-4
+      .py-4.py-lg-5(titulo="Narrativa cultural").cajon-color-adicional-5.p-4
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-5
             p #[strong Narrativa cultural:] se centra en la inmersión en la cultura local. Los turistas desean conocer las tradiciones, costumbres, arte y gastronomía de los destinos que visitan. Esta narrativa fomenta la interacción con la población local, el aprendizaje de su estilo de vida y la valoración del patrimonio cultural.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema5/20.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Narrativa de experiencias").cajon-color-adicional-5
-        .row
-          .col-1
-          .col-md-5.mb-4.mb-md-0.mt-1.p-4
+      .py-4.py-lg-5(titulo="Narrativa de experiencias").cajon-color-adicional-5.p-4
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-5
             p #[strong Narrativa de experiencias:] se orienta a ofrecer vivencias únicas y memorables. Propone actividades que permiten a los visitantes participar activamente en la vida cotidiana de las comunidades, como aprender a cocinar platos típicos, colaborar en proyectos de conservación o involucrarse en procesos artesanales, por ejemplo: la elaboración de vasijas de arcilla, papel artesanal, o productos en fique, entre otros.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema5/21.png', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Narrativa de bienestar").cajon-color-adicional-5
-        .row
-          .col-1
-          .col-md-5.mb-4.mb-md-0.mt-3.p-4
+      .py-4.py-lg-5(titulo="Narrativa de bienestar").cajon-color-adicional-5.p-4
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-5
             p #[strong Narrativa de bienestar:] está dirigida al cuidado integral del cuerpo y la mente. Los viajeros eligen destinos y servicios que ofrecen actividades como spa, yoga, meditación, terapias alternativas y alimentación saludable. Su propósito es promover el equilibrio, la relajación y el bienestar durante el viaje.
-          .col-md-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/tema5/22.png', alt='Texto que describa la imagen')
     .mb-5
@@ -229,14 +233,14 @@
     p.mb-4 Las técnicas de narrativa hacen referencia a los métodos y estructuras utilizados para desarrollar y presentar una historia de forma coherente, atractiva y convincente. Estas técnicas integran elementos como la trama, los personajes, el conflicto, el punto de vista y la estructura narrativa.
     p.mb-3 La narrativa puede adoptar distintas formas, tales como:
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4
+      .col-lg-5.col-md-6.mb-4.mb-lg-0
         .tarjeta-avatar
           img.imaa.mb-0.my-2(src='@/assets/curso/tema5/23.svg' alt='')
           .tarjeta.cajon-color-adicional-7
             .p-0
               p.mb-3.ps-3.pe-3.text-center Narrativa lineal, donde los acontecimientos se desarrollan en orden cronológico.
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.col-md-6.mb-4.mb-lg-0
         .tarjeta-avatar
           img.imaa.mb-0.my-2(src='@/assets/curso/tema5/24.svg' alt='')
           .tarjeta.cajon-color-adicional-7
@@ -267,8 +271,9 @@
               .tarjeta.p-4.bg5(titulo="Narrativa personalizada")
                 h4 Narrativa personalizada
                 p Adapta el relato a los intereses, motivaciones y características específicas de cada tipo de turista, permitiendo una conexión más directa y significativa con la experiencia.
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema5/25.png', alt='')
+    
     .mb-5
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
@@ -283,18 +288,19 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pHBLg_T0la8" target="_blank")
                 span Ir al sitio
                 i.fas.fa-circle-play  
-    separador
+    
 
+    separador
     #t_5_2.titulo-segundo.color-acento-contenido.mb-5
       h2 5.2 Itinerario
 
-    .row.justify-content-center
-      .col-lg-8
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-7
         p.mb-4 Un itinerario turístico es un documento en el que se describen cronológicamente las actividades que se llevarán a cabo durante un viaje determinado. Es una herramienta fundamental para la organización, ya que permite planificar con anticipación aspectos como:
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-4
-            img(src='@/assets/curso/tema5/26.png', alt='')
-          .col-lg-8
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-4.col-md-4.col-8
+            img.mb-lg-0.mb-4(src='@/assets/curso/tema5/26.png', alt='')
+          .col-lg-8.col-md-8
             ul.lista-ul
               li.d-flex.mb-1
                 i.fas.fa-circle-check
@@ -321,8 +327,9 @@
                 i.fas.fa-circle-check
                 p.mb-0  Espacios destinados al descanso y a la alimentación.
         
-      .col-lg-4.col-md-10
-        img(src='@/assets/curso/tema5/27.png', alt='').tarjeta1
+      .col-lg-5
+        img.d-none.d-lg-block(src='@/assets/curso/tema5/27.png', alt='')
+    
     p.mb-4.mt-3 Además, un itinerario turístico especifica los lugares de interés que deben ser visitados por los turistas. Puede adaptarse a distintas temáticas o enfoques; por ejemplo, un itinerario gastronómico incluirá los lugares donde se pueden degustar los platos típicos de la región.
     .mb-5
 
@@ -368,8 +375,6 @@
 
     p.mb-5.mt-3 Existen diversos tipos de itinerarios turísticos, según la tipología de turismo que se desee realizar y la ubicación geográfica de los atractivos. A continuación, se describen los más comunes:  
     
-    
-    
     .cont_5_1.mt-4(data-aos="fade-left").mb-5
       .row.justify-content-center
         .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
@@ -398,12 +403,39 @@
               h5.mb-3.text-center.text-white c) Itinerario turístico personalizado
               p.mb-0.text-center.mb-0.txp Adaptado a los intereses y motivaciones específicas de quien lo diseña. Por ejemplo, un chef argentino de renombre internacional puede crear un recorrido por diversos restaurantes de alta cocina en la ciudad de Buenos Aires, explicando el motivo de cada parada. Este tipo de itinerario responde a un enfoque temático, como el gastronómico, y tiene un alto componente personal.
     
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        .titulo-sexto.color-secundario.mb-0
+          h5 Figura 4. 
+          |  Ejemplo de atractivos culturales y patrimoniales, incluidos en un itinerario turístico cultural.
+        img(src='@/assets/curso/tema5/56.svg' alt="")
+      .col-lg-7
+        .bg18.p-3.mb-2
+          h5.mb-0.text-white Ejemplo de diseño de itinerario turístico cultural, dirigido a turistas extranjeros – estudiantes de derecho. 
+        .tarjeta.tarjeta--azul.p-4.pb-0.mb-4
+          SlyderA.pb-lg-5.pb-3(tipo="a")
+            .row.justify-content-center.align-items-center.my-lg-4.mb-5
+              .col-md-5.mb-4.mb-md-0
+                p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+              .col-md-5
+                figure
+                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                  figcaption Leyenda de la imagen
+            .row.justify-content-center.align-items-center.my-lg-4.mb-5
+              .col-md-5
+                figure
+                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                  figcaption Leyenda de la imagen
+              .col-md-5.mb-4.mb-md-0
+                p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            div
+              figure
+                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la imagen`
     
-    
-    
-    
+
   
-    .mb-5
+ 
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -417,8 +449,8 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pHBLg_T0la8" target="_blank")
                 span Ir al sitio
                 i.fas.fa-globe
+    
     separador
-
     #t_5_3.titulo-segundo.color-acento-contenido.mb-5
       h2 5.3 Testeo de la experiencia
 
@@ -426,7 +458,7 @@
       .col-lg-8
         p.mb-3 Se refiere a los métodos y técnicas mediante los cuales se evalúa cómo los visitantes perciben y valoran las experiencias vividas en un destino turístico. Esta evaluación puede realizarse a través de encuestas, escalas estructuradas, entrevistas o pruebas específicas que permiten medir dimensiones como la satisfacción, la autenticidad, la conexión emocional y el carácter memorable de la experiencia.
         p.mb-4 Para desarrollar una experiencia turística de calidad, es fundamental medir y controlar los servicios ofrecidos al turista o visitante.
-      .col-lg-4.col-md-10.mt-1
+      .col-lg-4.col-md-10.col-10
         img(src='@/assets/curso/tema5/35.png', alt='')
     
     .row.fondo4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
@@ -435,10 +467,10 @@
         p.mb-4 El instrumento de verificación para la medición y control de la experiencia permite:
         
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-4.col-md-5
-            img(src='@/assets/curso/tema5/36.png', alt='')
+          .col-lg-4
+            img.d-none.d-lg-block(src='@/assets/curso/tema5/36.png', alt='')
           .col-lg-8.col-md-7
-            SlyderF.slyder3.circl-arrow.mb-0(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
+            SlyderF.slyder3.circl-arrow.mb-0(columnas="col-lg-6 col-xl-6")(data-aos="fade-left")
               .tarjeta.tarjeta-btn.p-4
                 img.mb-3(src='@/assets/curso/tema5/37.svg', alt='')
                 .title.mb-4
@@ -475,44 +507,49 @@
       .col-lg-12.col-md-12
         p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
         img(src='@/assets/curso/tema5/43.png', alt='')
+    
     .mb-5
     .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Encuesta de satisfacción 
-    .mb-3
-    .row.justify-content-center
-      .col-lg-8
-        .d-flex.align-items-center.gap-3
-          img(src='@/assets/curso/tema5/44.svg', alt='').imagenpeq.imagehide
-          p.mb-2 La encuesta de satisfacción es un instrumento utilizado para medir el grado de satisfacción de los clientes y su nivel de compromiso con una marca, producto o servicio. Aplicar este tipo de encuesta permite conocer de manera directa las percepciones, opiniones y expectativas de los usuarios.
-        p.mb-2.mt-2 Actualmente, existen múltiples métodos para aplicar encuestas, pero las encuestas en línea se han consolidado como una de las alternativas más eficaces, debido a su bajo costo, facilidad de aplicación y rapidez en la recolección de datos. Este tipo de encuestas también permite identificar clientes insatisfechos y tomar acciones correctivas oportunas, evitando la pérdida de fidelidad hacia el producto o servicio.
-      .col-lg-4.col-md-10
-          img(src='@/assets/curso/tema5/45.png', alt='')
-    .mb-4
+    
+
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
+      .col-lg-7
+        .row.justify-content-center.align-items-center.mb-3
+          .col-lg-2.d-none.d-lg-block
+            img.img-t(src='@/assets/curso/tema5/44.svg', alt='')
+          .col-lg-10.ps-lg-0
+            p.mb-0 La encuesta de satisfacción es un instrumento utilizado para medir el grado de satisfacción de los clientes y su nivel de compromiso con una marca, producto o servicio. Aplicar este tipo de encuesta permite conocer de manera directa las percepciones, opiniones y expectativas de los usuarios.
+        p.mb-0 Actualmente, existen múltiples métodos para aplicar encuestas, pero las encuestas en línea se han consolidado como una de las alternativas más eficaces, debido a su bajo costo, facilidad de aplicación y rapidez en la recolección de datos. Este tipo de encuestas también permite identificar clientes insatisfechos y tomar acciones correctivas oportunas, evitando la pérdida de fidelidad hacia el producto o servicio.
+      .col-lg-5
+        img.d-none.d-lg-block(src='@/assets/curso/tema5/45.png', alt='')
+
+
     p.mb-5 Una encuesta de satisfacción bien estructurada debe incluir preguntas que evalúen aspectos clave como:
     
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-2
+      .col-lg-4.col-md-6
         .bgb.p-4.mb-lg-0.mb-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-3
-              img(src='@/assets/curso/tema5/45.svg', alt='')
+            .col-lg-3.mb-lg-0.mb-4
+              img.img-t.img-a(src='@/assets/curso/tema5/45.svg', alt='')
             .col-lg-9
               h5.mb-0 La calidad en la prestación del servicio.
               
-      .col-lg-4
+      .col-lg-4.col-md-6
         .bgb.p-4.mb-lg-0.mb-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-3
-              img(src='@/assets/curso/tema5/46.svg', alt='')
+            .col-lg-3.mb-lg-0.mb-4
+              img.img-t.img-a(src='@/assets/curso/tema5/46.svg', alt='')
             .col-lg-9
               h5.mb-0 La experiencia del cliente durante la interacción.
-      .col-lg-4
+      .col-lg-4.col-md-6
         .bgb.p-4.mb-lg-0.mb-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-3
-              img(src='@/assets/curso/tema5/47.svg', alt='')
+            .col-lg-3.mb-lg-0.mb-4
+              img.img-t.img-a(src='@/assets/curso/tema5/47.svg', alt='')
             .col-lg-9
               h5.mb-0 La percepción general de satisfacción.
     
@@ -552,8 +589,8 @@
 
     p.mb-4 Por favor, califique los siguientes aspectos del servicio recibido, utilizando una escala del 1 al 5:
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-3.col-md-6.mb-4
         .bg12.p-3
           .fondop.p-1.mb-3.mx-lg-4
             p.mb-0 #[strong Escala de valoración:]
@@ -578,19 +615,18 @@
               .lista-ol--cuadro__vineta
                 span 5=
               | Muy satisfecho
-      .col-lg-4
+      .col-lg-4.col-md-6.col-10.mb-4
         img(src='@/assets/curso/tema5/52.png', alt='')
-      .col-lg-5
-        img.img-t.mb-3(src='@/assets/curso/tema5/53.svg', alt='')
-        p Este ejemplo describe cómo se estructuran los ítems en una encuesta de satisfacción dirigida a usuarios o clientes que han recibido un servicio. El objetivo es que los participantes del curso comprendan cómo se formulan las preguntas, cómo se aplica una escala de valoración y qué aspectos clave deben evaluarse. Cada ítem está diseñado para recoger información específica sobre la experiencia del usuario, lo que permite identificar fortalezas y oportunidades de mejora en la prestación del servicio.
-    
+      .col-lg-5.mb-4
+        img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema5/53.svg', alt='')
+        p.mb-0 Este ejemplo describe cómo se estructuran los ítems en una encuesta de satisfacción dirigida a usuarios o clientes que han recibido un servicio. El objetivo es que los participantes del curso comprendan cómo se formulan las preguntas, cómo se aplica una escala de valoración y qué aspectos clave deben evaluarse. Cada ítem está diseñado para recoger información específica sobre la experiencia del usuario, lo que permite identificar fortalezas y oportunidades de mejora en la prestación del servicio.
     
   
     
     .mb-4
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
-        img.mb-2(src='@/assets/curso/tema5/54.png', alt='')
+        img.mb-2.d-none.d-lg-block(src='@/assets/curso/tema5/54.png', alt='')
         .bg13.p-3.mb-lg-0.mb-4
           ol.lista-ol--cuadro
             li 
