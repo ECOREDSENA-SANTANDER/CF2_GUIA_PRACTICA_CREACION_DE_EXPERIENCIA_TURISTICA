@@ -24,16 +24,16 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-10
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .col-lg-3.col-md-3.mb-5.mb-lg-0
                 .bg14.p-2
                   p.mb-0.text-center Planificar
-              .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .col-lg-3.col-md-3.mb-5.mb-lg-0
                 .bg15.p-2
                   p.mb-0.text-center Hacer
-              .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .col-lg-3.col-md-3.mb-5.mb-lg-0
                 .bg14.p-2
                   p.mb-0.text-center Verificar
-              .col-lg-3.col-md-6.mb-4.mb-lg-0
+              .col-lg-3.col-md-3.mb-5.mb-lg-0
                 .bg15.p-2
                   p.mb-0.text-center Actuar
 
@@ -188,9 +188,34 @@
       img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
       h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Determinación del riesgo 
 
-    p.mb-5 #[strong Tabla 2.] Contiene ejemplo de riesgo y posible plan de acción 
-    img(src="@/assets/curso/tema7/8.png", alt="")
-    .mb-5
+    .row.sistema
+      .col-lg-12.col-md-12
+        p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 2.] Contiene ejemplo de riesgo y posible plan de acción
+  
+    .tabla-a.color-acento-contenido.mb-5
+      table
+        thead
+          tr
+            th Aspecto a evaluar
+            th Criterio de verificación
+        tbody
+          tr
+            td.tl Picadura de mosquitos.
+            td.tl Utilizar repelente antes de llegar al lugar.
+          tr
+            td.tl Creciente súbita de ríos. 
+            td.tl Evitar el recorrido durante este tiempo, sin embargo estando en el lugar, alejarse ubicándose en la zona más alta, contactar a los organismos de emergencias y desastres. 
+          tr
+            td.tl Turista enfermo por alergia a picadura de abeja o serpiente.
+            td.tl En la preparación de los implementos para la salida, verificar el listado de los turistas con posibles afecciones de salud. Equipar el botiquín con base en ese listado, tener la lista de hospitales y sitios que atienden emergencias, verificando que cuenten con los antídotos para picaduras de serpientes y alergias de éste tipo. 
+          tr
+            td.tl Insolación
+            td.tl Determinar la insolación según los síntomas del afectado. Alejarse del calor o sol directo. Dar bebida hidratante (suero oral), colocar en brazos y cabeza compresas mojadas para bajar la temperatura corporal. Un guía se traslada con el turista al centro de salud más cercano y se deja a cargo el grupo con el guía de apoyo. 
+          tr
+            td.tl Caídas
+            td.tl Determinar el estado de conciencia del afectado. Apoyarse del médico o paramédico del equipo. Según su diagnóstico ejecutar el plan de contingencia. 
+    
+    
     .row
       .bloque-texto-g.cajon-color-adicional-7.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(

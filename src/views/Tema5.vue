@@ -408,33 +408,180 @@
         .titulo-sexto.color-secundario.mb-0
           h5 Figura 4. 
           |  Ejemplo de atractivos culturales y patrimoniales, incluidos en un itinerario turístico cultural.
-        img(src='@/assets/curso/tema5/56.svg' alt="")
+        img.mb-2(src='@/assets/curso/tema5/56.svg' alt="Mapa ilustrado de una ruta turística urbana que conecta varios puntos de interés en una ciudad.")
+        figcaption #[b Tomado:] https://klandestinos.wordpress.com/wp-content/uploads/2008/12/itinerarios_mapa_santander_monumental1.jpg
       .col-lg-7
-        .bg18.p-3.mb-2
+        .bg19.p-3.mb-2
           h5.mb-0.text-white Ejemplo de diseño de itinerario turístico cultural, dirigido a turistas extranjeros – estudiantes de derecho. 
-        .tarjeta.tarjeta--azul.p-4.pb-0.mb-4
-          SlyderA.pb-lg-5.pb-3(tipo="a")
-            .row.justify-content-center.align-items-center.my-lg-4.mb-5
-              .col-md-5.mb-4.mb-md-0
-                p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-              .col-md-5
-                figure
-                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                  figcaption Leyenda de la imagen
-            .row.justify-content-center.align-items-center.my-lg-4.mb-5
-              .col-md-5
-                figure
-                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                  figcaption Leyenda de la imagen
-              .col-md-5.mb-4.mb-md-0
-                p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-            div
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen`
-    
-
-  
+        .tarjeta.tarjeta--azull.p-4.pb-0.mb-4
+          SlyderA.pb-lg-4.pb-3(tipo="a").oci
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-10
+                .bg20.p-2
+                  h5.mb-0 Día 1
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 4:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Salida hacia el municipio de Bucaramanga.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 8:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Desayuno típico en el restaurante el Tony.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 9:20 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Visita a la Casa del Ayuntamiento. Reconocimiento de las funciones y actividades desarrolladas por la Administración Municipal.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 11:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Visita guiada al Palacio de Justicia para conocer su historia, arquitectura y las dependencias judiciales, incluyendo las áreas de atención a víctimas.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 12:30 a. m.]
+                  .col-lg-9.ps-0
+                     .bg22.p-1 
+                       p.mb-0 Almuerzo en el restaurante Doña Petrona del mar.   
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 14:00 p. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Llegada al hotel ciudad bonita. Coctel de bienvenida.    
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 3:30 p. m.]
+                      p.mb-0 #[b 7:00 p. m. ]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Tiempo libre para disfrutar de las instalaciones del hotel.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 7:15 p. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Cena en el restaurante del hotel.
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-10
+                .bg20.p-2
+                  h5.mb-0 Día 2
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 7:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Desayuno en el restaurante del hotel.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 8:30 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Visita guiada a la empresa de correos: exposición sobre la historia del correo, talleres de escritura de cartas y envío de postales.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 10:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Visita al Centro Cultural del Oriente: recorrido por exposiciones de arte, presentaciones musicales y obras de teatro.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 1:00 p. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Almuerzo en el restaurante El Viejo chiflas.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 2:30 p. m.]
+                  .col-lg-9.ps-0
+                     .bg22.p-1 
+                       p.mb-0 Visita guiada al Banco de Santander: reconocimiento de su historia institucional y de los procesos internos en cada dependencia.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 4:00 p. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 #[em City tour] en chiva por la ciudad.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 7:00 p. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Cena en el restaurante del hotel.
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-10
+                .bg20.p-2
+                  h5.mb-0 Día 3
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 7:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Desayuno en el restaurante del hotel. 
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 8:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Visita al sector de San francisco – La calle del calzado. Espacio destinado para compras.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 11:00 a. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Regreso al hotel y organización del equipaje.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 12:00 m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Almuerzo en el hotel.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 1:00 p. m.]
+                  .col-lg-9.ps-0
+                     .bg22.p-1 
+                       p.mb-0 #[em Check-out] y entrega de la habitación.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 2:00 p. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Salida de la ciudad.
+                .row.justify-content-center.align-items-center.mb-2
+                  .col-lg-3.pe-0
+                    .bg21.p-1
+                      p.mb-0 #[b 6:00 p. m.]
+                  .col-lg-9.ps-0
+                    .bg22.p-1 
+                      p.mb-0 Llegada al destino inicial. Fin del itinerario.
  
     .tarjeta.acordeoncolor.p-4.mb-0
       .row.justify-content-around.align-items-center
@@ -503,10 +650,120 @@
                     p.mb-5.text-center #[strong Evaluar la preparación operativa:] permite medir el nivel de alistamiento de los servicios (transporte, guías, alojamiento, actividades, etc.) antes del inicio, garantizando que el itinerario se desarrolle sin contratiempos.
       
     p.mb-5 El instrumento de verificación para la medición y control de la experiencia permite:
+    
     .row.sistema
       .col-lg-12.col-md-12
         p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
-        img(src='@/assets/curso/tema5/43.png', alt='')
+  
+    .tabla-a.color-acento-contenido
+      table
+        thead
+          tr
+            th Aspecto a evaluar
+            th Criterio de verificación
+            th(colspan="2") Cumple
+            th Observaciones
+          tr
+            th 
+            th 
+            th SÍ
+            th NO
+            th 
+        tbody
+          tr
+            td.tl 1. Infraestructura de los prestadores de servicios turísticos.
+            td.tl Instalaciones limpias, señalizadas, en buen estado, baterías de baño funcionando y dotadas.
+            td –
+            td –
+            td -
+          tr
+            td.tl 2. Personal.
+            td.tl Personal capacitado, con uniforme e identificación visible.
+            td –
+            td –
+            td –
+          tr
+            td.tl 3. Seguridad.
+            td.tl Protocolos de seguridad implementados (extintores, botiquín, señalización de salidas).
+            td –
+            td –
+            td –
+          tr
+            td.tl 4. Equipos y recursos.
+            td.tl Equipos necesarios para la actividad en buen estado y disponibles.
+            td –
+            td –
+            td –
+          tr
+            td.tl 5. Documentación legal.
+            td.tl Documentación y permisos vigentes.
+            td –
+            td –
+            td –
+          tr
+            td.tl 6. Oferta de servicios autóctonos.
+            td.tl Oferta autóctona organizada.
+            td –
+            td –
+            td –
+          tr
+            td.tl 7. Actividades.
+            td.tl Actividades acordes a la experiencia, organizadas.
+            td –
+            td –
+            td –
+          tr
+            td.tl 8. Itinerario.
+            td.tl Itinerario organizado de manera estratégica.
+            td –
+            td –
+            td –
+          tr
+            td.tl 9. Ruta.
+            td.tl Se dio nombre a la ruta.
+            td –
+            td –
+            td –
+          tr
+            td.tl 10. Narrativa.
+            td.tl Narrativa preparada acorde a la experiencia.
+            td –
+            td –
+            td –
+          tr
+            td.tl 11. Sostenibilidad.
+            td.tl Prácticas sostenibles implementadas (manejo de residuos, ahorro energético, respeto ambiental).
+            td –
+            td –
+            td –
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     .mb-5
     .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
