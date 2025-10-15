@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 45%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: -20%
+    right: 25%
 
 @keyframes float1
   0%
@@ -17,17 +17,19 @@
     transform: translateY(0px)
   
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-  margin-right: 170px
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: black !important   
-.banner-interno__titulo__icono i
-  color: white !important
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 50% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
+.banner-principal__img 
+  padding-bottom: 0 !important
+.banner-principal__row .banner-principal__img 
+    width: 50%
+
 figcaption
   font-weight: normal
+
 
 .banner-interno__fondo    
   background-image: url("../assets/curso/portada/portada.png") !important
@@ -56,246 +58,73 @@ figcaption
 .barra-avance__boton--regresar span 
   color: white !important
 
-// Tema 1
-.acordion__accion__btn--a
-  background-color:  $color-acento-botones
-  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
-  color: white
 
-.acordion .tarjeta.tarjeta--azul.acordion__activo
-  background-color: #dfecf5
-  h3
-    color: black
-.acordion .tarjeta.tarjeta--azul
-  background-color: $color-acento-contenido
-  h3
-    color: black
-.acordeoncolor
-  background-color: $color-adicional-1
-
-
-
-// Tema 2
-
-.cajon-color-adicional-2
-  background-color: $color-adicional-2
-  height: 260px
-.cajon-color-adicional-3
-  background-color: #EEFDFA
-  height: 260px
-.cajon-color-adicional-4
-  background-color: #FFF6F1
-  height: 230px
-.cajon-color-adicional-5
-  background-color: $color-adicional-2
-.cajon-color-adicional-6
-  background-color: #BBF6EA
-  height: 95%
-.cajon-color-adicional-7
-  background-color: #99ABC6
-.cajon-color-adicional-8
-  background-color: #E6EAF1
-.cajon-color-adicional-9
-  background-color: #FFF6F1
-  height: 325px
-.cajon-color-adicional-10
-  background-color: #FFF6F1
-.cajon-color-adicional-11
-  background-color: #DDFAF5
-  width: 100%
-.lista-ul__vineta
-  font-weight: bold
-
-.imgajustada
-  height: 260px
-.imgajustada2
-  height: 450px
-.imgajustada3
-  height: 325px
-.linea-tiempo-d .tarjeta
-  background-color: #DDFAF5
-.linea-tiempo-d__item__content__title
-
-.slyder-a__bullets__item 
-  background-color: #B0BCF2
-  border-color: #B0BCF2
-.slyder-a__bullets__item--active 
-  background-color: #56E9CC !important
-  border-color: #56E9CC !important
-.slyder-a__tipo-b .slyder-a__btn--sigt 
-  content: url('../assets/curso/tema2/der.svg')
-  transform: rotate(0deg)
-  right: 15px
-.slyder-a__tipo-b .slyder-a__btn--atrs 
-  content: url('../assets/curso/tema2/izq.svg')
-  transform: rotate(0deg)
-  left: 15px
-
-.prinslyder
-  background: url('../assets/curso/tema2/fondo1.png')
-  width: 100%
-  background-repeat: no-repeat
-  background-size: cover
-  border-radius: 10px
-
-.imageslyder
-  img
-    margin-top: 25px
-
-.slyder2
-  height: 450px
-  background-color: #FFD9C5
-  
-.slyder1 .tarjeta-btn
-  background-color: #FFD9C5
-  transition: all 0.3s ease-out
-  height: 82% !important
-  margin-top: 20px
-  .title
-    background-color: white
-    width: fit-content
-    padding: 3px 20px
-    margin: 0 auto 
-.slyder2 .tarjeta-btn
-  background-color: white
-  transition: all 0.3s ease-out
-  height: 82% !important
-  margin-top: 20px
-  .title
-    background-color: $color-acento-contenido
-    width: fit-content
-    padding: 3px 20px
-    margin: 0 auto  
-.slyder3 .tarjeta-btn
-  background-color: white
-  transition: all 0.3s ease-out
-
-  
-.slyder1.slyder-f
-  .slyder-f__slyde
-    width: 50% !important
-    height: 500px
-  @media (max-width: $bp-max-md)
-    .slyder-f__slyde
-      width: 100% !important
-  .tarjeta
-    img
-      width: 90px
-      height: 90px
-      margin: 0 auto
-.slyder2.slyder-f
-  .slyder-f__slyde
-    width: 50% !important
-    height: 500px
-  @media (max-width: $bp-max-md)
-    .slyder-f__slyde
-      width: 100% !important
-  .tarjeta
-    img
-      width: 90px
-      height: 90px
-      margin: 0 auto
-.slyder3.slyder-f
-  .slyder-f__slyde
-    width: 50% !important
-  @media (max-width: $bp-max-md)
-    .slyder-f__slyde
-      width: 100% !important
-  .tarjeta
-    background-color: #FFD9C5
-    img
-      width: 90px
-      height: 90px
-      margin: 0 auto
-.circl-arrow .slyder-f__btn i
-  font-size: 1.2rem
-  background-color: $color-acento-botones
-  color: white
-  height: 46px
-  width: 46px
-  padding: 5px
-  border-radius: 500px
-  display: flex
-  justify-content: center
-  align-items: center
-
-.tema1 .sliders p
-  background-color: white
-  padding: 15px 15px 15px 15px
-  border-radius: 10px
-  margin-top: 30px
-
-.tema4 .sliders .texto
-  background-color: white
-  padding: 15px 15px 15px 15px
-  border-radius: 10px
-  margin-top: 30px
-
-.tema4
-  background-color: white
-  width: 93%
-  margin-top: 20px
-
-
-
-// Tema 3
-
-.imgpeqt3
-  width: 100px
-  height: 120px
-  margin-top: -20px
-.imgpeqt4
-  width: 35%
-.titulotj
-  background-color: white
-  width: fit-content
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
   margin: auto
 
-.colortj
-  background-color: #FFD9C5
-.tarjeta--boton
+.acordion__accion__btn--a
+  background-color: #965838
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azul
+  background-color: #56E9CC
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #DFECF5
+.acordion__accion__btn--a i, .acordion__accion__btn--b i 
+  color: white
+
+.color-adicional-1
+  background-color: #AFD1E6
+  border-radius: 11px
+
+
+.tarjeta.color-acento-botones * 
+    color: black
+.tarjeta.color-acento-botones
+    background-color: transparent 
+
+
+.cont
+  display: flex
+  align-items: center
+
+
+.tarjeta--azules
+  background-color: #E6EAF1
+  border-radius: 10px
+
+
+.widd .tarjeta-avatar-b__img 
+  min-width: 25%
+  max-width: 25%
+
+
+.bgw
+  background-color: white
+  width: max-content
+  margin: auto
+
+
+.bgr1
+  background-color: #BBF6EA
+  border-radius: 20px
   &:hover
     background-color: #FFD9C5
 
-.imgcenter
-  display: block
-  margin-left: auto
-  margin-right: auto
 
-.licolor
-  background-color: #CCD5E3
-  border-radius: 10px
-
-.imageheight
-  height: 280px
-
-.imageheight2
-  height: 250px
-
-.imageheight3
-  height: 218px
-
-.imagediv
-  height: 145px
+.imc
+  margin: auto
 
 
-.imagetema5
-  width: 75%
-  margin-left: 30px
-.coltema5
-  background-color: #FFF6F1
-  height: 450px
-
-.sinborde
-  border: none
-.cajon .lista-ul--color li > i:first-of-type
-  color: $color-secundario
+.tarjeta-btn
+  background-color: #FFD9C5
 
 
-
-
-
-
+.tarjeta-numerada 
+    border: solid 4px
 
 
 
@@ -368,19 +197,49 @@ figcaption
 
 .fondo2
   background: url('../assets/curso/tema2/fondo2.jpg')
-  background-size: 100% 100%
+  background-size: cover
   background-repeat: no-repeat
-  background-position: cover
-  margin-inline: -3.4rem
-  @media screen and (max-width: 992px)
+  background-position: center
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+  margin-inline: -3rem
+  @media only screen and (max-width: 767px)
+    margin-inline: -1.5rem
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
     margin-inline: -3rem
-  @media screen and (max-width: 767px)
-    margin-inline: -2.4rem
-    margin-right: -2rem
-    margin-left: -2rem
-.tarjetap
+.tarjetaf
   background-color: #fff
   border-radius: 15px
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    background-color:#FF725D
+    border-radius: 50%
+.slyder-a__bullets__item 
+    background-color: #C4F7ED
+    border-color: #C4F7ED
+.slyder-a__bullets__item--active 
+    background-color: #56E9CC !important
+    border-color: #56E9CC!important
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 12px
+        height: 12px
+        margin: 0px 1px
+@media (max-width: 768px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 45px
+    height: 45px
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+    transform: rotate(180deg)
+    left: 15px
+    content: url('../assets/curso/tema2/der.png')
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+    transform: rotate(180deg)
+    right: 15px
+    content: url('../assets/curso/tema2/izq.png')
+
 
 .slyder-a__bullets__item 
     background-color: #C4F7ED
@@ -429,12 +288,12 @@ figcaption
   .mod  
     .col-xl-3 
         flex: 0 0 auto
-        width: 41%
+        width: 45%
 @media (min-width: 1200px) 
   .mod
     .col-xl-9 
         flex: 0 0 auto
-        width: 59%
+        width: 55%
 
 .bg5
   background-color: #DFECF5!important 
@@ -531,7 +390,6 @@ figcaption
 .bg7
   background-color: #FFD9C5
   border-radius: 20px
-  height: 95%
 
 .bg8
   background-color: #DDFAF5

@@ -1,933 +1,923 @@
 <template lang="pug">
-.curso-main-container.pb-3
-  BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 5
-      h1 Ciclo de servicio
-    .row.justify-content-center
-      .col-lg-4
-        img.d-none.d-lg-block(src='@/assets/curso/tema5/1.png', alt='')
-      .col-lg-8
-        p.mb-3 El ciclo de servicio al cliente se refiere al conjunto de etapas que tienen lugar desde el momento en que un usuario acude a una organización para adquirir un producto o solicitar un servicio, hasta que finaliza su experiencia con la percepción de haber recibido una atención satisfactoria. Este proceso no solo implica la entrega del bien o la prestación del servicio, sino también todo el entorno relacional que lo acompaña, incluyendo aspectos como el trato recibido, el tiempo de espera, la claridad en la información ofrecida, la atención postventa y la resolución de inquietudes.
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-9
-            p.mb-0 Si bien los productos o servicios deben cumplir con estándares mínimos de calidad, la satisfacción del cliente no depende únicamente de ello. Factores como la actitud del personal, la capacidad de respuesta ante solicitudes, la comunicación efectiva y la percepción de valor agregado influyen de manera decisiva en la experiencia del usuario. Por esta razón, las organizaciones deben establecer protocolos claros de atención, formar al personal en competencias relacionales y realizar mejoras continuas en función de los resultados obtenidos en cada ciclo de servicio.
-          .col-lg-3
-            img.d-none.d-lg-block(src='@/assets/curso/tema5/2.svg', alt='')
-
-    .mb-5
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .bg17.p-4.mb-lg-0.mb-4
-          p.mb-0.my-0.my-lg-2.mb-lg-3 Un ciclo inicia cuando el cliente formula una necesidad o solicitud, y culmina cuando dicha necesidad ha sido resuelta de manera satisfactoria. A lo largo de este proceso se producen interacciones clave entre el cliente y la organización, denominadas “momentos de la verdad”. Estos momentos representan instancias decisivas en las que el cliente forma una impresión del servicio, positiva o negativa, dependiendo de cómo haya sido tratado. Una sola experiencia desfavorable en estos momentos puede impactar negativamente la percepción general del servicio y reducir la probabilidad de recompra o recomendación.
-      .col-lg-4.col-md-10.col-10
-        img(src='@/assets/curso/tema5/3.png', alt='')
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg.d-none.d-lg-block
-        img.img-t(src='@/assets/curso/tema5/4.svg', alt='')
-      .col-lg-11 
-        p.mb-0 Por ello, las empresas deben prestar especial atención a la forma en que se desarrollan los momentos de la verdad, reconociendo su relevancia estratégica en la fidelización del cliente. El análisis del ciclo de servicio permite identificar fortalezas y debilidades en la interacción organización-cliente, lo que facilita el diseño de estrategias de mejora continua, tanto en los procesos operativos como en la gestión de relaciones.
-    .mb-4
-    .row.mb-5
-      .bloque-texto-g.cajon-color-adicional-7.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema5/5.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Finalmente, es fundamental comprender que el ciclo del servicio no debe asumirse como un conjunto mecánico de tareas. Lo esencial es cómo el cliente experimenta cada interacción. Una experiencia positiva, consistente y empática incrementa significativamente la posibilidad de que el cliente vuelva a elegir la organización y recomiende sus servicios. En este sentido, el ciclo del servicio al cliente representa una herramienta clave para la competitividad y sostenibilidad empresarial.
-    
-
-    .titulo5.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Fases del ciclo de servicio
-
-    p.mb-3 Las fases del ciclo de servicio representan las etapas que conforman la experiencia integral del cliente, desde el primer contacto con una organización hasta después de haber recibido el producto o servicio. Estas fases son fundamentales para comprender, gestionar y optimizar la calidad del servicio prestado, permitiendo a las organizaciones identificar oportunidades de mejora, fortalecer la relación con el cliente y garantizar una experiencia satisfactoria y coherente en cada punto de contacto.
-    p.mb-0 A continuación, se describen las principales fases del ciclo de servicio:
-    .mb-5
-    .row.acordeon
-      .col-lg-3
-        img.d-none.d-lg-block(src="@/assets/curso/tema5/6.png", alt="")
-      .col-lg-9.col-md-12.col-sm-12
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row.col-xl-11.m-auto(titulo="Acceso al servicio")
-            .row.justify-content-center.align-items-center
-              .col-lg-12
-                p.mb-0 Corresponde al primer punto de contacto entre el cliente y la organización. Incluye aspectos como la visibilidad de la empresa, facilidad de ubicación, canales de contacto disponibles, tiempos de espera y la impresión inicial del entorno físico o digital. Esta etapa es clave, ya que suele influir en la disposición del cliente para continuar con el proceso de adquisición.
-                .mb-4
-          .row.col-xl-11.m-auto(titulo="Entrada al sistema")
-            .row.justify-content-center.align-items-center
-              .col-lg-12
-                p.mb-0 Se refiere al momento en que el cliente decide hacer uso del servicio. En esta etapa se incluyen acciones como el registro, la reserva, la compra, la consulta de información o la recepción de instrucciones. La claridad en la comunicación, la facilidad de navegación (en servicios digitales), la amabilidad del personal y la eficiencia operativa son aspectos determinantes en esta fase.
-                  .mb-4
-          .row.col-xl-11.m-auto(titulo="Consumo o utilización del servicio")
-            .row.justify-content-center.align-items-center
-              .col-lg-12
-                p.mb-0 Es la etapa central, donde el cliente experimenta directamente el servicio contratado. Por ejemplo, degustar una comida en un restaurante, disfrutar de una excursión turística o alojarse en un hotel. La calidad del servicio, la atención personalizada, la disponibilidad de recursos y la respuesta a necesidades específicas influyen directamente en la percepción general del cliente.
-                  .mb-4
-          .row.col-xl-11.m-auto(titulo="Salida del sistema")
-            .row.justify-content-center.align-items-center
-              .col-lg-12
-                p.mb-0 Esta fase comprende el momento en que el cliente concluye la experiencia, como el check-out en un alojamiento, la finalización de un recorrido o el cierre de una consulta. Es fundamental que este cierre sea ágil, claro y amable, ya que representa la última impresión directa que el cliente se llevará de la organización.
-                  .mb-4
-          .row.col-xl-11.m-auto(titulo="Posconsumo")
-            .row.justify-content-center.align-items-center
-              .col-lg-12
-                p.mb-0 Se refiere a las acciones posteriores a la experiencia, incluyendo la evaluación del servicio recibido, la posibilidad de presentar reclamaciones o felicitaciones, la generación de comentarios o reseñas y la decisión de recomendar o volver a adquirir el servicio. Esta fase es esencial para retroalimentar a la organización, identificar áreas de mejora y consolidar la fidelización del cliente.
-    .mb-4
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        p.mb-lg-3.mb-4 El análisis detallado de cada fase del ciclo de servicio permite a las organizaciones adoptar un enfoque más estratégico en la gestión de la experiencia del cliente. Cada interacción, por pequeña que sea, tiene el potencial de reforzar la percepción positiva o generar insatisfacción, por lo que la coherencia en la calidad del servicio a lo largo de todas las etapas es indispensable.
-        .bg9.p-4.mb-lg-0.mb-0
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-2.mb-lg-0.mb-4
-              img.img-t.img-a(src='@/assets/curso/tema5/8.svg', alt='')
-            .col-lg-10
-              p.mb-0 Además, comprender el ciclo de servicio no solo contribuye a elevar los estándares de atención, sino que también favorece la diferenciación competitiva en sectores donde la oferta puede ser similar. Una experiencia bien gestionada, centrada en el cliente y orientada a la mejora continua, se traduce en mayor fidelización, posicionamiento favorable en el mercado y sostenibilidad organizacional.
-      .col-lg-4.col-md-10
-        img.d-none.d-lg-block(src='@/assets/curso/tema5/7.png', alt='')
-    .mb-4
-    .tarjeta.acordeoncolor.p-4.mb-0
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema3/32.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-2.blu Momentos de verdad y ciclo de servicios 
-              p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
-            .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=gS_bamwpuhM" target="_blank")
-                span Ir al sitio
-                i.fas.fa-circle-play
-    separador
-
-    #t_5_1.titulo-segundo.color-acento-contenido.mb-5
-      h2 5.1 Narrativa
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-md-9.col-10
-        img.d-none.d-lg-block(src='@/assets/curso/tema5/10.png', alt='')
-      .col-lg-7
-        .row.justify-content-center.align-items-center.mb-3
-          .col-lg-10
-            p.mb-0 La narrativa es la forma en que se cuenta la historia de un destino y tiene como propósito conectar emocionalmente al turista con el lugar que visita. Este relato fortalece la identidad patrimonial, cultural y natural del destino, a la vez que enriquece la experiencia del turista al permitirle aprender sobre la cultura local y crear recuerdos significativos e inolvidables.
-          .col-lg-2.d-none.d-lg-block
-            img.img-t(src='@/assets/curso/tema5/9.svg', alt='')
-        p.mb-0 La narrativa de un destino se transmite a través de un relato turístico, el cual debe ser directo, sencillo y vinculado a una experiencia concreta. Su objetivo es sorprender al visitante mediante datos originales y elementos distintivos del lugar. Este relato puede girar en torno a la historia de los antepasados, la descripción de un plato típico, la relevancia de un monumento, un sitio emblemático del destino o un personaje histórico de interés. De esta forma, se invita al turista a escapar momentáneamente de su rutina y sumergirse en otra realidad, donde su visión interior se fusiona con el entorno, generando valor, sentido y una conexión más profunda con la experiencia vivida.
-    
-    p.mb-3 Cada destino turístico posee un relato, formal o informal, que puede ser contado de manera significativa y auténtica, logrando una conexión emocional con el visitante. Cuando dicho relato es coherente con los productos turísticos ofrecidos, se convierte en una herramienta clave para la definición, promoción y diferenciación de las experiencias turísticas en el territorio.
-    
-    p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 3.] Relación relato y experiencia turística.
-    
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-12
-        .bg10.p-4.mb-3
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-9
-              img.mb-4.mt-4(src='@/assets/curso/tema5/11.svg', alt='Diagrama que representa la relación entre los componentes turísticos y la construcción del relato en una experiencia.')
-        figcaption.mb-5.enl #[b Fuente:] Instituto del patrimonio turístico (2016). 
-          p.mb-0 Autores varios (2018 p.4), Relatos turísticos: Propuestas para incorporar el patrimonio cultural y natural en los servicios y rutas turísticas de Arica y Camarones. Ediciones Universidad Central de Chile. https://www.ucentral.cl/ucentral/site/docs/20200110/20200110142007/relatos_turisticos_arica.pdf
-    p.mb-4 La narrativa, expresada como un relato turístico, reúne las siguientes características:
-    
-    .row.fndd.p-4.p-lg-5.p-md-3.mb-5(data-aos="fade-down")
-      .col-lg-12
-        
-        .row.justify-content-center.align-items-end.mb-0(data-aos="fade-left")
-          .col-lg-4.col-md-5.col-7
-            img.img-t.d-none.d-lg-block.mva(src='@/assets/curso/tema5/12.png', alt='')
-          .col-lg-8.mb-lg-0.mb-4
-            SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
-              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
-                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/13.svg', alt='')
-                .title.mb-4
-                  .bg11.p-1
-                    h4.text-center.mb-0 Funcional
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-12
-                    p.text-center Contribuye a reducir el nivel de desconocimiento sobre el destino, optimiza el tiempo de ubicación y desplazamiento, facilita la planificación de gastos durante el viaje y sugiere itinerarios y actividades específicas.
-              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
-                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/14.svg', alt='')
-                .title.mb-4
-                  .bg11.p-1
-                    h4.text-center.mb-0 Comprensible
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-12
-                    p.text-center Permite una fácil comprensión del destino, evitando contenidos complejos o excesivamente abstractos. Se centra en un mensaje principal, claro, simple e interesante.
-              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
-                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/15.svg', alt='')
-                .title.mb-4
-                  .bg11.p-1
-                    h4.text-center.mb-0 Cercana
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-12
-                    p.text-center Está dirigida directamente al lector, visitante o residente, utilizando un lenguaje dinámico, motivador y entretenido.
-              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
-                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/16.svg', alt='')
-                .title.mb-4
-                  .bg11.p-1
-                    h4.text-center.mb-0 Tangible
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-12
-                    p.text-center Invita al público a vivir una experiencia real, concreta y participativa.
-              .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
-                img.mb-4.img-t.img-a(src='@/assets/curso/tema5/17.svg', alt='')
-                .title.mb-4
-                  .bg11.p-1
-                    h4.text-center.mb-0 Emotiva
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-12
-                    p.text-center Se construye a partir de las prácticas culturales locales, generando una conexión emocional entre los habitantes del lugar y los visitantes.
-    
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de narrativa
-    
-    p.mb-4.mt-5 En el turismo se pueden identificar diversos tipos de narrativa, entre los cuales se destacan los siguientes:
-    
-    TabsC.color-primario
-      .py-4.py-lg-5(titulo="Narrativa sostenible").cajon-color-adicional-5.p-4
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-5
-            p #[strong Narrativa sostenible:] se enfoca en minimizar el impacto negativo sobre el medio ambiente y las comunidades locales. Promueve el uso responsable de los recursos naturales, la conservación del patrimonio cultural y la generación de beneficios económicos para la población del destino.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema5/18.png', alt='Texto que describa la imagen')
-      .py-4.py-lg-5(titulo="Narrativa de naturaleza").cajon-color-adicional-5.p-4
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-5
-            p #[strong Narrativa de naturaleza:] está basada en la exploración y apreciación de los entornos naturales. Los viajeros buscan conectar con la naturaleza, realizar actividades al aire libre, disfrutar de la fauna y flora local, y comprender la importancia de conservar los ecosistemas.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema5/19.png', alt='Texto que describa la imagen')
-      .py-4.py-lg-5(titulo="Narrativa cultural").cajon-color-adicional-5.p-4
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-5
-            p #[strong Narrativa cultural:] se centra en la inmersión en la cultura local. Los turistas desean conocer las tradiciones, costumbres, arte y gastronomía de los destinos que visitan. Esta narrativa fomenta la interacción con la población local, el aprendizaje de su estilo de vida y la valoración del patrimonio cultural.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema5/20.png', alt='Texto que describa la imagen')
-      .py-4.py-lg-5(titulo="Narrativa de experiencias").cajon-color-adicional-5.p-4
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-5
-            p #[strong Narrativa de experiencias:] se orienta a ofrecer vivencias únicas y memorables. Propone actividades que permiten a los visitantes participar activamente en la vida cotidiana de las comunidades, como aprender a cocinar platos típicos, colaborar en proyectos de conservación o involucrarse en procesos artesanales, por ejemplo: la elaboración de vasijas de arcilla, papel artesanal, o productos en fique, entre otros.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema5/21.png', alt='Texto que describa la imagen')
-      .py-4.py-lg-5(titulo="Narrativa de bienestar").cajon-color-adicional-5.p-4
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-5
-            p #[strong Narrativa de bienestar:] está dirigida al cuidado integral del cuerpo y la mente. Los viajeros eligen destinos y servicios que ofrecen actividades como spa, yoga, meditación, terapias alternativas y alimentación saludable. Su propósito es promover el equilibrio, la relajación y el bienestar durante el viaje.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema5/22.png', alt='Texto que describa la imagen')
-    .mb-5
-
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Técnicas de narrativa
-
-    p.mb-4 Las técnicas de narrativa hacen referencia a los métodos y estructuras utilizados para desarrollar y presentar una historia de forma coherente, atractiva y convincente. Estas técnicas integran elementos como la trama, los personajes, el conflicto, el punto de vista y la estructura narrativa.
-    p.mb-3 La narrativa puede adoptar distintas formas, tales como:
-    
-    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4
-      .col-lg-5.col-md-6.mb-4.mb-lg-0
-        .tarjeta-avatar
-          img.imaa.mb-0.my-2(src='@/assets/curso/tema5/23.svg' alt='')
-          .tarjeta.cajon-color-adicional-7
-            .p-0
-              p.mb-3.ps-3.pe-3.text-center Narrativa lineal, donde los acontecimientos se desarrollan en orden cronológico.
-      .col-lg-5.col-md-6.mb-4.mb-lg-0
-        .tarjeta-avatar
-          img.imaa.mb-0.my-2(src='@/assets/curso/tema5/24.svg' alt='')
-          .tarjeta.cajon-color-adicional-7
-            .p-0
-              p.mb-3.ps-3.pe-3.text-center Narrativa no lineal, en la que la historia se presenta de forma fragmentada o a través de diferentes líneas de tiempo.
-  
-
-    p.mb-4.mt-3 A continuación, se describen algunas de las técnicas más comunes utilizadas en la narrativa turística:
-    
-    .row.fondo33.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
-      .col-lg-12
-
-        .row
-          .col-lg-8
-            TabsA.color-acento-botones.mod
-              .tarjeta.p-4.bg5(titulo="<em>Storytelling</em>")
-                h4 Storytelling
-                p Consiste en contar historias cautivadoras que conectan con las emociones del turista, generando una experiencia auténtica y significativa.
-              .tarjeta.p-4.bg5(titulo="Narrativa visual")
-                h4 Narrativa visual
-                p Emplea imágenes, videos y otros recursos visuales para narrar historias y transmitir emociones de forma efectiva.
-              .tarjeta.p-4.bg5(titulo="Narrativa sensorial")
-                h4 Narrativa sensorial
-                p Apela a los cinco sentidos (vista, oído, olfato, gusto y tacto) con el fin de crear una experiencia inmersiva, envolvente y memorable.
-              .tarjeta.p-4.bg5(titulo="Narrativa histórica")
-                h4 Narrativa histórica
-                p Incorpora hechos y relatos del pasado para contextualizar el destino, fomentando el interés cultural y la comprensión del patrimonio.
-              .tarjeta.p-4.bg5(titulo="Narrativa personalizada")
-                h4 Narrativa personalizada
-                p Adapta el relato a los intereses, motivaciones y características específicas de cada tipo de turista, permitiendo una conexión más directa y significativa con la experiencia.
-          .col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/tema5/25.png', alt='')
-    
-    .mb-5
-    .tarjeta.acordeoncolor.p-4.mb-0
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema3/32.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-2.blu Storytelling EJEMPLO de Johnnie Walker | El hombre que caminó alrededor del mundo (en español)
-              p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente video.
-            .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pHBLg_T0la8" target="_blank")
-                span Ir al sitio
-                i.fas.fa-circle-play  
-    
-
-    separador
-    #t_5_2.titulo-segundo.color-acento-contenido.mb-5
-      h2 5.2 Itinerario
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7
-        p.mb-4 Un itinerario turístico es un documento en el que se describen cronológicamente las actividades que se llevarán a cabo durante un viaje determinado. Es una herramienta fundamental para la organización, ya que permite planificar con anticipación aspectos como:
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-4.col-md-4.col-8
-            img.mb-lg-0.mb-4(src='@/assets/curso/tema5/26.png', alt='')
-          .col-lg-8.col-md-8
-            ul.lista-ul
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0 ¿Qué se hará durante el viaje?
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0 Sitios a visitar.
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0 Actividades a realizar.
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0  Horarios asignados para cada actividad.
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0 Duración estimada de cada experiencia.
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0 Fechas de inicio y finalización del recorrido.
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0 Tiempos de traslado entre destinos.
-              li.d-flex.mb-1
-                i.fas.fa-circle-check
-                p.mb-0  Espacios destinados al descanso y a la alimentación.
-        
-      .col-lg-5
-        img.d-none.d-lg-block(src='@/assets/curso/tema5/27.png', alt='')
-    
-    p.mb-4.mt-3 Además, un itinerario turístico especifica los lugares de interés que deben ser visitados por los turistas. Puede adaptarse a distintas temáticas o enfoques; por ejemplo, un itinerario gastronómico incluirá los lugares donde se pueden degustar los platos típicos de la región.
-    .mb-5
-
-    .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Elementos de un itinerario
-
-    p.mb-4.mt-3 Los principales elementos que componen un itinerario turístico son:
-    
-    .row.justify-content-center.align-items-stretch.mb-4.width-25
-      .col-lg-3.col-md-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img.my-2(src='@/assets/curso/tema5/28.svg' alt='')
-          .tarjeta.cajon-color-adicional-8
-            .p-4
-              p.mb-0 #[b a) Tiempo:] incluye fechas, horarios y duración estimada de cada actividad.
-      .col-lg-3.col-md-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img.my-2(src='@/assets/curso/tema5/29.svg' alt='')
-          .tarjeta.cajon-color-adicional-8
-            .p-4
-              p.mb-lg-4.mb-5 #[b b) Turistas:] personas que realizan el recorrido.
-      .col-lg-3.col-md-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img.my-2(src='@/assets/curso/tema5/30.svg' alt='')
-          .tarjeta.cajon-color-adicional-8
-            .p-4
-              p.mb-4 #[b c) Camino:] rutas o vías por las cuales se desarrolla el itinerario.
-      .col-lg-3.col-md-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img.my-2(src='@/assets/curso/tema5/31.svg' alt='')
-          .tarjeta.cajon-color-adicional-8
-            .p-4
-              p.mb-0 #[b d) Puntos de llegada:] sitios de interés seleccionados para ser visitados.
-
-    .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de itinerarios
-
-    p.mb-5.mt-3 Existen diversos tipos de itinerarios turísticos, según la tipología de turismo que se desee realizar y la ubicación geográfica de los atractivos. A continuación, se describen los más comunes:  
-    
-    .cont_5_1.mt-4(data-aos="fade-left").mb-5
+  .curso-main-container.pb-3
+    BannerInterno
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+      .titulo-principal.color-acento-contenido
+        .titulo-principal__numero
+          span 5
+        h1 Ciclo de servicio
       .row.justify-content-center
-        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
-          .crd_hover_txt
-            .crd_hover_txt--img
-              figure
-                img(src='@/assets/curso/tema5/32.png' alt="")
-            .crd_hover_txt--body.colt
-              h5.mb-3.text-center.text-white a) Itinerario turístico cultural
-              p.mb-0.text-center.mb-0.txp Centrado en la visita a lugares con valor arquitectónico, artístico, histórico, gastronómico o folclórico. Busca fomentar el conocimiento y la apreciación del patrimonio cultural del destino.
-        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
-          .crd_hover_txt
-            .crd_hover_txt--img
-              figure
-                img(src='@/assets/curso/tema5/33.png' alt="")
-            .crd_hover_txt--body.colt
-              h5.mb-3.text-center.text-white b) Itinerario turístico natural
-              p.mb-0.text-center.mb-0.txp Ayudan a recuperar la figura, reduciendo centímetros en abdomen y cintura. Se recomienda su uso 30 días después del parto.
-        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
-          .indicador--hover
-          .crd_hover_txt
-            .crd_hover_txt--img
-              figure
-                img(src='@/assets/curso/tema5/34.png' alt="")
-            .crd_hover_txt--body.colt
-              h5.mb-3.text-center.text-white c) Itinerario turístico personalizado
-              p.mb-0.text-center.mb-0.txp Adaptado a los intereses y motivaciones específicas de quien lo diseña. Por ejemplo, un chef argentino de renombre internacional puede crear un recorrido por diversos restaurantes de alta cocina en la ciudad de Buenos Aires, explicando el motivo de cada parada. Este tipo de itinerario responde a un enfoque temático, como el gastronómico, y tiene un alto componente personal.
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
-        .titulo-sexto.color-secundario.mb-0
-          h5 Figura 4. 
-          |  Ejemplo de atractivos culturales y patrimoniales, incluidos en un itinerario turístico cultural.
-        img.mb-2(src='@/assets/curso/tema5/56.svg' alt="Mapa ilustrado de una ruta turística urbana que conecta varios puntos de interés en una ciudad.")
-        figcaption #[b Tomado:] https://klandestinos.wordpress.com/wp-content/uploads/2008/12/itinerarios_mapa_santander_monumental1.jpg
-      .col-lg-7
-        .bg19.p-3.mb-2
-          h5.mb-0.text-white Ejemplo de diseño de itinerario turístico cultural, dirigido a turistas extranjeros – estudiantes de derecho. 
-        .tarjeta.tarjeta--azull.p-4.pb-0.mb-4
-          SlyderA.pb-lg-4.pb-3(tipo="a").oci
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-10
-                .bg20.p-2
-                  h5.mb-0 Día 1
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 4:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Salida hacia el municipio de Bucaramanga.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 8:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Desayuno típico en el restaurante el Tony.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 9:20 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Visita a la Casa del Ayuntamiento. Reconocimiento de las funciones y actividades desarrolladas por la Administración Municipal.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 11:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Visita guiada al Palacio de Justicia para conocer su historia, arquitectura y las dependencias judiciales, incluyendo las áreas de atención a víctimas.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 12:30 a. m.]
-                  .col-lg-9.ps-0
-                     .bg22.p-1 
-                       p.mb-0 Almuerzo en el restaurante Doña Petrona del mar.   
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 14:00 p. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Llegada al hotel ciudad bonita. Coctel de bienvenida.    
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 3:30 p. m.]
-                      p.mb-0 #[b 7:00 p. m. ]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Tiempo libre para disfrutar de las instalaciones del hotel.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 7:15 p. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Cena en el restaurante del hotel.
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-10
-                .bg20.p-2
-                  h5.mb-0 Día 2
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 7:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Desayuno en el restaurante del hotel.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 8:30 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Visita guiada a la empresa de correos: exposición sobre la historia del correo, talleres de escritura de cartas y envío de postales.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 10:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Visita al Centro Cultural del Oriente: recorrido por exposiciones de arte, presentaciones musicales y obras de teatro.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 1:00 p. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Almuerzo en el restaurante El Viejo chiflas.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 2:30 p. m.]
-                  .col-lg-9.ps-0
-                     .bg22.p-1 
-                       p.mb-0 Visita guiada al Banco de Santander: reconocimiento de su historia institucional y de los procesos internos en cada dependencia.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 4:00 p. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 #[em City tour] en chiva por la ciudad.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 7:00 p. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Cena en el restaurante del hotel.
-            .row.justify-content-center.align-items-center.mb-5
-              .col-lg-10
-                .bg20.p-2
-                  h5.mb-0 Día 3
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 7:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Desayuno en el restaurante del hotel. 
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 8:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Visita al sector de San francisco – La calle del calzado. Espacio destinado para compras.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 11:00 a. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Regreso al hotel y organización del equipaje.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 12:00 m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Almuerzo en el hotel.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 1:00 p. m.]
-                  .col-lg-9.ps-0
-                     .bg22.p-1 
-                       p.mb-0 #[em Check-out] y entrega de la habitación.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 2:00 p. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Salida de la ciudad.
-                .row.justify-content-center.align-items-center.mb-2
-                  .col-lg-3.pe-0
-                    .bg21.p-1
-                      p.mb-0 #[b 6:00 p. m.]
-                  .col-lg-9.ps-0
-                    .bg22.p-1 
-                      p.mb-0 Llegada al destino inicial. Fin del itinerario.
- 
-    .tarjeta.acordeoncolor.p-4.mb-0
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/5.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-2.blu Manual para la generación de rutas e itinerarios turísticos
-              p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
-            .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pHBLg_T0la8" target="_blank")
-                span Ir al sitio
-                i.fas.fa-globe
-    
-    separador
-    #t_5_3.titulo-segundo.color-acento-contenido.mb-5
-      h2 5.3 Testeo de la experiencia
+        .col-lg-4
+          img.d-none.d-lg-block(src='@/assets/curso/tema5/1.png', alt='')
+        .col-lg-8
+          p.mb-3 El ciclo de servicio al cliente se refiere al conjunto de etapas que tienen lugar desde el momento en que un usuario acude a una organización para adquirir un producto o solicitar un servicio, hasta que finaliza su experiencia con la percepción de haber recibido una atención satisfactoria. Este proceso no solo implica la entrega del bien o la prestación del servicio, sino también todo el entorno relacional que lo acompaña, incluyendo aspectos como el trato recibido, el tiempo de espera, la claridad en la información ofrecida, la atención postventa y la resolución de inquietudes.
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-9
+              p.mb-0 Si bien los productos o servicios deben cumplir con estándares mínimos de calidad, la satisfacción del cliente no depende únicamente de ello. Factores como la actitud del personal, la capacidad de respuesta ante solicitudes, la comunicación efectiva y la percepción de valor agregado influyen de manera decisiva en la experiencia del usuario. Por esta razón, las organizaciones deben establecer protocolos claros de atención, formar al personal en competencias relacionales y realizar mejoras continuas en función de los resultados obtenidos en cada ciclo de servicio.
+            .col-lg-3
+              img.d-none.d-lg-block(src='@/assets/curso/tema5/2.svg', alt='')
 
-    .row.justify-content-center
-      .col-lg-8
-        p.mb-3 Se refiere a los métodos y técnicas mediante los cuales se evalúa cómo los visitantes perciben y valoran las experiencias vividas en un destino turístico. Esta evaluación puede realizarse a través de encuestas, escalas estructuradas, entrevistas o pruebas específicas que permiten medir dimensiones como la satisfacción, la autenticidad, la conexión emocional y el carácter memorable de la experiencia.
-        p.mb-4 Para desarrollar una experiencia turística de calidad, es fundamental medir y controlar los servicios ofrecidos al turista o visitante.
-      .col-lg-4.col-md-10.col-10
-        img(src='@/assets/curso/tema5/35.png', alt='')
-    
-    .row.fondo4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
-      .col-lg-12
-    
-        p.mb-4 El instrumento de verificación para la medición y control de la experiencia permite:
-        
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-4
-            img.d-none.d-lg-block(src='@/assets/curso/tema5/36.png', alt='')
-          .col-lg-8.col-md-7
-            SlyderF.slyder3.circl-arrow.mb-0(columnas="col-lg-6 col-xl-6")(data-aos="fade-left")
-              .tarjeta.tarjeta-btn.p-4
-                img.mb-3(src='@/assets/curso/tema5/37.svg', alt='')
-                .title.mb-4
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-lg-12
-                    p.text-center #[strong Garantizar la calidad del servicio:] confirma que todos los elementos necesarios (infraestructura, personal, insumos, equipos, entre otros) cumplen con los estándares de calidad previamente establecidos.
-              .tarjeta.tarjeta-btn.p-4
-                img.mb-3(src='@/assets/curso/tema5/38.svg', alt='')
-                .title.mb-4
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-lg-12
-                    p.text-center #[strong Asegurar el cumplimiento de requisitos:] verifica que los prestadores de servicios turísticos cumplen con las normativas legales, de seguridad, ambientales y de sostenibilidad antes de recibir a los visitantes.
-              .tarjeta.tarjeta-btn.p-4
-                img.mb-3(src='@/assets/curso/tema5/39.svg', alt='')
-                .title.mb-4
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-lg-12
-                    p.text-center #[strong Identificar y prevenir fallas:] detecta posibles deficiencias o riesgos que puedan afectar negativamente la experiencia, permitiendo su corrección anticipada.
-              .tarjeta.tarjeta-btn.p-4
-                img.mb-3(src='@/assets/curso/tema5/40.svg', alt='')
-                .title.mb-4
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-lg-12
-                    p.text-center #[strong Optimizar la experiencia turística:] al asegurar que todo esté en orden, se mejora la satisfacción del visitante, lo cual fortalece la percepción positiva del destino y fomenta la fidelización.
-              .tarjeta.tarjeta-btn.p-4
-                img.mb-3(src='@/assets/curso/tema5/41.svg', alt='')
-                .title.mb-4
-                .row.justify-content-center.align-items-center.mb-0
-                  .col-lg-12
-                    p.mb-5.text-center #[strong Evaluar la preparación operativa:] permite medir el nivel de alistamiento de los servicios (transporte, guías, alojamiento, actividades, etc.) antes del inicio, garantizando que el itinerario se desarrolle sin contratiempos.
+      .mb-5
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-8
+          .bg17.p-4.mb-lg-0.mb-4
+            p.mb-0.my-0.my-lg-2.mb-lg-3 Un ciclo inicia cuando el cliente formula una necesidad o solicitud, y culmina cuando dicha necesidad ha sido resuelta de manera satisfactoria. A lo largo de este proceso se producen interacciones clave entre el cliente y la organización, denominadas #[b “momentos de la verdad”]. Estos momentos representan instancias decisivas en las que el cliente forma una impresión del servicio, positiva o negativa, dependiendo de cómo haya sido tratado. Una sola experiencia desfavorable en estos momentos puede impactar negativamente la percepción general del servicio y reducir la probabilidad de recompra o recomendación.
+        .col-lg-4.col-md-10.col-10
+          img(src='@/assets/curso/tema5/3.png', alt='')
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg.d-none.d-lg-block
+          img.img-t(src='@/assets/curso/tema5/4.svg', alt='')
+        .col-lg-11 
+          p.mb-0 Por ello, las empresas deben prestar especial atención a la forma en que se desarrollan los momentos de la verdad, reconociendo su relevancia estratégica en la fidelización del cliente. El análisis del ciclo de servicio permite identificar fortalezas y debilidades en la interacción organización-cliente, lo que facilita el diseño de estrategias de mejora continua, tanto en los procesos operativos como en la gestión de relaciones.
+      .mb-4
+      .row.mb-5
+        .bloque-texto-g.cajon-color-adicional-7.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema5/5.png')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 Finalmente, es fundamental comprender que el ciclo del servicio no debe asumirse como un conjunto mecánico de tareas. Lo esencial es cómo el cliente experimenta cada interacción. Una experiencia positiva, consistente y empática incrementa significativamente la posibilidad de que el cliente vuelva a elegir la organización y recomiende sus servicios. En este sentido, el ciclo del servicio al cliente representa una herramienta clave para la competitividad y sostenibilidad empresarial.
+
+
+      .titulo5.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Fases del ciclo de servicio
+
+      p.mb-3 Las fases del ciclo de servicio representan las etapas que conforman la experiencia integral del cliente, desde el primer contacto con una organización hasta después de haber recibido el producto o servicio. Estas fases son fundamentales para comprender, gestionar y optimizar la calidad del servicio prestado, permitiendo a las organizaciones identificar oportunidades de mejora, fortalecer la relación con el cliente y garantizar una experiencia satisfactoria y coherente en cada punto de contacto.
+      p.mb-0 A continuación, se describen las principales fases del ciclo de servicio:
+      .mb-5
+      .row.acordeon
+        .col-lg-3
+          img.d-none.d-lg-block(src="@/assets/curso/tema5/6.png", alt="")
+        .col-lg-9.col-md-12.col-sm-12
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+            .row.col-xl-11.m-auto(titulo="Acceso al servicio")
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  p.mb-0 Corresponde al primer punto de contacto entre el cliente y la organización. Incluye aspectos como la visibilidad de la empresa, facilidad de ubicación, canales de contacto disponibles, tiempos de espera y la impresión inicial del entorno físico o digital. Esta etapa es clave, ya que suele influir en la disposición del cliente para continuar con el proceso de adquisición.
+                  .mb-4
+            .row.col-xl-11.m-auto(titulo="Entrada al sistema")
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  p.mb-0 Se refiere al momento en que el cliente decide hacer uso del servicio. En esta etapa se incluyen acciones como el registro, la reserva, la compra, la consulta de información o la recepción de instrucciones. La claridad en la comunicación, la facilidad de navegación (en servicios digitales), la amabilidad del personal y la eficiencia operativa son aspectos determinantes en esta fase.
+                    .mb-4
+            .row.col-xl-11.m-auto(titulo="Consumo o utilización del servicio")
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  p.mb-0 Es la etapa central, donde el cliente experimenta directamente el servicio contratado. Por ejemplo, degustar una comida en un restaurante, disfrutar de una excursión turística o alojarse en un hotel. La calidad del servicio, la atención personalizada, la disponibilidad de recursos y la respuesta a necesidades específicas influyen directamente en la percepción general del cliente.
+                    .mb-4
+            .row.col-xl-11.m-auto(titulo="Salida del sistema")
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  p.mb-0 Esta fase comprende el momento en que el cliente concluye la experiencia, como el #[em check-out] en un alojamiento, la finalización de un recorrido o el cierre de una consulta. Es fundamental que este cierre sea ágil, claro y amable, ya que representa la última impresión directa que el cliente se llevará de la organización.
+                    .mb-4
+            .row.col-xl-11.m-auto(titulo="Posconsumo")
+              .row.justify-content-center.align-items-center
+                .col-lg-12
+                  p.mb-0 Se refiere a las acciones posteriores a la experiencia, incluyendo la evaluación del servicio recibido, la posibilidad de presentar reclamaciones o felicitaciones, la generación de comentarios o reseñas y la decisión de recomendar o volver a adquirir el servicio. Esta fase es esencial para retroalimentar a la organización, identificar áreas de mejora y consolidar la fidelización del cliente.
+      .mb-4
+      .row.justify-content-center.mb-5
+        .col-lg-8
+          p.mb-lg-3.mb-4 El análisis detallado de cada fase del ciclo de servicio permite a las organizaciones adoptar un enfoque más estratégico en la gestión de la experiencia del cliente. Cada interacción, por pequeña que sea, tiene el potencial de reforzar la percepción positiva o generar insatisfacción, por lo que la coherencia en la calidad del servicio a lo largo de todas las etapas es indispensable.
+          .bg9.p-4.mb-lg-0.mb-0
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-2.mb-lg-0.mb-4
+                img.img-t.img-a(src='@/assets/curso/tema5/8.svg', alt='')
+              .col-lg-10
+                p.mb-0 Además, comprender el ciclo de servicio no solo contribuye a elevar los estándares de atención, sino que también favorece la diferenciación competitiva en sectores donde la oferta puede ser similar. Una experiencia bien gestionada, centrada en el cliente y orientada a la mejora continua, se traduce en mayor fidelización, posicionamiento favorable en el mercado y sostenibilidad organizacional.
+        .col-lg-4.col-md-10
+          img.d-none.d-lg-block(src='@/assets/curso/tema5/7.png', alt='')
       
-    p.mb-5 El instrumento de verificación para la medición y control de la experiencia permite:
-    
-    .row.sistema
-      .col-lg-12.col-md-12
-        p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
+      
+      .tarjeta.color-adicional-1.p-4.mb-0(data-aos="fade-right")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema3/32.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-2.blu Momentos de verdad y ciclo de servicios 
+                p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=gS_bamwpuhM" target="_blank")
+                  span Ir al sitio
+                  i.fas.fa-circle-play
+
+
+      separador
+      #t_5_1.titulo-segundo.color-acento-contenido.mb-5
+        h2 5.1 Narrativa
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-5.col-md-9.col-10
+          img.d-none.d-lg-block(src='@/assets/curso/tema5/10.png', alt='')
+        .col-lg-7
+          .row.justify-content-center.align-items-center.mb-3
+            .col-lg-10
+              p.mb-0 La narrativa es la forma en que se cuenta la historia de un destino y tiene como propósito conectar emocionalmente al turista con el lugar que visita. Este relato fortalece la identidad patrimonial, cultural y natural del destino, a la vez que enriquece la experiencia del turista al permitirle aprender sobre la cultura local y crear recuerdos significativos e inolvidables.
+            .col-lg-2.d-none.d-lg-block
+              img.img-t(src='@/assets/curso/tema5/9.svg', alt='')
+          p.mb-0 La narrativa de un destino se transmite a través de un relato turístico, el cual debe ser directo, sencillo y vinculado a una experiencia concreta. Su objetivo es sorprender al visitante mediante datos originales y elementos distintivos del lugar. Este relato puede girar en torno a la historia de los antepasados, la descripción de un plato típico, la relevancia de un monumento, un sitio emblemático del destino o un personaje histórico de interés. De esta forma, se invita al turista a escapar momentáneamente de su rutina y sumergirse en otra realidad, donde su visión interior se fusiona con el entorno, generando valor, sentido y una conexión más profunda con la experiencia vivida.
+
+      p.mb-3 Cada destino turístico posee un relato, formal o informal, que puede ser contado de manera significativa y auténtica, logrando una conexión emocional con el visitante. Cuando dicho relato es coherente con los productos turísticos ofrecidos, se convierte en una herramienta clave para la definición, promoción y diferenciación de las experiencias turísticas en el territorio.
+
+      p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 3.] Relación relato y experiencia turística
+
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-12
+          .bg10.p-4.mb-3
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-9
+                img.mb-4.mt-4(src='@/assets/curso/tema5/11.svg', alt='Diagrama que representa la relación entre los componentes turísticos y la construcción del relato en una experiencia.')
+          figcaption.mb-5.enl #[b Fuente:] Los relatos turísticos: una tendencia creciente en la industria del turismo. 
+            p.mb-0 Autores varios (2018 p.4), Relatos turísticos: Propuestas para incorporar el patrimonio cultural y natural en los servicios y rutas turísticas de Arica y Camarones. Ediciones Universidad Central de Chile.
+
+      p.mb-4 La narrativa, expresada como un relato turístico, reúne las siguientes características:
+
+      .row.fndd.p-4.p-lg-5.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row.justify-content-center.align-items-end.mb-0(data-aos="fade-left")
+            .col-lg-4.col-md-5.col-7
+              img.img-t.d-none.d-lg-block.mva(src='@/assets/curso/tema5/12.png', alt='')
+            .col-lg-8.mb-lg-0.mb-4
+              SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
+                .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                  img.mb-4.img-t.img-a(src='@/assets/curso/tema5/13.svg', alt='')
+                  .title.mb-4
+                    .bg11.p-1
+                      h4.text-center.mb-0 Funcional
+                  .row.justify-content-center.align-items-center.mb-2
+                    .col-lg-12
+                      p.text-center Contribuye a reducir el nivel de desconocimiento sobre el destino, optimiza el tiempo de ubicación y desplazamiento, facilita la planificación de gastos durante el viaje y sugiere itinerarios y actividades específicas.
+                .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                  img.mb-4.img-t.img-a(src='@/assets/curso/tema5/14.svg', alt='')
+                  .title.mb-4
+                    .bg11.p-1
+                      h4.text-center.mb-0 Comprensible
+                  .row.justify-content-center.align-items-center.mb-2
+                    .col-lg-12
+                      p.text-center Permite una fácil comprensión del destino, evitando contenidos complejos o excesivamente abstractos. Se centra en un mensaje principal, claro, simple e interesante.
+                .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                  img.mb-4.img-t.img-a(src='@/assets/curso/tema5/15.svg', alt='')
+                  .title.mb-4
+                    .bg11.p-1
+                      h4.text-center.mb-0 Cercana
+                  .row.justify-content-center.align-items-center.mb-2
+                    .col-lg-12
+                      p.text-center Está dirigida directamente al lector, visitante o residente, utilizando un lenguaje dinámico, motivador y entretenido.
+                .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                  img.mb-4.img-t.img-a(src='@/assets/curso/tema5/16.svg', alt='')
+                  .title.mb-4
+                    .bg11.p-1
+                      h4.text-center.mb-0 Tangible
+                  .row.justify-content-center.align-items-center.mb-2
+                    .col-lg-12
+                      p.text-center Invita al público a vivir una experiencia real, concreta y participativa.
+                .tarjeta.tarjeta-btn.p-4.tarjeta--slyder.b2
+                  img.mb-4.img-t.img-a(src='@/assets/curso/tema5/17.svg', alt='')
+                  .title.mb-4
+                    .bg11.p-1
+                      h4.text-center.mb-0 Emotiva
+                  .row.justify-content-center.align-items-center.mb-2
+                    .col-lg-12
+                      p.text-center Se construye a partir de las prácticas culturales locales, generando una conexión emocional entre los habitantes del lugar y los visitantes.
+
+      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de narrativa
+
+      p.mb-4.mt-5 En el turismo se pueden identificar diversos tipos de narrativa, entre los cuales se destacan los siguientes:
+
+      TabsC.color-primario
+        .py-4.py-lg-5(titulo="Narrativa sostenible").cajon-color-adicional-5.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-5
+              p.mb-0 Se enfoca en minimizar el impacto negativo sobre el medio ambiente y las comunidades locales. Promueve el uso responsable de los recursos naturales, la conservación del patrimonio cultural y la generación de beneficios económicos para la población del destino.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema5/18.png', alt='Texto que describa la imagen')
+        .py-4.py-lg-5(titulo="Narrativa de naturaleza").cajon-color-adicional-5.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-5
+              p.mb-0 Está basada en la exploración y apreciación de los entornos naturales. Los viajeros buscan conectar con la naturaleza, realizar actividades al aire libre, disfrutar de la fauna y flora local, y comprender la importancia de conservar los ecosistemas.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema5/19.png', alt='Texto que describa la imagen')
+        .py-4.py-lg-5(titulo="Narrativa cultural").cajon-color-adicional-5.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-5
+              p.mb-0 Se centra en la inmersión en la cultura local. Los turistas desean conocer las tradiciones, costumbres, arte y gastronomía de los destinos que visitan. Esta narrativa fomenta la interacción con la población local, el aprendizaje de su estilo de vida y la valoración del patrimonio cultural.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema5/20.png', alt='Texto que describa la imagen')
+        .py-4.py-lg-5(titulo="Narrativa de experiencias").cajon-color-adicional-5.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-5
+              p.mb-0 Se orienta a ofrecer vivencias únicas y memorables. Propone actividades que permiten a los visitantes participar activamente en la vida cotidiana de las comunidades, como aprender a cocinar platos típicos, colaborar en proyectos de conservación o involucrarse en procesos artesanales, por ejemplo: la elaboración de vasijas de arcilla, papel artesanal, o productos en fique, entre otros.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema5/21.png', alt='Texto que describa la imagen')
+        .py-4.py-lg-5(titulo="Narrativa de bienestar").cajon-color-adicional-5.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-5
+              p.mb-0 Está dirigida al cuidado integral del cuerpo y la mente. Los viajeros eligen destinos y servicios que ofrecen actividades como #[em spa], yoga, meditación, terapias alternativas y alimentación saludable. Su propósito es promover el equilibrio, la relajación y el bienestar durante el viaje.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/tema5/22.png', alt='Texto que describa la imagen')
+      .mb-5
+
+      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Técnicas de narrativa
+
+      p.mb-4 Las técnicas de narrativa hacen referencia a los métodos y estructuras utilizados para desarrollar y presentar una historia de forma coherente, atractiva y convincente. Estas técnicas integran elementos como la trama, los personajes, el conflicto, el punto de vista y la estructura narrativa.
+      p.mb-3 La narrativa puede adoptar distintas formas, tales como:
+
+      .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4
+        .col-lg-5.col-md-6.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img.imaa.mb-0.my-2(src='@/assets/curso/tema5/23.svg' alt='')
+            .tarjeta.cajon-color-adicional-7
+              .p-0
+                p.mb-3.ps-3.pe-3.text-center Narrativa lineal, donde los acontecimientos se desarrollan en orden cronológico.
+        .col-lg-5.col-md-6.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img.imaa.mb-0.my-2(src='@/assets/curso/tema5/24.svg' alt='')
+            .tarjeta.cajon-color-adicional-7
+              .p-0
+                p.mb-3.ps-3.pe-3.text-center Narrativa no lineal, en la que la historia se presenta de forma fragmentada o a través de diferentes líneas de tiempo.
+
+
+      p.mb-4.mt-3 A continuación, se describen algunas de las técnicas más comunes utilizadas en la narrativa turística:
+
+      .row.fondo33.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row
+            .col-lg-8
+              TabsA.color-acento-botones.mod
+                .tarjeta.p-4.bg5(titulo="<em>Storytelling</em>")
+                  h4 #[em Storytelling]
+                  p Consiste en contar historias cautivadoras que conectan con las emociones del turista, generando una experiencia auténtica y significativa.
+                .tarjeta.p-4.bg5(titulo="Narrativa visual")
+                  h4 Narrativa visual
+                  p Emplea imágenes, videos y otros recursos visuales para narrar historias y transmitir emociones de forma efectiva.
+                .tarjeta.p-4.bg5(titulo="Narrativa sensorial")
+                  h4 Narrativa sensorial
+                  p Apela a los cinco sentidos (vista, oído, olfato, gusto y tacto) con el fin de crear una experiencia inmersiva, envolvente y memorable.
+                .tarjeta.p-4.bg5(titulo="Narrativa histórica")
+                  h4 Narrativa histórica
+                  p Incorpora hechos y relatos del pasado para contextualizar el destino, fomentando el interés cultural y la comprensión del patrimonio.
+                .tarjeta.p-4.bg5(titulo="Narrativa personalizada")
+                  h4 Narrativa personalizada
+                  p Adapta el relato a los intereses, motivaciones y características específicas de cada tipo de turista, permitiendo una conexión más directa y significativa con la experiencia.
+            .col-lg-4.d-none.d-lg-block
+              img(src='@/assets/curso/tema5/25.png', alt='')
+
+      .tarjeta.color-adicional-1.p-4.mb-0(data-aos="fade-right")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema3/32.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-2.blu #[em Storytelling] EJEMPLO de Johnnie Walker | El hombre que caminó alrededor del mundo (en español)
+                p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente video.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pHBLg_T0la8" target="_blank")
+                  span Ir al sitio
+                  i.fas.fa-circle-play  
+
+
+      separador
+      #t_5_2.titulo-segundo.color-acento-contenido.mb-5
+        h2 5.2 Itinerario
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-7
+          p.mb-4 Un itinerario turístico es un documento en el que se describen cronológicamente las actividades que se llevarán a cabo durante un viaje determinado. Es una herramienta fundamental para la organización, ya que permite planificar con anticipación aspectos como:
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-4.col-md-4.col-8
+              img.mb-lg-0.mb-4(src='@/assets/curso/tema5/26.png', alt='')
+            .col-lg-8.col-md-8
+              ul.lista-ul
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0 ¿Qué se hará durante el viaje?
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0 Sitios a visitar.
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0 Actividades a realizar.
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0  Horarios asignados para cada actividad.
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0 Duración estimada de cada experiencia.
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0 Fechas de inicio y finalización del recorrido.
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0 Tiempos de traslado entre destinos.
+                li.d-flex.mb-1
+                  i.fas.fa-circle-check
+                  p.mb-0  Espacios destinados al descanso y a la alimentación.
+
+        .col-lg-5
+          img.d-none.d-lg-block(src='@/assets/curso/tema5/27.png', alt='')
+
+      p.mb-4.mt-3 Además, un itinerario turístico especifica los lugares de interés que deben ser visitados por los turistas. Puede adaptarse a distintas temáticas o enfoques; por ejemplo, un itinerario gastronómico incluirá los lugares donde se pueden degustar los platos típicos de la región.
+      .mb-5
+
+      .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Elementos de un itinerario
+
+      p.mb-4.mt-3 Los principales elementos que componen un itinerario turístico son:
+
+      .row.justify-content-center.align-items-stretch.mb-4.width-25
+        .col-lg-3.col-md-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/28.svg' alt='')
+            .tarjeta.cajon-color-adicional-8
+              .p-4
+                p.mb-0 #[b a) Tiempo:] incluye fechas, horarios y duración estimada de cada actividad.
+        .col-lg-3.col-md-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/29.svg' alt='')
+            .tarjeta.cajon-color-adicional-8
+              .p-4
+                p.mb-lg-4.mb-5 #[b b) Turistas:] personas que realizan el recorrido.
+        .col-lg-3.col-md-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/30.svg' alt='')
+            .tarjeta.cajon-color-adicional-8
+              .p-4
+                p.mb-4 #[b c) Camino:] rutas o vías por las cuales se desarrolla el itinerario.
+        .col-lg-3.col-md-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/31.svg' alt='')
+            .tarjeta.cajon-color-adicional-8
+              .p-4
+                p.mb-0 #[b d) Puntos de llegada:] sitios de interés seleccionados para ser visitados.
+
+      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de itinerarios
+
+      p.mb-5.mt-3 Existen diversos tipos de itinerarios turísticos, según la tipología de turismo que se desee realizar y la ubicación geográfica de los atractivos. A continuación, se describen los más comunes:  
+
+      .cont_5_1.mt-4(data-aos="fade-left").mb-5
+        .row.justify-content-center
+          .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+            .crd_hover_txt
+              .crd_hover_txt--img
+                figure
+                  img(src='@/assets/curso/tema5/32.png' alt="")
+              .crd_hover_txt--body.colt
+                h5.mb-3.text-center.text-white a) Itinerario turístico cultural
+                p.mb-0.text-center.mb-0.txp Centrado en la visita a lugares con valor arquitectónico, artístico, histórico, gastronómico o folclórico. Busca fomentar el conocimiento y la apreciación del patrimonio cultural del destino.
+          .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+            .crd_hover_txt
+              .crd_hover_txt--img
+                figure
+                  img(src='@/assets/curso/tema5/33.png' alt="")
+              .crd_hover_txt--body.colt
+                h5.mb-3.text-center.text-white b) Itinerario turístico natural
+                p.mb-0.text-center.mb-0.txp Diseñado para mostrar los atractivos de zonas con alto valor ambiental y paisajístico. Incluye paradas en espacios como miradores, cumbres o reservas naturales, que permiten admirar y contemplar el entorno.
+          .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+            .indicador--hover
+            .crd_hover_txt
+              .crd_hover_txt--img
+                figure
+                  img(src='@/assets/curso/tema5/34.png' alt="")
+              .crd_hover_txt--body.colt
+                h5.mb-3.text-center.text-white c) Itinerario turístico personalizado
+                p.mb-0.text-center.mb-0.txp Adaptado a los intereses y motivaciones específicas de quien lo diseña. Por ejemplo, un chef argentino de renombre internacional puede crear un recorrido por diversos restaurantes de alta cocina en la ciudad de Buenos Aires, explicando el motivo de cada parada. Este tipo de itinerario responde a un enfoque temático, como el gastronómico, y tiene un alto componente personal.
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-5
+          .titulo-sexto.color-secundario.mb-lg-5.mb-2
+            h5 Figura 4. 
+            |  Ejemplo de atractivos culturales y patrimoniales, incluidos en un itinerario turístico cultural
+          img.mb-2(src='@/assets/curso/tema5/56.svg' alt="Mapa ilustrado de una ruta turística urbana que conecta varios puntos de interés en una ciudad.")
+          figcaption #[b Tomado:] https://klandestinos.wordpress.com/wp-content/uploads/2008/12/itinerarios_mapa_santander_monumental1.jpg
+        .col-lg-7
+          .bg19.p-3.mb-2
+            h5.mb-0.text-white Ejemplo de diseño de itinerario turístico cultural, dirigido a turistas extranjeros – estudiantes de derecho. 
+          .tarjeta.tarjeta--azull.p-2
+            SlyderF(columnas="col-lg-12")
+              .tarjeta.color-acento-botones.p-0.cont
+                .row.justify-content-center.align-items-stretch.mb-0
+                  .col-lg-12
+                    .bg20.p-2
+                      h5.mb-0 Día 1
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 4:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Salida hacia el municipio de Bucaramanga.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 8:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Desayuno típico en el restaurante el Tony.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 9:20 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Visita a la Casa del Ayuntamiento. Reconocimiento de las funciones y actividades desarrolladas por la Administración Municipal.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 11:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Visita guiada al Palacio de Justicia para conocer su historia, arquitectura y las dependencias judiciales, incluyendo las áreas de atención a víctimas.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 12:30 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                         .bg22.p-1.h-100 
+                           p.mb-0 Almuerzo en el restaurante Doña Petrona del Mar.   
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 14:00 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Llegada al hotel Ciudad Bonita. Coctel de bienvenida.    
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 3:30 p. m.]
+                          p.mb-0 #[b 7:00 p. m. ]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Tiempo libre para disfrutar de las instalaciones del hotel.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 7:15 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Cena en el restaurante del hotel.
+
+              .tarjeta.color-acento-botones.p-0.cont
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-12
+                    .bg20.p-2
+                      h5.mb-0 Día 2
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 7:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Desayuno en el restaurante del hotel.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 8:30 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Visita guiada a la empresa de correos: exposición sobre la historia del correo, talleres de escritura de cartas y envío de postales.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 10:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Visita al Centro Cultural del Oriente: recorrido por exposiciones de arte, presentaciones musicales y obras de teatro.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 1:00 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Almuerzo en el restaurante El Viejo Chiflas.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 2:30 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                         .bg22.p-1.h-100 
+                           p.mb-0 Visita guiada al Banco de Santander: reconocimiento de su historia institucional y de los procesos internos en cada dependencia.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 4:00 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 #[em City tour] en chiva por la ciudad.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 7:00 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Cena en el restaurante del hotel.
+
+              .tarjeta.color-acento-botones.p-0.cont
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-12
+                    .bg20.p-2
+                      h5.mb-0 Día 3
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 7:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100
+                          p.mb-0 Desayuno en el restaurante del hotel. 
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 8:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Visita al sector de San francisco – La calle del calzado. Espacio destinado para compras.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 11:00 a. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Regreso al hotel y organización del equipaje.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 12:00 m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Almuerzo en el hotel.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 1:00 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                         .bg22.p-1.h-100 
+                           p.mb-0 #[em Check-out] y entrega de la habitación.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 2:00 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Salida de la ciudad.
+                    .row.justify-content-center.align-items-stretch.mb-2
+                      .col-lg-2.col-md-3.pe-lg-0.pe-md-0
+                        .bg21.p-1.h-100
+                          p.mb-0 #[b 6:00 p. m.]
+                      .col-lg-10.col-md-9.ps-lg-0.ps-md-0
+                        .bg22.p-1.h-100 
+                          p.mb-0 Llegada al destino inicial. Fin del itinerario.
   
-    .tabla-a.color-acento-contenido
-      table
-        thead
-          tr
-            th Aspecto a evaluar
-            th Criterio de verificación
-            th(colspan="2") Cumple
-            th Observaciones
-          tr
-            th 
-            th 
-            th SÍ
-            th NO
-            th 
-        tbody
-          tr
-            td.tl 1. Infraestructura de los prestadores de servicios turísticos.
-            td.tl Instalaciones limpias, señalizadas, en buen estado, baterías de baño funcionando y dotadas.
-            td –
-            td –
-            td -
-          tr
-            td.tl 2. Personal.
-            td.tl Personal capacitado, con uniforme e identificación visible.
-            td –
-            td –
-            td –
-          tr
-            td.tl 3. Seguridad.
-            td.tl Protocolos de seguridad implementados (extintores, botiquín, señalización de salidas).
-            td –
-            td –
-            td –
-          tr
-            td.tl 4. Equipos y recursos.
-            td.tl Equipos necesarios para la actividad en buen estado y disponibles.
-            td –
-            td –
-            td –
-          tr
-            td.tl 5. Documentación legal.
-            td.tl Documentación y permisos vigentes.
-            td –
-            td –
-            td –
-          tr
-            td.tl 6. Oferta de servicios autóctonos.
-            td.tl Oferta autóctona organizada.
-            td –
-            td –
-            td –
-          tr
-            td.tl 7. Actividades.
-            td.tl Actividades acordes a la experiencia, organizadas.
-            td –
-            td –
-            td –
-          tr
-            td.tl 8. Itinerario.
-            td.tl Itinerario organizado de manera estratégica.
-            td –
-            td –
-            td –
-          tr
-            td.tl 9. Ruta.
-            td.tl Se dio nombre a la ruta.
-            td –
-            td –
-            td –
-          tr
-            td.tl 10. Narrativa.
-            td.tl Narrativa preparada acorde a la experiencia.
-            td –
-            td –
-            td –
-          tr
-            td.tl 11. Sostenibilidad.
-            td.tl Prácticas sostenibles implementadas (manejo de residuos, ahorro energético, respeto ambiental).
-            td –
-            td –
-            td –
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .mb-5
-    .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-      h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Encuesta de satisfacción 
-    
+      .tarjeta.color-adicional-1.p-4.mb-0(data-aos="fade-right")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema1/5.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-2.blu Manual para la generación de rutas e itinerarios turísticos
+                p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://servicios.turismo.gob.ec/wp-content/uploads/2023/04/Manual_generacion_rutas_itinerarios_sub2021_compressed.pdf" target="_blank")
+                  span Ir al sitio
+                  i.fas.fa-globe
 
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
-      .col-lg-7
-        .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2.d-none.d-lg-block
-            img.img-t(src='@/assets/curso/tema5/44.svg', alt='')
-          .col-lg-10.ps-lg-0
-            p.mb-0 La encuesta de satisfacción es un instrumento utilizado para medir el grado de satisfacción de los clientes y su nivel de compromiso con una marca, producto o servicio. Aplicar este tipo de encuesta permite conocer de manera directa las percepciones, opiniones y expectativas de los usuarios.
-        p.mb-0 Actualmente, existen múltiples métodos para aplicar encuestas, pero las encuestas en línea se han consolidado como una de las alternativas más eficaces, debido a su bajo costo, facilidad de aplicación y rapidez en la recolección de datos. Este tipo de encuestas también permite identificar clientes insatisfechos y tomar acciones correctivas oportunas, evitando la pérdida de fidelidad hacia el producto o servicio.
-      .col-lg-5
-        img.d-none.d-lg-block(src='@/assets/curso/tema5/45.png', alt='')
+      separador
+      #t_5_3.titulo-segundo.color-acento-contenido.mb-5
+        h2 5.3 Testeo de la experiencia
 
+      .row.justify-content-center
+        .col-lg-8
+          p.mb-3 Se refiere a los métodos y técnicas mediante los cuales se evalúa cómo los visitantes perciben y valoran las experiencias vividas en un destino turístico. Esta evaluación puede realizarse a través de encuestas, escalas estructuradas, entrevistas o pruebas específicas que permiten medir dimensiones como la satisfacción, la autenticidad, la conexión emocional y el carácter memorable de la experiencia.
+          p.mb-4 Para desarrollar una experiencia turística de calidad, es fundamental medir y controlar los servicios ofrecidos al turista o visitante.
+        .col-lg-4.col-md-10.col-10
+          img(src='@/assets/curso/tema5/35.png', alt='')
 
-    p.mb-5 Una encuesta de satisfacción bien estructurada debe incluir preguntas que evalúen aspectos clave como:
-    
-    
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-2
-      .col-lg-4.col-md-6
-        .bgb.p-4.mb-lg-0.mb-4
+      .row.fondo4.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          p.mb-4 El instrumento de verificación para la medición y control de la experiencia permite:
+
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-3.mb-lg-0.mb-4
-              img.img-t.img-a(src='@/assets/curso/tema5/45.svg', alt='')
-            .col-lg-9
-              h5.mb-0 La calidad en la prestación del servicio.
-              
-      .col-lg-4.col-md-6
-        .bgb.p-4.mb-lg-0.mb-4
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-3.mb-lg-0.mb-4
-              img.img-t.img-a(src='@/assets/curso/tema5/46.svg', alt='')
-            .col-lg-9
-              h5.mb-0 La experiencia del cliente durante la interacción.
-      .col-lg-4.col-md-6
-        .bgb.p-4.mb-lg-0.mb-4
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-3.mb-lg-0.mb-4
-              img.img-t.img-a(src='@/assets/curso/tema5/47.svg', alt='')
-            .col-lg-9
-              h5.mb-0 La percepción general de satisfacción.
-    
-    
-   
-    p.mb-5 Es recomendable aplicar la encuesta inmediatamente después de la experiencia del usuario, para obtener respuestas más precisas y relevantes. Entre las herramientas digitales disponibles para diseñar encuestas de satisfacción, se destacan:
-    
-    
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-md-6.col-lg-3.mb-4
-        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
-          .tarjeta-numerada__numero
-            img.disappearing-image(src='@/assets/curso/tema5/48.svg', alt='')
-          p.mb-4.mx-lg-2 #[strong Google Forms:] plataforma gratuita y accesible para crear formularios personalizados.
-      .col-md-6.col-lg-3.mb-4
-        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
-          .tarjeta-numerada__numero
-            img.disappearing-image(src='@/assets/curso/tema5/49.svg', alt='')
-          p.mb-4.mx-lg-2 #[strong Typeform:] ofrece formularios interactivos y visualmente atractivos.
-      .col-md-6.col-lg-3.mb-4
-        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
-          .tarjeta-numerada__numero
-            img.disappearing-image(src='@/assets/curso/tema5/50.svg', alt='')
-          p.mb-4.mx-lg-2 #[strong SurveyMonkey:] permite mayor profundidad en el análisis estadístico de las respuestas.
-      .col-md-6.col-lg-3.mb-4
-        .tarjeta-numerada.cajon-color-adicional-8.p-lg-5.p-4.sinborde
-          .tarjeta-numerada__numero
-            img.disappearing-image(src='@/assets/curso/tema5/51.svg', alt='')
-          p.mb-0.mx-lg-2 #[strong Microsoft Forms:] integrada con el ecosistema de Office, ideal para entornos educativos y corporativos.
-    
-    
-    .ia.mb-5(data-aos="fade-right")
-      .d-flex.align-items-center.mb-1
-        img(src='@/assets/curso/tema3/ia.png', alt='')
-        h3.mb-0.mx-2 Ejemplo de encuesta de satisfacción
+            .col-lg-4
+              img.d-none.d-lg-block(src='@/assets/curso/tema5/36.png', alt='')
+            .col-lg-8.col-md-7
+              SlyderF.slyder3.circl-arrow.mb-0(columnas="col-lg-6 col-xl-6")(data-aos="fade-left")
+                .tarjeta.tarjeta-btn.p-4
+                  img.mb-3(src='@/assets/curso/tema5/37.svg', alt='')
+                  .title.mb-4
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-lg-12
+                      p.text-center #[strong Garantizar la calidad del servicio:] confirma que todos los elementos necesarios (infraestructura, personal, insumos, equipos, entre otros) cumplen con los estándares de calidad previamente establecidos.
+                .tarjeta.tarjeta-btn.p-4
+                  img.mb-3(src='@/assets/curso/tema5/38.svg', alt='')
+                  .title.mb-4
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-lg-12
+                      p.text-center #[strong Asegurar el cumplimiento de requisitos:] verifica que los prestadores de servicios turísticos cumplen con las normativas legales, de seguridad, ambientales y de sostenibilidad antes de recibir a los visitantes.
+                .tarjeta.tarjeta-btn.p-4
+                  img.mb-3(src='@/assets/curso/tema5/39.svg', alt='')
+                  .title.mb-4
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-lg-12
+                      p.text-center #[strong Identificar y prevenir fallas:] detecta posibles deficiencias o riesgos que puedan afectar negativamente la experiencia, permitiendo su corrección anticipada.
+                .tarjeta.tarjeta-btn.p-4
+                  img.mb-3(src='@/assets/curso/tema5/40.svg', alt='')
+                  .title.mb-4
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-lg-12
+                      p.text-center #[strong Optimizar la experiencia turística:] al asegurar que todo esté en orden, se mejora la satisfacción del visitante, lo cual fortalece la percepción positiva del destino y fomenta la fidelización.
+                .tarjeta.tarjeta-btn.p-4
+                  img.mb-3(src='@/assets/curso/tema5/41.svg', alt='')
+                  .title.mb-4
+                  .row.justify-content-center.align-items-center.mb-0
+                    .col-lg-12
+                      p.mb-5.text-center #[strong Evaluar la preparación operativa:] permite medir el nivel de alistamiento de los servicios (transporte, guías, alojamiento, actividades, etc.) antes del inicio, garantizando que el itinerario se desarrolle sin contratiempos.
+
+      p.mb-5 Ejemplo: Lista de verificación para medir la calidad de los servicios antes de iniciar una experiencia turística.
+
+      .row.sistema
+        .col-lg-12.col-md-12
+          p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12(alt='Tabla de verificación de experiencias turísticas con 11 aspectos evaluables.')
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th Aspecto a evaluar
+                  th Criterio de verificación
+                  th(colspan="2") Cumple
+                  th Observaciones
+                tr
+                  th 
+                  th 
+                  th SÍ
+                  th NO
+                  th 
+              tbody
+                tr
+                  td.tl 1. Infraestructura de los prestadores de servicios turísticos.
+                  td.tl Instalaciones limpias, señalizadas, en buen estado, baterías de baño funcionando y dotadas.
+                  td –
+                  td –
+                  td -
+                tr
+                  td.tl 2. Personal.
+                  td.tl Personal capacitado, con uniforme e identificación visible.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 3. Seguridad.
+                  td.tl Protocolos de seguridad implementados (extintores, botiquín, señalización de salidas).
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 4. Equipos y recursos.
+                  td.tl Equipos necesarios para la actividad en buen estado y disponibles.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 5. Documentación legal.
+                  td.tl Documentación y permisos vigentes.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 6. Oferta de servicios autóctonos.
+                  td.tl Oferta autóctona organizada.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 7. Actividades.
+                  td.tl Actividades acordes a la experiencia, organizadas.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 8. Itinerario.
+                  td.tl Itinerario organizado de manera estratégica.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 9. Ruta.
+                  td.tl Se dio nombre a la ruta.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 10. Narrativa.
+                  td.tl Narrativa preparada acorde a la experiencia.
+                  td –
+                  td –
+                  td –
+                tr
+                  td.tl 11. Sostenibilidad.
+                  td.tl Prácticas sostenibles implementadas (manejo de residuos, ahorro energético, respeto ambiental).
+                  td –
+                  td –
+                  td –
 
 
-    p.mb-4 Por favor, califique los siguientes aspectos del servicio recibido, utilizando una escala del 1 al 5:
-    
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.col-md-6.mb-4
-        .bg12.p-3
-          .fondop.p-1.mb-3.mx-lg-4
-            p.mb-0 #[strong Escala de valoración:]
-          ol.lista-ol--cuadro.listajustada.mx-lg-4
-            li 
-              .lista-ol--cuadro__vineta
-                span 1=
-              | Muy insatisfecho
-            li 
-              .lista-ol--cuadro__vineta
-                span 2=
-              | Insatisfecho
-            li 
-              .lista-ol--cuadro__vineta
-                span 3=
-              | Neutral
-            li 
-              .lista-ol--cuadro__vineta
-                span 4=
-              | Satisfecho
-            li.mb-0 
-              .lista-ol--cuadro__vineta
-                span 5=
-              | Muy satisfecho
-      .col-lg-4.col-md-6.col-10.mb-4
-        img(src='@/assets/curso/tema5/52.png', alt='')
-      .col-lg-5.mb-4
-        img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema5/53.svg', alt='')
-        p.mb-0 Este ejemplo describe cómo se estructuran los ítems en una encuesta de satisfacción dirigida a usuarios o clientes que han recibido un servicio. El objetivo es que los participantes del curso comprendan cómo se formulan las preguntas, cómo se aplica una escala de valoración y qué aspectos clave deben evaluarse. Cada ítem está diseñado para recoger información específica sobre la experiencia del usuario, lo que permite identificar fortalezas y oportunidades de mejora en la prestación del servicio.
-    
-  
-    
-    .mb-4
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
-        img.mb-2.d-none.d-lg-block(src='@/assets/curso/tema5/54.png', alt='')
-        .bg13.p-3.mb-lg-0.mb-4
-          ol.lista-ol--cuadro
-            li 
-              .lista-ol--cuadro__vineta
-                span 1
-              | Amabilidad y atención del personal.
-            li 
-              .lista-ol--cuadro__vineta
-                span 2
-              | Tiempo de respuesta o atención.
-            li 
-              .lista-ol--cuadro__vineta
-                span 3
-              | Claridad de la información recibida.
-            li 
-              .lista-ol--cuadro__vineta
-                span 4
-              | Calidad del servicio prestado.
-            li 
-              .lista-ol--cuadro__vineta
-                span 5
-              | Instalaciones o medios utilizados.
-            li.mb-0
-              .lista-ol--cuadro__vineta
-                span 6
-              | Satisfacción general con la experiencia.
-      .col-lg-6
-        p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 5.] Tabla de evaluación de experiencia turística
-        img(src='@/assets/curso/tema5/55.png', alt='Tabla de valoración de aspectos como alojamiento, alimentación, transporte y satisfacción general, con escala del 1 al 5.')
+      .mb-5
+      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
+        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Encuesta de satisfacción 
 
-    .mb-4
-    .tarjeta.acordeoncolor.p-4.mb-0
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/5.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-2.blu GUÍA DE EVALUACIÓN DE LA EXPERIENCIA DEL VISITANTE, metodología en Áreas Protegidas
-              p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
-            .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=pHBLg_T0la8" target="_blank")
-                span Ir al sitio
-                i.fas.fa-globe
+
+      .row.justify-content-center.align-items-center.mb-lg-5.mb-4
+        .col-lg-7
+          .row.justify-content-center.align-items-center.mb-3
+            .col-lg-2.d-none.d-lg-block
+              img.img-t(src='@/assets/curso/tema5/44.svg', alt='')
+            .col-lg-10.ps-lg-0
+              p.mb-0 La encuesta de satisfacción es un instrumento utilizado para medir el grado de satisfacción de los clientes y su nivel de compromiso con una marca, producto o servicio. Aplicar este tipo de encuesta permite conocer de manera directa las percepciones, opiniones y expectativas de los usuarios.
+          p.mb-0 Actualmente, existen múltiples métodos para aplicar encuestas, pero las encuestas en línea se han consolidado como una de las alternativas más eficaces, debido a su bajo costo, facilidad de aplicación y rapidez en la recolección de datos. Este tipo de encuestas también permite identificar clientes insatisfechos y tomar acciones correctivas oportunas, evitando la pérdida de fidelidad hacia el producto o servicio.
+        .col-lg-5
+          img.d-none.d-lg-block(src='@/assets/curso/tema5/45.png', alt='')
+
+
+      p.mb-5 Una encuesta de satisfacción bien estructurada debe incluir preguntas que evalúen aspectos clave como:
+
+
+      .row.justify-content-center.align-items-center.mb-lg-5.mb-2
+        .col-lg-4.col-md-6
+          .bgb.p-4.mb-lg-0.mb-4
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-3.mb-lg-0.mb-4
+                img.img-t.img-a(src='@/assets/curso/tema5/45.svg', alt='')
+              .col-lg-9
+                p.mb-0 La calidad en la prestación del servicio.
+
+        .col-lg-4.col-md-6
+          .bgb.p-4.mb-lg-0.mb-4
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-3.mb-lg-0.mb-4
+                img.img-t.img-a(src='@/assets/curso/tema5/46.svg', alt='')
+              .col-lg-9
+                p.mb-0 La experiencia del cliente durante la interacción.
+        .col-lg-4.col-md-6
+          .bgb.p-4.mb-lg-0.mb-4
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-3.mb-lg-0.mb-4
+                img.img-t.img-a(src='@/assets/curso/tema5/47.svg', alt='')
+              .col-lg-9
+                p.mb-0 La percepción general de satisfacción.
+
+
+
+      p.mb-5 Es recomendable aplicar la encuesta inmediatamente después de la experiencia del usuario, para obtener respuestas más precisas y relevantes. Entre las herramientas digitales disponibles para diseñar encuestas de satisfacción, se destacan:
+
+      .row.justify-content-center.align-items-stretch.mb-5.widd
+        .col-lg-3.col-md-6.mb-lg-0.mb-4
+          .tarjeta-avatar-b.mb-0.h-100
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/48.svg' alt='')
+            .tarjeta.tarjeta--azules
+              .p-4
+                p.mb-0 #[b Google Forms:] plataforma gratuita y accesible para crear formularios personalizados.
+        .col-lg-3.col-md-6.mb-lg-0.mb-4
+          .tarjeta-avatar-b.mb-0.h-100
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/49.svg' alt='')
+            .tarjeta.tarjeta--azules
+              .p-4
+                p.mb-0 #[b Typeform:] ofrece formularios interactivos y visualmente atractivos.
+        .col-lg-3.col-md-6.mb-lg-0.mb-4
+          .tarjeta-avatar-b.mb-0.h-100
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/50.svg' alt='')
+            .tarjeta.tarjeta--azules
+              .p-4
+                p.mb-0 #[b SurveyMonkey:] permite mayor profundidad en el análisis estadístico de las respuestas.
+        .col-lg-3.col-md-6.mb-lg-0.mb-4
+          .tarjeta-avatar-b.mb-0.h-100
+            .tarjeta-avatar-b__img
+              img.my-2(src='@/assets/curso/tema5/51.svg' alt='')
+            .tarjeta.tarjeta--azules
+              .p-4
+                p.mb-0 #[b Microsoft Forms:] integrada con el ecosistema de Office, ideal para entornos educativos y corporativos.
+
+
+      .ia.mb-5(data-aos="fade-right")
+        .d-flex.align-items-center.mb-1
+          img(src='@/assets/curso/tema3/ia.png', alt='')
+          h3.mb-0.mx-2 Ejemplo de encuesta de satisfacción
+
+
+      p.mb-4 Por favor, califique los siguientes aspectos del servicio recibido, utilizando una escala del 1 al 5:
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-3.col-md-6.mb-4
+          .bg12.p-3
+            .fondop.p-1.mb-3.mx-lg-4
+              p.mb-0 #[strong Escala de valoración:]
+            ol.lista-ol--cuadro.listajustada.mx-lg-4
+              li 
+                .lista-ol--cuadro__vineta
+                  span 1=
+                | Muy insatisfecho
+              li 
+                .lista-ol--cuadro__vineta
+                  span 2=
+                | Insatisfecho
+              li 
+                .lista-ol--cuadro__vineta
+                  span 3=
+                | Neutral
+              li 
+                .lista-ol--cuadro__vineta
+                  span 4=
+                | Satisfecho
+              li.mb-0 
+                .lista-ol--cuadro__vineta
+                  span 5=
+                | Muy satisfecho
+        .col-lg-4.col-md-6.col-10.mb-4
+          img(src='@/assets/curso/tema5/52.png', alt='')
+        .col-lg-5.mb-4
+          img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema5/53.svg', alt='')
+          p.mb-0 Este ejemplo describe cómo se estructuran los ítems en una encuesta de satisfacción dirigida a usuarios o clientes que han recibido un servicio. El objetivo es que los participantes del curso comprendan cómo se formulan las preguntas, cómo se aplica una escala de valoración y qué aspectos clave deben evaluarse. Cada ítem está diseñado para recoger información específica sobre la experiencia del usuario, lo que permite identificar fortalezas y oportunidades de mejora en la prestación del servicio.
+
+
+
+      .mb-4
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-4
+          img.mb-2.d-none.d-lg-block(src='@/assets/curso/tema5/54.png', alt='')
+          .bg13.p-3.mb-lg-0.mb-4
+            ol.lista-ol--cuadro
+              li 
+                .lista-ol--cuadro__vineta
+                  span 1
+                | Amabilidad y atención del personal.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 2
+                | Tiempo de respuesta o atención.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 3
+                | Claridad de la información recibida.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 4
+                | Calidad del servicio prestado.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 5
+                | Instalaciones o medios utilizados.
+              li.mb-0
+                .lista-ol--cuadro__vineta
+                  span 6
+                | Satisfacción general con la experiencia.
+        .col-lg-6
+          p.mb-4.titulo-sexto.color-acento-contenido #[strong Figura 5.] Tabla de evaluación de experiencia turística
+          img(src='@/assets/curso/tema5/55.svg', alt='Tabla de valoración de aspectos como alojamiento, alimentación, transporte y satisfacción general, con escala del 1 al 5.')
+
+      .tarjeta.color-adicional-1.p-4.mb-0(data-aos="fade-right")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema1/5.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-2.blu GUÍA DE EVALUACIÓN DE LA EXPERIENCIA DEL VISITANTE, metodología en Áreas Protegidas
+                p.mb-0 Para fortalecer el tema anteriormente abordado, se invita a consultar el siguiente enlace.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.subturismo.gob.cl/wp-content/uploads/2017/05/GUIA_EXPERIENCIA_VISITANTE_WEB.pdf" target="_blank")
+                  span Ir al sitio
+                  i.fas.fa-globe
+                  
 </template>
 
 <script>

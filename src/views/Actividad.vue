@@ -20,17 +20,17 @@ export default {
       tema: 'Guía práctica en la creación de experiencia turística',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales en el procedimiento para la creación de experiencia turística.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales en el procedimiento para la creación de experiencia turística.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡FELICIDADES!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
             'Es la experiencia turística el conjunto de emociones, percepciones, conocimientos y sensaciones que vive una persona durante el desarrollo de una actividad turística.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -39,7 +39,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
@@ -53,7 +53,7 @@ export default {
           texto:
             'El aprendizaje en la cocina local y la degustación en distintos platos son experiencias culturales.',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -62,7 +62,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: true,
             },
           ],
@@ -76,7 +76,7 @@ export default {
           texto:
             'Son actividades turísticas las visitas guiadas a sitios históricos, los recorridos por senderos naturales, las catas de productos locales y la asistencia a eventos artísticos.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -85,7 +85,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
@@ -97,9 +97,9 @@ export default {
         {
           id: 4,
           texto:
-            'Son facilidades turísticas los miradores, las torres de avistamiento de aves, los estacionamientos.',
+            'Son facilidades turísticas los miradores, las torres de avistamiento de aves y los estacionamientos.',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -108,7 +108,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
@@ -119,9 +119,9 @@ export default {
         },
         {
           id: 5,
-          texto: 'La Ley 2111 de 2021 es la Ley general de turismo.',
+          texto: 'La Ley 2111 de 2021 es la Ley General de Turismo.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -130,7 +130,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: true,
             },
           ],
@@ -144,7 +144,7 @@ export default {
           texto:
             'El siguiente concepto: protección de la vida, la salud y la integridad física, psicológica y económica de los visitantes, los prestadores de servicios y los anfitriones de las comunidades receptoras ¿hace referencia a Seguridad Turística?',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -153,7 +153,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
@@ -167,7 +167,7 @@ export default {
           texto:
             'Es la geolocalización un proceso tecnológico que permite determinar la ubicación exacta de un objeto o persona a través de dispositivos electrónicos.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -176,7 +176,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
@@ -188,9 +188,9 @@ export default {
         {
           id: 8,
           texto:
-            'Los momentos de la verdad dentro de un ciclo de servicio siempre son positivos',
+            'Los momentos de la verdad dentro de un ciclo de servicio siempre son positivos.',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -199,7 +199,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: true,
             },
           ],
@@ -210,9 +210,9 @@ export default {
         },
         {
           id: 9,
-          texto: 'Es storytelling una técnica narrativa',
+          texto: 'Es <em>storytelling</em> una técnica narrativa.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -221,7 +221,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
@@ -235,7 +235,7 @@ export default {
           texto:
             'El siguiente concepto: es un recorrido con un itinerario establecido, que se realiza visitando y conociendo atractivos turísticos culturales o naturales, ubicados en zonas de desarrollo turístico, dotados con todas las facilidades y comodidades para el turismo. ¿Hace referencia a una ruta turística?',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -244,7 +244,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'False',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
@@ -254,9 +254,10 @@ export default {
             'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Posee una buena comprensión sobre los conceptos fundamentales para el desarrollo de la actividad en la guía práctica en la creación de experiencia turística.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Se recomienda volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

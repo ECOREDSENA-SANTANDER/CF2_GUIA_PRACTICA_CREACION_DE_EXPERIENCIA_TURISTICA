@@ -8,26 +8,26 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.tipoturista.mb-4
-        .col-lg-1
-          img.d-none.d-lg-block(src='@/assets/curso/intro/1.svg', alt='')
-        .col-lg-11
-          p.mb-4 El turismo, como motor de desarrollo para las comunidades y los distintos territorios, no solo constituye una base fundamental para la economía local, sino que también impulsa la promoción de los bienes culturales, tanto tangibles como intangibles. Esta actividad favorece el fortalecimiento de la infraestructura, la organización de los oferentes, el crecimiento comunitario y la conservación de los recursos naturales y culturales.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-1
+        img.d-none.d-lg-block(src='@/assets/curso/intro/1.svg', alt='')
+      .col-lg-11
+        p.mb-0 El turismo, como motor de desarrollo para las comunidades y los distintos territorios, no solo constituye una base fundamental para la economía local, sino que también impulsa la promoción de los bienes culturales, tanto tangibles como intangibles. Esta actividad favorece el fortalecimiento de la infraestructura, la organización de los oferentes, el crecimiento comunitario y la conservación de los recursos naturales y culturales.
 
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         img.d-none.d-lg-block(src='@/assets/curso/intro/2.png', alt='')
       .col-lg-7
         .bg16.p-4
-          p.mb-0.mb-lg-2.my-lg-3 Se caracteriza por su carácter incluyente, ya que permite la participación de todas las personas interesadas en formar parte del sector, promoviendo la creatividad en la oferta de actividades y servicios. Cada territorio posee una identidad única, reflejada en su cultura, tradiciones, paisajes, sitios históricos, festividades y gastronomía, lo cual permite generar experiencias memorables para quienes lo visitan. Esta dinámica favorece la organización comunitaria, orientada a ofrecer atención de calidad a los visitantes, y contribuye a mejorar la calidad de vida de las poblaciones locales a través de la generación de empleo, la activación del comercio, el fortalecimiento de la infraestructura, la educación y la preservación ambiental y cultural.
-    .mb-5
+          p.mb-0.mb-lg-3.my-lg-2 Se caracteriza por su carácter incluyente, ya que permite la participación de todas las personas interesadas en formar parte del sector, promoviendo la creatividad en la oferta de actividades y servicios. Cada territorio posee una identidad única, reflejada en su cultura, tradiciones, paisajes, sitios históricos, festividades y gastronomía, lo cual permite generar experiencias memorables para quienes lo visitan. Esta dinámica favorece la organización comunitaria, orientada a ofrecer atención de calidad a los visitantes, y contribuye a mejorar la calidad de vida de las poblaciones locales a través de la generación de empleo, la activación del comercio, el fortalecimiento de la infraestructura, la educación y la preservación ambiental y cultural.
+
     p.mb-4 Por tal razón, se presenta esta guía de apoyo, orientada a facilitar el conocimiento de los pasos esenciales para la elaboración de una experiencia turística, adaptable a cualquier territorio, con el propósito de estructurar propuestas que integren diversas actividades dentro de una experiencia completa y sostenible.
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d325I0KEbYk?si=a0Yig30W674F_tfi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        figcaption Video. Guía práctica en la creación de experiencia turística
 
 </template>
 
