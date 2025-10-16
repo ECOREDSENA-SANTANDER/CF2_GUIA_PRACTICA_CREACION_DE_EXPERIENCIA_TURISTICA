@@ -39,43 +39,42 @@
   
       p.mb-2 Un plan de contingencia debe mantenerse vigente y operativo, incluso después de haberse presentado una eventualidad. Su elaboración incluye cuatro etapas:
       
-      .row.mb-4
-        .row.mb-4
-          .col-lg-3.col-md-6.mb-4.mb-lg-0
-            .tarjeta-avatar
-              img.img-t.my-3(src='@/assets/curso/tema7/2.svg' alt='')
-              .tarjeta.cajon-color-adicional-11
-                .p-4
-                  .bg11.p-1.mb-4.mx-lg-3
-                    h4.text-center.mb-0.ps-3.pe-3 Planificar
-                  p.mb-0.text-center Definir metas y cómo lograrlas.
-          .col-lg-3.col-md-6.mb-4.mb-lg-0
-            .tarjeta-avatar
-              img.img-t.my-3(src='@/assets/curso/tema7/3.svg' alt='')
-              .tarjeta.cajon-color-adicional-11
-                .p-4
-                  .bg11.p-1.mb-4.mx-lg-3
-                    h4.text-center.mb-0.ps-3.pe-3 Hacer
-                  p.mb-0.text-center Ejecutar las acciones planificadas.
-          .col-lg-3.col-md-6.mb-4.mb-lg-0
-            .tarjeta-avatar
-              img.img-t.my-3(src='@/assets/curso/tema7/4.svg' alt='')
-              .tarjeta.cajon-color-adicional-11
-                .p-4
-                  .bg11.p-1.mb-4.mx-lg-3
-                    h4.text-center.mb-0.ps-3.pe-3 Verificar
-                  p.mb-0.text-center Evaluar los resultados obtenidos.
-          .col-lg-3.col-md-6.mb-4.mb-lg-0
-            .tarjeta-avatar
-              img.img-t.my-3(src='@/assets/curso/tema7/5.svg' alt='')
-              .tarjeta.cajon-color-adicional-11
-                .p-4
-                  .bg11.p-1.mb-4.mx-lg-3
-                    h4.text-center.mb-0.ps-3.pe-3 Actuar
-                  p.mb-0.text-center Corregir desviaciones y mejorar.
+      .row.justify-content-center.align-items-stretch.mb-5
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img.img-t.my-3(src='@/assets/curso/tema7/2.svg' alt='')
+            .tarjeta.cajon-color-adicional-11
+              .p-4
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Planificar
+                p.mb-0.text-center Definir metas y cómo lograrlas.
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img.img-t.my-3(src='@/assets/curso/tema7/3.svg' alt='')
+            .tarjeta.cajon-color-adicional-11
+              .p-4
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Hacer
+                p.mb-0.text-center Ejecutar las acciones planificadas.
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img.img-t.my-3(src='@/assets/curso/tema7/4.svg' alt='')
+            .tarjeta.cajon-color-adicional-11
+              .p-4
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Verificar
+                p.mb-0.text-center Evaluar los resultados obtenidos.
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
+          .tarjeta-avatar
+            img.img-t.my-3(src='@/assets/curso/tema7/5.svg' alt='')
+            .tarjeta.cajon-color-adicional-11
+              .p-4
+                .bg11.p-1.mb-4.mx-lg-3
+                  h4.text-center.mb-0.ps-3.pe-3 Actuar
+                p.mb-0.text-center Corregir desviaciones y mejorar.
       
-      .row.acordeon.mb-5
-        .col-lg-7.col-md-12.col-sm-12
+      .row.justify-content-center.align-items-top.mb-5
+        .col-lg-7
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row.col-xl-11.m-auto(titulo="Aspectos clave del plan de contingencia")
               .row.justify-content-center.align-items-center
@@ -194,7 +193,7 @@
     
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12(alt='Tabla que contiene ejemplo de riesgo y plan de acción.')
-          .tabla-a.color-acento-contenido.mb-5
+          .tabla-a.color-acento-contenido.t22.mb-5
             table
               thead
                 tr

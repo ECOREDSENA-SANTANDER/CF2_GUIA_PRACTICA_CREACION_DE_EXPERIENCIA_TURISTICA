@@ -6,6 +6,7 @@
         .titulo-principal__numero
           span 6
         h1 Ruta turística
+      
       .row.justify-content-center.align-items-center.mb-lg-5.mb-4
         .col-lg-4
           img.d-none.d-lg-block(src='@/assets/curso/tema6/1.png', alt='')
@@ -18,7 +19,7 @@
               img(src='@/assets/curso/tema6/2.svg', alt='')
    
    
-      .row.justify-content-center
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
           .bg9.p-4.mb-lg-0.mb-5
             p.mb-4.my-lg-4 La ruta debe brindar a quienes la recorren una experiencia placentera, con actividades alineadas a los elementos distintivos del territorio. Además, debe proyectar una imagen integral construida a partir de la complementariedad entre los sitios visitados, los servicios prestados y el lenguaje comunicacional utilizado.
@@ -26,7 +27,7 @@
         .col-lg-4.col-md-9.col-10
             img(src='@/assets/curso/tema6/3.png', alt='')
       
-      .mb-5
+
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5
           .row.justify-content-center.align-items-center.mb-0
@@ -36,35 +37,35 @@
               p.mb-0 Los participantes de una ruta turística deben cumplir con ciertos criterios que abarcan desde el interés turístico de la actividad realizada hasta la calidad de los servicios ofrecidos y la infraestructura disponible. Estos estándares deben establecerse en común acuerdo, tomando en cuenta las expectativas de la demanda turística.
             p.mb-4.mb-lg-0 Una ruta turística se compone de atractivos locales, elementos patrimoniales, comunidades y facilidades organizadas en forma de red, debidamente señalizadas y reconocidas como de interés turístico.
         .col-lg-7
-          .cajon.cajon-color-adicional-10.p-4
-           p.mb-3 Entre los elementos que caracterizan una ruta se destacan:
-           ul.lista-ul
-            li.d-flex.mb-0
-              i.fas.fa-circle-check1
-              p.mb-0 Una producción, actividad o temática particular que la diferencia de otras rutas.
-            li.d-flex.mb-0
-              i.fas.fa-circle-check1
-              p.mb-0 Un itinerario desarrollado con base en la red vial u otros medios de comunicación.
-            li.d-flex.mb-0
-              i.fas.fa-circle-check1
-              p.mb-0 Una organización local encargada de brindar información sobre la ruta, con participación activa de personas vinculadas a la actividad.
-            li.d-flex.mb-0
-              i.fas.fa-circle-check1
-              p.mb-0 Un sistema de promoción asociado.
-            li.d-flex.mb-0
-              i.fas.fa-circle-check1
-              p.mb-0 Un sistema de señalización que facilite el recorrido.
-            li.d-flex.mb-0
-              i.fas.fa-circle-check1
-              p.mb-0 Un mapa con información explícita sobre el itinerario y sus componentes.
+          .bg2.p-4
+            p.mb-3 Entre los elementos que caracterizan una ruta se destacan:
+            ul.lista-ul
+              li.d-flex.mb-0
+                i.fas.fa-circle-check1
+                p.mb-0 Una producción, actividad o temática particular que la diferencia de otras rutas.
+              li.d-flex.mb-0
+                i.fas.fa-circle-check1
+                p.mb-0 Un itinerario desarrollado con base en la red vial u otros medios de comunicación.
+              li.d-flex.mb-0
+                i.fas.fa-circle-check1
+                p.mb-0 Una organización local encargada de brindar información sobre la ruta, con participación activa de personas vinculadas a la actividad.
+              li.d-flex.mb-0
+                i.fas.fa-circle-check1
+                p.mb-0 Un sistema de promoción asociado.
+              li.d-flex.mb-0
+                i.fas.fa-circle-check1
+                p.mb-0 Un sistema de señalización que facilite el recorrido.
+              li.d-flex.mb-0
+                i.fas.fa-circle-check1
+                p.mb-0 Un mapa con información explícita sobre el itinerario y sus componentes.
   
   
       .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
         h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de rutas turísticas
   
-      .mb-4
-      .row
+
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
           LineaTiempoD.color-acento-boton.activo
             .row(numero="a)" titulo="Ruta gastronómica").p-3
@@ -78,7 +79,7 @@
                 p.mb-0 Son recorridos que conectan puntos relacionados entre sí, ya sea por su valor histórico, artístico, social o ambiental. Suelen estar diseñadas para recorrerse a pie y están complementadas con señalización interpretativa. Estas rutas suelen vincularse con otros servicios como centros de visitantes, zonas recreativas o áreas de #[em camping].            
         .col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/tema6/5.png', alt='')
-      .mb-5
+
   
       .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')

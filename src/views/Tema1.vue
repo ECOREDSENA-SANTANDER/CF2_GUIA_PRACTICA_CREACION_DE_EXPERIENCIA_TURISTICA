@@ -73,7 +73,7 @@
                       i.fas.fa-circle-check
                       p.mb-4 #[strong Experiencia rural o comunitaria:] permite la convivencia con comunidades rurales, promoviendo el intercambio cultural, la participación en labores tradicionales y el conocimiento de formas de vida autóctonas.
     
-                  .tarjeta.color-adicional-1.p-3.mb-0(data-aos="fade-right")
+                  .tarjeta.color-adicional-1.p-3.mb-0
                     .row.justify-content-around.align-items-center
                       .col-lg-2.col-md-2.mb-lg-0.mb-4.mb-md-0
                         img.img-a.img-t(src="@/assets/curso/tema1/3.svg")
@@ -170,7 +170,7 @@
             li.d-flex 
               .lista-ol--cuadro__vineta
                 span k
-              p.mb-0 Aplicar una encuesta de satisfacción al término de la experiencia, con el fin de evaluar la percepción del turista respecto a la calidad del servicio prestado por los diferentes actores.
+              p.mb-lg-0.mb-4 Aplicar una encuesta de satisfacción al término de la experiencia, con el fin de evaluar la percepción del turista respecto a la calidad del servicio prestado por los diferentes actores.
       
       .tarjeta.color-adicional-1.p-4.mb-0(data-aos="fade-right")
         .row.justify-content-around.align-items-center

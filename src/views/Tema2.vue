@@ -135,7 +135,7 @@
             .row.col-xl-11.m-auto(titulo="e) Condicionantes para la implementación de facilidades turísticas")
               .row.justify-content-center.align-items-center
                 .col-lg-12
-                  p.mb-0 Existen diversos factores propios del destino que influyen en el diseño, ubicación e implementación de las facilidades turísticas, entre los cuales se destacan:
+                  p.mb-4 Existen diversos factores propios del destino que influyen en el diseño, ubicación e implementación de las facilidades turísticas, entre los cuales se destacan:
                   ul.lista-ul
                     li.d-flex.mb-0
                       i.fas.fa-circle-check
@@ -157,7 +157,7 @@
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7
-          p La seguridad turística se refiere a la protección integral de la vida, la salud y la integridad física, psicológica y económica de los visitantes, prestadores de servicios y comunidades anfitrionas. Este concepto incluye un conjunto de medidas orientadas a minimizar riesgos durante el desarrollo de actividades turísticas, especialmente aquellas que, como en el turismo de aventura, implican un riesgo real o percibido. Según la Norma Técnica Colombiana NTC 6725 de 2023, este tipo de actividades, de carácter recreativo o deportivo con fines turísticos y comerciales, pueden comprometer la seguridad de las personas y el entorno si no se gestionan adecuadamente.
+          p.mb-lg-0.mb-4 La seguridad turística se refiere a la protección integral de la vida, la salud y la integridad física, psicológica y económica de los visitantes, prestadores de servicios y comunidades anfitrionas. Este concepto incluye un conjunto de medidas orientadas a minimizar riesgos durante el desarrollo de actividades turísticas, especialmente aquellas que, como en el turismo de aventura, implican un riesgo real o percibido. Según la Norma Técnica Colombiana NTC 6725 de 2023, este tipo de actividades, de carácter recreativo o deportivo con fines turísticos y comerciales, pueden comprometer la seguridad de las personas y el entorno si no se gestionan adecuadamente.
           .bg2.p-4
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-2.mb-lg-0.mb-4
@@ -171,8 +171,8 @@
         .col-lg-8
           LineaTiempoD.color-acento-boton.activo
             .row(numero="a)"  titulo="Medidas comunes para garantizar la seguridad turística")
-              .col-md-12.mb-4.mb-md-0
-                ul.lista-ul
+              .col-md-12.mb-0
+                ul.lista-ul.mt-lg-0.mt-md-0.mt-4.mb-4
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
                     p.mb-0 Presencia visible de fuerzas de seguridad en áreas turísticas.
@@ -203,11 +203,11 @@
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
                     p.mb-0 Promoción de números de emergencia visible y accesible para los visitantes.
-                p.mb-0 La seguridad turística está estrechamente ligada a la calidad del producto turístico, e involucra distintos aspectos como seguridad vial, alimentaria, jurídica y en los servicios turísticos. Su presencia genera confianza, mejora la reputación del destino y contribuye a la fidelización de los turistas.
+                p.mb-3 La seguridad turística está estrechamente ligada a la calidad del producto turístico, e involucra distintos aspectos como seguridad vial, alimentaria, jurídica y en los servicios turísticos. Su presencia genera confianza, mejora la reputación del destino y contribuye a la fidelización de los turistas.
             .row(numero="b)" titulo="Aplicación de la seguridad en la experiencia turística")
-              .col-md-12.mb-4.mb-md-0
+              .col-md-12.mb-0
                   p.mb-4 Durante la estadía en un destino, se protege al visitante a través de:
-                  ul.lista-ul
+                  ul.lista-ul.mt-lg-0.mt-md-0.mt-4
                     li.d-flex.mb-0
                       i.fas.fa-circle-check
                       p.mb-0 Seguridad en el acceso vial hacia el destino, garantizando rutas seguras y señalizadas.
@@ -224,8 +224,8 @@
                       i.fas.fa-circle-check
                       p.mb-0 Seguridad en el transporte turístico, con vehículos certificados y condiciones adecuadas para la protección de los pasajeros.
             .row(numero="c)" titulo="Beneficios de implementar seguridad turística")
-              .col-md-12.mb-4.mb-md-0
-                ul.lista-ul
+              .col-md-12.mb-0
+                ul.lista-ul.mt-lg-0.mt-md-0.mt-4
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
                     p.mb-0 Prevención de incidentes que puedan poner en riesgo la vida o la salud de los visitantes.
@@ -248,8 +248,8 @@
                     i.fas.fa-circle-check
                     p.mb-0 Atracción de inversión nacional e internacional.
             .row(numero="d)" titulo="Tipos de seguridad turística")
-              .col-md-12.mb-4.mb-md-0
-                ul.lista-ul
+              .col-md-12.mb-0
+                ul.lista-ul.mt-lg-0.mt-md-0.mt-4
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
                     p.mb-0 #[strong Seguridad médica:] garantiza la disponibilidad de atención médica oportuna mediante hospitales, clínicas, centros de salud, personal capacitado y servicios de emergencia (ambulancias, respuesta rápida).
@@ -271,7 +271,7 @@
                   li.d-flex.mb-0
                     i.fas.fa-circle-check
                     p.mb-0 #[strong Seguridad en actividades de ocio:] abarca medidas de prevención y control en actividades recreativas o deportivas, mediante el uso de equipos adecuados, supervisión profesional y protocolos de seguridad específicos.
-        .col-4
+        .col-lg-4
           img.d-none.d-lg-block(src='@/assets/curso/tema2/9.png', alt='')
 
   
