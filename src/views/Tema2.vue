@@ -30,8 +30,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-2 Para profundizar en el estudio de los destinos turísticos, su concepto y estructura, se recomienda consultar el documento de González Reverté, F. (s. f.), disponible en la Universitat Oberta de Catalunya.
-                p.mb-0 Se invita a consultar el siguiente enlace.
+                p.mb-0 Para profundizar en el estudio de los destinos turísticos, su concepto y estructura, se recomienda consultar el siguiente enlace:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://openaccess.uoc.edu/server/api/core/bitstreams/62d50fc4-2bd9-469c-b569-aeec162c501c/content" target="_blank")
                   span Ir al sitio

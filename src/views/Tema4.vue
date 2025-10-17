@@ -9,7 +9,7 @@
     
       .row.justify-content-center.align-items-center.mb-lg-5.mb-4
         .col-lg-8
-          p.mb-3 La geolocalización es un proceso tecnológico que permite determinar la ubicación precisa de un objeto, persona o dispositivo electrónico en tiempo real. Esta técnica se basa en el uso de diversas tecnologías de posicionamiento, entre las que se destacan el Sistema de Posicionamiento Global (GPS, por sus siglas en inglés), redes wifi, #[em Bluetooth], torres de telefonía móvil y sensores integrados en dispositivos inteligentes.
+          p.mb-3 La geolocalización es un proceso tecnológico que permite determinar la ubicación precisa de un objeto, persona o dispositivo electrónico en tiempo real. Esta técnica se basa en el uso de diversas tecnologías de posicionamiento, entre las que se destacan el Sistema de Posicionamiento Global (GPS, por sus siglas en inglés), redes wifi, #[em bluetooth], torres de telefonía móvil y sensores integrados en dispositivos inteligentes.
           .row.justify-content-center.align-items-center.mb-3
             .col-lg-2.d-none.d-lg-block
               img.img-t.img-a(src='@/assets/curso/tema4/2.svg', alt='')
@@ -32,7 +32,7 @@
         .bloque-texto-g__texto.p-4
           p.mb-0.mt-3 El funcionamiento de la geolocalización se basa principalmente en los satélites GPS, los cuales orbitan alrededor de la Tierra y transmiten señales a los dispositivos receptores. A través de la triangulación de señales emitidas por al menos tres satélites, es posible calcular con gran exactitud la ubicación del dispositivo, con un margen de error de pocos metros.
           br
-          p.mb-0 Además, los dispositivos móviles integran otras tecnologías complementarias como sensores inerciales, redes Wifi disponibles, #[em Bluetooth] (para posicionamiento en interiores) y datos de redes celulares, que mejoran la precisión y permiten el uso continúo incluso en zonas con cobertura satelital limitada.
+          p.mb-0 Además, los dispositivos móviles integran otras tecnologías complementarias como sensores inerciales, redes wifi disponibles, #[em bluetooth] (para posicionamiento en interiores) y datos de redes celulares, que mejoran la precisión y permiten el uso continúo incluso en zonas con cobertura satelital limitada.
   
   
       .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
@@ -90,7 +90,7 @@
         .col-lg-6.col-md-10.col-10
           img.mb-lg-0.mb-4(src='@/assets/curso/tema4/5.png', alt='')
         .col-lg-6
-          p.mb-0 Las herramientas de geolocalización comprenden una variedad de aplicaciones y dispositivos tecnológicos diseñados para identificar, registrar y visualizar la ubicación de personas, objetos o lugares en tiempo real. Estas herramientas pueden clasificarse según su tecnología base (GPS, Wifi, #[em Bluetooth], redes móviles), su función (navegación, monitoreo, análisis) o su entorno de uso (urbano, rural, interior, exterior). Entre las más conocidas se encuentran Google Maps, Waze, OpenStreetMap, Foursquare, GPS Essentials, entre otras, que permiten desde trazar rutas hasta compartir ubicaciones con otros usuarios o recibir recomendaciones georreferenciadas. Estas soluciones son ampliamente utilizadas en turismo, logística, seguridad, transporte, comercio y actividades recreativas. 
+          p.mb-0 Las herramientas de geolocalización comprenden una variedad de aplicaciones y dispositivos tecnológicos diseñados para identificar, registrar y visualizar la ubicación de personas, objetos o lugares en tiempo real. Estas herramientas pueden clasificarse según su tecnología base (GPS, wifi, #[em bluetooth], redes móviles), su función (navegación, monitoreo, análisis) o su entorno de uso (urbano, rural, interior, exterior). Entre las más conocidas se encuentran Google Maps, Waze, OpenStreetMap, Foursquare, GPS Essentials, entre otras, que permiten desde trazar rutas hasta compartir ubicaciones con otros usuarios o recibir recomendaciones georreferenciadas. Estas soluciones son ampliamente utilizadas en turismo, logística, seguridad, transporte, comercio y actividades recreativas. 
  
       .tarjeta.color-adicional-1.p-4.mb-4(data-aos="fade-right")
         .row.justify-content-around.align-items-center
@@ -116,7 +116,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-2.blu Herramientas de geolocalización
-                p.mb-0 Se invita a ir al siguiente video, donde se podrán apreciar los tipos de herramientas de geolocalización
+                p.mb-0 Se invita a ir al siguiente video, donde se podrá apreciar los tipos de herramientas de geolocalización.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=_40v8FSqYUw" target="_blank")
                   span Ir al sitio

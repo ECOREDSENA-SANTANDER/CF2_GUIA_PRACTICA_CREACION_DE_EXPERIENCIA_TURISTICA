@@ -128,9 +128,8 @@
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-9
                 img.mb-4.mt-4(src='@/assets/curso/tema5/11.svg', alt='Diagrama que representa la relación entre los componentes turísticos y la construcción del relato en una experiencia.')
-          figcaption.mb-5.enl #[b Fuente:] Los relatos turísticos: una tendencia creciente en la industria del turismo. 
-            p.mb-0 Autores varios (2018 p.4), Relatos turísticos: Propuestas para incorporar el patrimonio cultural y natural en los servicios y rutas turísticas de Arica y Camarones. Ediciones Universidad Central de Chile.
-
+          figcaption.mb-5.enl #[b Fuente:] adaptado de Casals Iglesias et al. (2018).
+            
       p.mb-4 La narrativa, expresada como un relato turístico, reúne las siguientes características:
 
       .row.fndd.p-4.p-lg-5.p-md-3.mb-5(data-aos="fade-down")

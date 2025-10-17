@@ -35,7 +35,6 @@ export default {
         titulo: 'Experiencia turística',
         desarrolloContenidos: true,
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -301,18 +300,24 @@ export default {
     },
     {
       referencia:
-        'Ceupe. (s. f.). ¿Qué es un atractivo turístico? Tipos, ejemplo e importancia.',
+        'Ceupe. (s. f.-a). ¿Qué es un atractivo turístico? Tipos, ejemplo e importancia.',
       link: 'https://www.ceupe.com/blog/atractivo-turistico.html',
     },
     {
       referencia:
-        'Ceupe. (s. f.). Itinerario de viaje: ¿Qué es y qué contiene?',
+        'Ceupe. (s. f.-b). Itinerario de viaje: ¿Qué es y qué contiene?',
       link: 'https://www.ceupe.com/blog/itinerario-de-viaje.html',
     },
     {
       referencia:
-        'Ceupe. (s. f.). Seguridad turística: Qué es, importancia y tipos.',
+        'Ceupe. (s. f.-c). Seguridad turística: Qué es, importancia y tipos.',
       link: 'https://www.ceupe.com/blog/seguridad-turistica.html',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2020, diciembre 31). Ley 2068 de 2020: Por la cual se modifica la Ley general de turismo y se dictan otras disposiciones. Diario Oficial No. 51.522.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=172558',
     },
     {
       referencia:
@@ -327,24 +332,13 @@ export default {
     },
     {
       referencia:
-        'Decreto 190 de 2022. Cap. 8. Atractivo turístico. Sección I, II y III. Función Pública.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=177026',
-    },
-    {
-      referencia:
-        'Europa, E. V. (2024). Narrativa en el turismo del patrimonio histórico. EVE Museos + Innovación.',
-      link: 'https://evemuseografia.com/category/narrativa/page/2/',
-    },
-    {
-      referencia:
         'García López, R. (2022). El storytelling, clave en el marketing turístico. Marketing Turístico Digital.',
       link:
         'https://marketingturisticodigital.com/el-storytelling-clave-en-el-marketing-turistico',
     },
     {
       referencia:
-        'Instituto Costarricense de Turismo [ICT]. (s. f.). Sostenibilidad Turística CST.',
+        'Instituto Costarricense de Turismo [ICT]. (s. f.). Sostenibilidad turística CST.',
       link:
         'https://www.ict.go.cr/es/sostenibilidad/cst.html#:~:text=El%20desarrollo%20tur%C3%ADstico%20sostenible%20es,adem%C3%A1s%20contribuye%20al%20desarrollo%20nacional',
     },
@@ -352,11 +346,6 @@ export default {
       referencia: 'Kevin. (s. f.). Qué es un itinerario turístico. Scribd.',
       link:
         'https://es.scribd.com/document/588681376/Que-Es-Un-Itinerario-Turistico',
-    },
-    {
-      referencia: 'Ley 2068 de 2020. Función Pública.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=172558',
     },
     {
       referencia:
@@ -368,6 +357,23 @@ export default {
         'Mercadé, A. (2015). Las herramientas de geolocalización más utilizadas. Deusto.',
       link:
         'https://www.deustoformacion.com/blog/marketing-digital/herramientas-geolocalizacion-mas-utilizadas',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (s. f.). Normatividad turismo. ',
+      link: 'https://www.mincit.gov.co/normatividad',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (2024, abril 2). Resolución 612 de 2024: Por la cual se adoptan los lineamientos para la sostenibilidad turística y se dictan otras disposiciones.',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=156618',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo & Policía de Turismo. (2003). Seguridad turística: Reto competitivo de Colombia. Plan estratégico.',
+      link:
+        'https://www.mincit.gov.co/cmspages/getfile.aspx?guid=c46cb77e-c0e3-49f1-bc68-6b18d2b89054',
     },
     {
       referencia:
@@ -383,23 +389,12 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (s. f.). Normatividad turismo.',
-      link: 'https://www.mincit.gov.co/normatividad',
-    },
-    {
-      referencia:
-        'Ministerio de Comercio, Industria y Turismo & Policía de Turismo. (2003). Seguridad turística: Reto competitivo de Colombia. Plan estratégico.',
-      link:
-        'https://www.mincit.gov.co/cmspages/getfile.aspx?guid=c46cb77e-c0e3-49f1-bc68-6b18d2b89054',
-    },
-    {
-      referencia: 'ONU Turismo. (s. f.). Glosario de términos de turismo.',
-      link: 'https://www.unwto.org/es/glosario-terminos-turisticos',
-    },
-    {
-      referencia:
-        'ONU Turismo. (s. f.). Desarrollo sostenible del turismo. UNWTO.',
+        'ONU Turismo. (s. f.-a). Desarrollo sostenible del turismo. UNWTO.',
       link: 'https://www.unwto.org/es/desarrollo-sostenible',
+    },
+    {
+      referencia: 'ONU Turismo. (s. f.-b). Glosario de términos de turismo.',
+      link: 'https://www.unwto.org/es/glosario-terminos-turisticos',
     },
     {
       referencia:
@@ -414,14 +409,14 @@ export default {
     },
     {
       referencia:
-        'QuestionPro. (s. f.). Encuesta de satisfacción. QuestionPro.',
-      link: 'https://www.questionpro.com/es/encuesta-de-satisfaccion.html',
+        'Presidencia de la República de Colombia. (2022, febrero 15). Decreto 190 de 2022: Por el cual se reglamenta el Capítulo 8 sobre atractivo turístico, Secciones I, II y III. Diario Oficial No. 51.994.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=177026',
     },
     {
       referencia:
-        'Resolución 612 de 2024. Ministerio de Comercio, Industria y Turismo.',
-      link:
-        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=156618',
+        'QuestionPro. (s. f.). Encuesta de satisfacción. QuestionPro.',
+      link: 'https://www.questionpro.com/es/encuesta-de-satisfaccion.html',
     },
     {
       referencia:

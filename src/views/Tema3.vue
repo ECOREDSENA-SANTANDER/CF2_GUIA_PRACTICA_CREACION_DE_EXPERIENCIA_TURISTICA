@@ -215,7 +215,7 @@
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/28.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
-                h4.mb-4.text-center Comunidad indígena Wayuu - Riohacha, La Guajira
+                h4.mb-4.text-center Comunidad indígena Wayuu - Riohacha, La Guajira.
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-6
