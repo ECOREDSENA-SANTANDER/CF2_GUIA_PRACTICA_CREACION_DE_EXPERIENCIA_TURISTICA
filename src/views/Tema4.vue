@@ -100,7 +100,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-2.blu Tecnología de localización y geolocalización en móviles
-                p.mb-0 Se invita a ver el siguiente video, donde se explica la importancia de la localización y geolocalización en dispositivos móviles, resaltando cómo estas herramientas influyen en la vida cotidiana y en múltiples sectores:
+                p.mb-0 Se invita a consultar el siguiente video, donde se explica la importancia de la localización y geolocalización en dispositivos móviles, resaltando cómo estas herramientas influyen en la vida cotidiana y en múltiples sectores:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=YWzUcQYpSLM" target="_blank")
                   span Ir al sitio
