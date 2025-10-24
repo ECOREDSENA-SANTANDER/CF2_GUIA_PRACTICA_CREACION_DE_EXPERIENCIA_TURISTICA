@@ -21,9 +21,9 @@
           img.d-none.d-lg-block(src='@/assets/curso/tema4/1.png', alt='')
       
   
-      .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Funcionamiento de la geolocalización
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Funcionamiento de la geolocalización
   
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(
@@ -35,9 +35,9 @@
           p.mb-0 Además, los dispositivos móviles integran otras tecnologías complementarias como sensores inerciales, redes wifi disponibles, #[em bluetooth] (para posicionamiento en interiores) y datos de redes celulares, que mejoran la precisión y permiten el uso continúo incluso en zonas con cobertura satelital limitada.
   
   
-      .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Aplicaciones cotidianas de la geolocalización
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Aplicaciones cotidianas de la geolocalización
   
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7
@@ -82,9 +82,9 @@
                   i.fas.fa-circle-play
 
   
-      .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de herramientas de geolocalización
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Tipos de herramientas de geolocalización
   
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-6.col-md-10.col-10

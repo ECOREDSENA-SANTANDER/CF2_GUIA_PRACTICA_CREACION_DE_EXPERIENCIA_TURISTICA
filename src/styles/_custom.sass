@@ -464,153 +464,32 @@ figcaption
 .mva
   margin-bottom: -45px
 
-
 .titulo
-  background-color:#FFD9C5
+  background-color: #FFD9C5
+  border-radius: 0px 
   width: fit-content
-  padding: 7.5px
-  position: relative 
+  padding: 8px 20px 8px 75px
+  position: relative
+  display: inline-flex
+  align-items: center
   @media only screen and (min-width: 768px) and (max-width: 1023px)
-    border-radius: 25px 10px 10px 25px
-  @media only screen and (max-width: 767px)
-    border-radius: 10px
+    padding: 8px 20px 8px 75px
 .titulo img
   width: 63px
+  height: 63px
   position: absolute
-  top: -12%
-  right: 89%
+  top: 35%
+  left: -0px 
+  transform: translateY(-40%)
+  object-fit: contain
+  z-index: 1
   @media only screen and (min-width: 768px) and (max-width: 1023px)
     width: 60px
-    top: 1%
-    right: 90%
+    height: 60px
   @media only screen and (max-width: 767px)
-    display: none
+    width: 55px
+    height: 55px
 
-.titulo1
-  background-color:#FFD9C5
-  width: fit-content
-  padding: 7.5px
-  position: relative 
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    border-radius: 25px 10px 10px 25px
-  @media only screen and (max-width: 767px)
-    border-radius: 10px
-.titulo1 img
-  width: 63px
-  position: absolute
-  top: -12%
-  right: 80%
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 60px
-    top: -8%
-    right: 80%
-  @media only screen and (max-width: 767px)
-    display: none
-
-.titulo2
-  background-color:#FFD9C5
-  width: fit-content
-  padding: 7.5px
-  position: relative 
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    border-radius: 25px 10px 10px 25px
-  @media only screen and (max-width: 767px)
-    border-radius: 10px
-.titulo2 img
-  width: 63px
-  position: absolute
-  top: -12%
-  right: 91%
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 60px
-    top: 1%
-    right: 90%
-  @media only screen and (max-width: 767px)
-    display: none
-
-.titulo3
-  background-color:#FFD9C5
-  width: fit-content
-  padding: 7.5px
-  position: relative 
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    border-radius: 25px 10px 10px 25px
-  @media only screen and (max-width: 767px)
-    border-radius: 10px
-.titulo3 img
-  width: 63px
-  position: absolute
-  top: -12%
-  right: 83%
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 60px
-    top: -5%
-    right: 85%
-  @media only screen and (max-width: 767px)
-    display: none
-
-.titulo4
-  background-color:#FFD9C5
-  width: fit-content
-  padding: 7.5px
-  position: relative 
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    border-radius: 25px 10px 10px 25px
-  @media only screen and (max-width: 767px)
-    border-radius: 10px
-.titulo4 img
-  width: 63px
-  position: absolute
-  top: -12%
-  right: 88%
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 60px
-    top: -5%
-    right: 88%
-  @media only screen and (max-width: 767px)
-    display: none
-
-.titulo5
-  background-color:#FFD9C5
-  width: fit-content
-  padding: 7.5px
-  position: relative 
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    border-radius: 25px 10px 10px 25px
-  @media only screen and (max-width: 767px)
-    border-radius: 10px
-.titulo5 img
-  width: 63px
-  position: absolute
-  top: -12%
-  right: 85%
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 60px
-    top: -5%
-    right: 83%
-  @media only screen and (max-width: 767px)
-    display: none
-
-.titulo6
-  background-color:#FFD9C5
-  width: fit-content
-  padding: 7.5px
-  position: relative 
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    border-radius: 25px 10px 10px 25px
-  @media only screen and (max-width: 767px)
-    border-radius: 10px
-.titulo6 img
-  width: 63px
-  position: absolute
-  top: -12%
-  right: 81%
-  @media only screen and (min-width: 768px) and (max-width: 1023px)
-    width: 60px
-    top: -5%
-    right: 81%
-  @media only screen and (max-width: 767px)
-    display: none
 
 
 .tabs-c.color-primario .tabs-c__tab--active 
@@ -758,6 +637,8 @@ figcaption
 
 .bg21
   background-color: #CCD5E3
+  font-size: 15px
+
 
 .bg22
   background-color: #E6EAF1
@@ -837,3 +718,33 @@ figcaption
   .linea-tiempo-d.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
     background-color: #DDFAF5
     padding: 0.5rem
+
+
+.des
+  max-width: 100%  
+  overflow-wrap: break-word
+
+  
+.titulo-linea
+  position: relative
+  padding-bottom: 15px
+  padding-left: 25px 
+  width: fit-content
+.titulo-linea::before
+  content: ''
+  position: absolute
+  left: 0
+  top: 6px  
+  width: 15px  
+  height: 15px
+  background-color: #99ABC6
+  border-radius: 50%
+.titulo-linea::after
+  content: ''
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 100%  
+  height: 8px
+  background-color: #99ABC6
+  border-radius: 8px

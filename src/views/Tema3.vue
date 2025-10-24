@@ -10,8 +10,8 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
           .row.justify-content-center.align-items-center.mb-2
-            .col-lg-2
-              img.d-none.d-lg-block.img-t.img-a(src='@/assets/curso/tema3/5.svg', alt='')
+            .col-lg-2.d-none.d-lg-block
+              img.img-t.img-a(src='@/assets/curso/tema3/5.svg', alt='')
             .col-lg-10.ps-lg-0
               p.mb-4.mb-lg-0 Un atractivo turístico es un recurso de carácter natural o cultural que posee la capacidad de captar el interés de los visitantes, gracias a sus características distintivas. Puede tratarse de un sitio, manifestación o elemento que destaca por su valor histórico, cultural, artístico, arquitectónico, natural, recreativo, gastronómico, lingüístico, arqueológico o astronómico. Los atractivos turísticos constituyen uno de los principales factores de motivación en la decisión del turista al seleccionar un destino, ya que influyen directamente en la expectativa y la experiencia de viaje.
           .bg1.p-4 
@@ -41,9 +41,9 @@
       
       
       
-      .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de atractivos turísticos  
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Tipos de atractivos turísticos  
       
       p.mb-4 Cada territorio cuenta con una amplia gama de atractivos turísticos, los cuales pueden clasificarse en las siguientes categorías:
       
@@ -126,10 +126,8 @@
                       p.text-center Observatorios, reservas de cielo oscuro, lugares ideales para la observación astronómica y eventos celestes.
       
 
-      .ia.mb-5(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img(src='@/assets/curso/tema3/ia.png', alt='')
-          h3.mb-0.mx-2 Ejemplos representativos de atractivos turísticos en Colombia 
+      .titulo-linea.mb-5
+        h3.mb-0.ps-2.pe-2 Ejemplos representativos de atractivos turísticos en Colombia 
   
       .row.justify-content-center.align-items-center.mb-0
         .col-sm-6.col-xl-3.mb-4.mb-xl-0
@@ -328,9 +326,9 @@
           p.mb-0 La autoridad competente establecerá la capacidad de carga, según el tipo de atractivo turístico, en concordancia con los lineamientos del Ministerio de Comercio, Industria y Turismo. En el caso de atractivos turísticos ubicados dentro de áreas protegidas del Sistema Nacional de Áreas Protegidas (SINAP), la capacidad de carga será determinada por la respectiva autoridad ambiental, en armonía con las disposiciones del Ministerio de Ambiente y Desarrollo Sostenible. Cualquier impacto derivado de la actividad turística deberá ser moderado, mitigado, compensado o corregido, mediante la implementación de medidas de manejo, conforme a la normativa ambiental vigente.
       
       
-      .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Límites de Cambio Aceptable (LCA) 
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Límites de Cambio Aceptable (LCA) 
   
 
       .row.justify-content-center.align-items-center.mb-5
@@ -382,14 +380,14 @@
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-1
-          img.d-none.d-lg-block(src='@/assets/curso/tema3/46.svg', alt='').mt-1
+          img.d-none.d-lg-block(src='@/assets/curso/tema3/46.svg', alt='')
         .col-lg-11
           p.mb-0 El desarrollo turístico sostenible debe entenderse como un proceso de interacción equilibrada entre el uso responsable de los recursos naturales y culturales, la mejora de la calidad de vida de las comunidades locales y el éxito económico del sector, contribuyendo además al desarrollo integral del país. La sostenibilidad turística no solo responde a las exigencias actuales del mercado, sino que se configura como una condición esencial de competitividad presente y futura (CST, 1997).
 
   
-      .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Sostenibilidad como modelo de desarrollo
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Sostenibilidad como modelo de desarrollo
   
      
       .row.justify-content-center.align-items-center.mb-5

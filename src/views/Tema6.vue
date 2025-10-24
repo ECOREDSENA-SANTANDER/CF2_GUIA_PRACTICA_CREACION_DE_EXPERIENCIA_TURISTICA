@@ -60,9 +60,9 @@
                 p.mb-0 Un mapa con información explícita sobre el itinerario y sus componentes.
   
   
-      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de rutas turísticas
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Tipos de rutas turísticas
   
 
       .row.justify-content-center.align-items-center.mb-5
@@ -81,9 +81,9 @@
           img(src='@/assets/curso/tema6/5.png', alt='')
 
   
-      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de rutas temáticas
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Tipos de rutas temáticas
       
       .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4
         .col-lg-3.col-md-6.mb-4
@@ -134,10 +134,10 @@
       #t_6_1.titulo-segundo.color-acento-contenido.mb-5
         h2 6.1 Técnicas de diseño
   
-      .row.justify-content-center.cajon
-        .col-lg-4.col-md-9
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-5.col-md-9
           img.mb-lg-0.mb-4(src='@/assets/curso/tema6/10.png', alt='')
-        .col-lg-8
+        .col-lg-7
           p.mb-3 El diseño de una ruta turística debe concebirse como la creación de un producto turístico integral, o de varios productos interrelacionados, que ofrezcan una experiencia coherente, atractiva, de calidad y accesible para el turista. Para diseñar una ruta temática alineada con el turismo de intereses especializados, es fundamental:
           ul.lista-ul
             li.d-flex.mb-0
@@ -149,18 +149,15 @@
             li.d-flex.mb-0
               i.fas.fa-circle-check1
               p.mb-0 Identificar las oportunidades y fortalezas de la oferta turística existente, evaluando su estado actual y su potencial de desarrollo.
-      .mb-5
   
-      .titulo4.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Fases del diseño de una ruta turística
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Fases del diseño de una ruta turística
   
       p.mb-4 El proceso de diseño se puede estructurar en dos grandes fases:
       
-      .ia.mb-5(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img(src='@/assets/curso/tema3/ia.png', alt='')
-          h3.mb-0.mx-2 Fase 1. Estructuración de la ruta
+      .titulo-linea.mb-5
+        h3.mb-0.ps-2.pe-2 Fase 1. Estructuración de la ruta
   
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
@@ -199,10 +196,8 @@
           img(src='@/assets/curso/tema6/11.png', alt='').mt-2
   
   
-      .ia.mb-5(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img(src='@/assets/curso/tema3/ia.png', alt='')
-          h3.mb-0.mx-2 Fase 2. Selección de servicios turísticos a incluir
+      .titulo-linea.mb-5
+        h3.mb-0.ps-2.pe-2 Fase 2. Selección de servicios turísticos a incluir
   
       p.mb-4 Una ruta debe considerar la articulación de servicios esenciales que garanticen una experiencia completa y satisfactoria:
       

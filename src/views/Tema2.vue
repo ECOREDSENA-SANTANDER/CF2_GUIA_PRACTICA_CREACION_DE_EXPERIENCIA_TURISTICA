@@ -48,9 +48,9 @@
             p.mb-3.my-1 #[b Tomado:] https://colombia.travel/es/villa-de-leyva/conoce-la-plaza-mayor-de-villa-de-leyva
      
       
-      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Facilidades turísticas 
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Facilidades turísticas 
   
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-1
@@ -274,9 +274,9 @@
           img.d-none.d-lg-block(src='@/assets/curso/tema2/9.png', alt='')
 
   
-      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Enfoque internacional 
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Enfoque internacional 
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
@@ -379,9 +379,9 @@
                   i.fas.fa-globe
       
       
-      .titulo2.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Aspectos clave de la reglamentación legal en destinos turísticos
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Aspectos clave de la reglamentación legal en destinos turísticos
       
       p.mb-5 La reglamentación legal del turismo abarca un conjunto de medidas orientadas a regular la actividad turística, garantizar su calidad, sostenibilidad y seguridad, y asegurar el cumplimiento de los deberes tanto de los prestadores de servicios como de los visitantes. Entre sus principales componentes se encuentran:
       
@@ -428,9 +428,9 @@
                   img.d-none.d-lg-block(src='@/assets/curso/tema2/20.png', alt='')
 
       
-      .titulo.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Importancia de la reglamentación legal en el turismo
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Importancia de la reglamentación legal en el turismo
   
       
       p.mb-4 Una adecuada reglamentación legal contribuye significativamente a:

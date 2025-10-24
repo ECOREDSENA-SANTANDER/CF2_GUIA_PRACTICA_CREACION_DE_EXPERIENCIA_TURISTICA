@@ -40,9 +40,9 @@
         .bloque-texto-g__texto.p-4
           p.mb-0 Finalmente, es fundamental comprender que el ciclo del servicio no debe asumirse como un conjunto mecánico de tareas. Lo esencial es cómo el cliente experimenta cada interacción. Una experiencia positiva, consistente y empática incrementa significativamente la posibilidad de que el cliente vuelva a elegir la organización y recomiende sus servicios. En este sentido, el ciclo del servicio al cliente representa una herramienta clave para la competitividad y sostenibilidad empresarial.
 
-      .titulo5.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Fases del ciclo de servicio
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Fases del ciclo de servicio
 
       p.mb-3 Las fases del ciclo de servicio representan las etapas que conforman la experiencia integral del cliente, desde el primer contacto con una organización hasta después de haber recibido el producto o servicio. Estas fases son fundamentales para comprender, gestionar y optimizar la calidad del servicio prestado, permitiendo a las organizaciones identificar oportunidades de mejora, fortalecer la relación con el cliente y garantizar una experiencia satisfactoria y coherente en cada punto de contacto.
       
@@ -176,9 +176,9 @@
                     .col-lg-12
                       p.text-center.mb-4 Se construye a partir de las prácticas culturales locales, generando una conexión emocional entre los habitantes del lugar y los visitantes.
 
-      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de narrativa
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Tipos de narrativa
 
       p.mb-4 En el turismo se pueden identificar diversos tipos de narrativa, entre los cuales se destacan los siguientes:
 
@@ -220,9 +220,9 @@
                 img(src='@/assets/curso/tema5/22.png', alt='Texto que describa la imagen')
 
 
-      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Técnicas de narrativa
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Técnicas de narrativa
 
       p.mb-4 Las técnicas de narrativa hacen referencia a los métodos y estructuras utilizados para desarrollar y presentar una historia de forma coherente, atractiva y convincente. Estas técnicas integran elementos como la trama, los personajes, el conflicto, el punto de vista y la estructura narrativa.
       
@@ -329,9 +329,9 @@
       p.mb-5 Además, un itinerario turístico especifica los lugares de interés que deben ser visitados por los turistas. Puede adaptarse a distintas temáticas o enfoques; por ejemplo, un itinerario gastronómico incluirá los lugares donde se pueden degustar los platos típicos de la región.
 
 
-      .titulo3.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Elementos de un itinerario
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Elementos de un itinerario
 
       p.mb-4.mt-3 Los principales elementos que componen un itinerario turístico son:
 
@@ -366,9 +366,9 @@
                 p.mb-0 #[b d) Puntos de llegada:] sitios de interés seleccionados para ser visitados.
 
       
-      .titulo1.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Tipos de itinerarios
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Tipos de itinerarios
 
       
       p.mb-5 Existen diversos tipos de itinerarios turísticos, según la tipología de turismo que se desee realizar y la ubicación geográfica de los atractivos. A continuación, se describen los más comunes:  
@@ -408,7 +408,7 @@
             h5 Figura 4. 
             |  Ejemplo de atractivos culturales y patrimoniales, incluidos en un itinerario turístico cultural
           img.mb-2(src='@/assets/curso/tema5/56.svg' alt="Mapa ilustrado de una ruta turística urbana que conecta varios puntos de interés en una ciudad.")
-          figcaption #[b Tomado:] https://klandestinos.wordpress.com/wp-content/uploads/2008/12/itinerarios_mapa_santander_monumental1.jpg
+          figcaption.mb-lg-0.mb-5.des #[b Tomado:] https://klandestinos.wordpress.com/wp-content/uploads/2008/12/itinerarios_mapa_santander_monumental1.jpg
         .col-lg-7
           .bg19.p-3.mb-2
             h5.mb-0.text-white Ejemplo de diseño de itinerario turístico cultural, dirigido a turistas extranjeros – estudiantes de derecho. 
@@ -621,8 +621,8 @@
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-4
               img.d-none.d-lg-block(src='@/assets/curso/tema5/36.png', alt='')
-            .col-lg-8.col-md-7
-              SlyderF.mb-0(columnas="col-lg-6 col-xl-6")(data-aos="fade-left")
+            .col-lg-8
+              SlyderF.mb-0(columnas="col-lg-6 col-xl-6 col-md-6")(data-aos="fade-left")
                 .tarjeta.tarjeta-btn.p-4
                   img.mb-4.img-t.imc.my-3(src='@/assets/curso/tema5/37.svg', alt='')
                   .row.justify-content-center.align-items-center.mb-0
@@ -649,7 +649,7 @@
                     .col-lg-12
                       p.mb-4.text-center #[strong Evaluar la preparación operativa:] permite medir el nivel de alistamiento de los servicios (transporte, guías, alojamiento, actividades, etc.) antes del inicio, garantizando que el itinerario se desarrolle sin contratiempos.
 
-      p.mb-4 Ejemplo: Lista de verificación para medir la calidad de los servicios antes de iniciar una experiencia turística.
+      p.mb-4 Ejemplo: lista de verificación para medir la calidad de los servicios antes de iniciar una experiencia turística.
 
       p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 1.] Tabla de verificación de experiencias turísticas
 
@@ -739,9 +739,9 @@
 
 
 
-      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Encuesta de satisfacción 
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Encuesta de satisfacción 
 
 
       .row.justify-content-center.align-items-center.mb-lg-5.mb-4
@@ -818,10 +818,8 @@
                 p.mb-0 #[b Microsoft Forms:] integrada con el ecosistema de Office, ideal para entornos educativos y corporativos.
 
 
-      .ia.mb-5(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img(src='@/assets/curso/tema3/ia.png', alt='')
-          h3.mb-0.mx-2 Ejemplo de encuesta de satisfacción
+      .titulo-linea.mb-5
+        h3.mb-0.ps-2.pe-2 Ejemplo de encuesta de satisfacción
 
 
       p.mb-4 Por favor, califique los siguientes aspectos del servicio recibido, utilizando una escala del 1 al 5:

@@ -120,12 +120,12 @@
                       p.mb-0  Activar acciones inmediatas y organizadas frente a la contingencia.
         .col-lg-5
           img.d-none.d-lg-block(src="@/assets/curso/tema7/6.png", alt="")
+    
+
+      .titulo-linea.mb-5
+        h3.mb-0.ps-2.pe-2 Ejemplo: Plan de contingencia para un recorrido en un parque natural
       
-      .ia.mb-5(data-aos="fade-right")
-        .d-flex.align-items-center.mb-1
-          img(src='@/assets/curso/tema3/ia.png', alt='')
-          h3.mb-0.mx-2 Ejemplo: plan de contingencia para un recorrido en un parque natural
-  
+      
       p.mb-4 Este tipo de recorrido se realiza en áreas protegidas, donde se requiere un manejo especial del entorno y los recursos naturales renovables. En estos espacios, los riesgos pueden ser de origen natural (como crecientes súbitas de ríos) o asociados a accidentes, enfermedades o mordeduras/picaduras de animales.
       
       p.mb-4 Recomendaciones generales: 
@@ -183,12 +183,12 @@
               | Asegurarse de que el guía conozca previamente el lugar y pueda garantizar la seguridad del grupo.
       .mb-5
   
-      .titulo6.mb-lg-5.mb-4.mb-md-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-        img(src='@/assets/curso/tema5/sub.svg', alt='Imagen decorativa')
-        h3.mb-0.mx-lg-4.mx-3.mx-md-4.ps-lg-3 Determinación del riesgo 
+      .titulo.mb-5.mt-lg-3(data-aos="fade-right")
+        img(:src="require('@/assets/curso/tema5/sub.svg')" alt='Imagen decorativa')
+        h3.mb-0 Determinación del riesgo 
   
-      .row.sistema
-        .col-lg-12.col-md-12
+      .row
+        .col-lg-12
           p.mb-4.titulo-sexto.color-acento-contenido #[strong Tabla 2.] Contiene ejemplo de riesgo y posible plan de acción
     
       .row.justify-content-center.align-items-center.mb-5
