@@ -208,13 +208,13 @@
                   td.tl Evitar el recorrido durante este tiempo, sin embargo estando en el lugar, alejarse ubicándose en la zona más alta, contactar a los organismos de emergencias y desastres. 
                 tr
                   td.tl Turista enfermo por alergia a picadura de abeja o serpiente.
-                  td.tl En la preparación de los implementos para la salida, verificar el listado de los turistas con posibles afecciones de salud. Equipar el botiquín con base en ese listado, tener la lista de hospitales y sitios que atienden emergencias, verificando que cuenten con los antídotos para picaduras de serpientes y alergias de éste tipo. 
+                  td.tl En la preparación de los implementos para la salida, verificar el listado de los turistas con posibles afecciones de salud. Equipar el botiquín con base en ese listado, tener la lista de hospitales y sitios que atienden emergencias, verificando que cuenten con los antídotos para picaduras de serpientes y alergias de este tipo. 
                 tr
                   td.tl Insolación
                   td.tl Determinar la insolación según los síntomas del afectado. Alejarse del calor o sol directo. Dar bebida hidratante (suero oral), colocar en brazos y cabeza compresas mojadas para bajar la temperatura corporal. Un guía se traslada con el turista al centro de salud más cercano y se deja a cargo el grupo con el guía de apoyo. 
                 tr
                   td.tl Caídas
-                  td.tl Determinar el estado de conciencia del afectado. Apoyarse del médico o paramédico del equipo. Según su diagnóstico ejecutar el plan de contingencia. 
+                  td.tl Determinar el estado de conciencia del afectado. Apoyarse del médico o paramédico del equipo. Según su diagnóstico, ejecutar el plan de contingencia. 
       
       
       .row

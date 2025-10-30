@@ -126,115 +126,125 @@
                       p.text-center Observatorios, reservas de cielo oscuro, lugares ideales para la observación astronómica y eventos celestes.
       
 
-      .titulo-linea.mb-5
+      .titulo-linea.mb-4
         h3.mb-0.ps-2.pe-2 Ejemplos representativos de atractivos turísticos en Colombia 
   
       .row.justify-content-center.align-items-center.mb-0
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-flip
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/17.png')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Parque Nacional del Chicamocha (PANACHI) - Aratoca, Santander.
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-flip
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://parquesdesantander.com/producto/pasaporte-combo-panachi/
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/18.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Parque Cerro del Santísimo - Floridablanca, Santander.
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-flip
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.weekendsantander.com/planes/cerro-del-santisimo
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/19.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Parque Natural El Gallineral - San Gil, Santander.
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-flip
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.vanguardia.com/santander/guanenta/2024/01/23/por-que-sigue-sin-funcionar-el-parque-el-gallineral-esta-es-la-situacion-del-iconico-sitio-turistico-de-santander/
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/20.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Embalse de Topocoro - Santander (Girón, Zapatoca, Betulia, entre otros municipios).
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://cotelcosantander.org/topocoro-el-mar-interior-de-santander/
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/21.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Parque del Café - Montenegro, Quindío.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://grancolombiatours.com/es/st_tour/tour-de-un-dia-en-el-parque-del-cafe/
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/22.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Museo del Oro - Bogotá, Cundinamarca.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.tripadvisor.co/AttractionProductReview-g294074-d13933839-Skip_the_Line_Gold_Museum_Museo_del_Oro_Ticket_and_Private_Guided_Tour-Bogota.html
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/23.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center La Piedra del Peñol - Guatapé, Antioquia. 
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.elpatagonico.com/la-piedra-del-penol-y-sus-740-escalones-al-cielo-n1530348
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/24.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Castillo de San Felipe de Barajas - Cartagena de Indias, Bolívar.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://hotelalmirantecartagena.com/blog-almirante/5-recomendaciones-para-visitar-el-castillo-de-san-felipe-de-barajas/
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/25.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Restaurante El Cielo - Bogotá (Chapinero). 
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.tripadvisor.co/Restaurant_Review-g294074-d2188569-Reviews-Elcielo_Restaurant_Bogota-Bogota.html
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/26.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Parque Arqueológico de San Agustín - San Agustín, Huila.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://es.wikipedia.org/wiki/Parque_arqueol%C3%B3gico_de_San_Agust%C3%ADn#/media/Archivo:San_Agustin_parque_arqueologic.jpg
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/27.png')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Carnaval de Barranquilla - Atlántico.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://all.accor.com/a/es/limitless/thematics/travel-tips-guides/carnaval-de-barranquilla-cuando-es-y-que-se-celebra.html
         .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
-          .tarjeta.tarjeta-flip
+          .tarjeta.tarjeta-flip.mb-2
             .tarjeta-flip__contenedor
               .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/28.svg')})`}")
               .tarjeta-flip__contenido.p-5
                 img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
                 h4.mb-4.text-center Comunidad indígena Wayuu - Riohacha, La Guajira.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.onic.org.co/comunicadosregionales/3612-el-exterminio-por-sed-de-los-wayuus
       
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-6
-          .row
-            .col-lg-6.col-md-6.mb-4.mb-xl-0.mt-4
-              .tarjeta.tarjeta-flip
-                .tarjeta-flip__contenedor
-                  .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/29.svg')})`}")
-                  .tarjeta-flip__contenido.p-5
-                    img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
-                    h4.mb-4.text-center Lago de Tarapoto - Puerto Nariño, Amazonas.
-            .col-lg-6.col-md-6.mb-4.mb-xl-0.mt-4
-              .tarjeta.tarjeta-flip
-                .tarjeta-flip__contenedor
-                  .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/30.svg')})`}")
-                  .tarjeta-flip__contenido.p-5
-                    img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
-                    h4.mb-4.text-center Bioparque Los Ocarros - Villavicencio, Meta.
-      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
+          .tarjeta.tarjeta-flip.mb-2
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/29.svg')})`}")
+              .tarjeta-flip__contenido.p-5
+                img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
+                h4.mb-4.text-center Lago de Tarapoto - Puerto Nariño, Amazonas.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.tripadvisor.co/Attraction_Review-g1732625-d8765312-Reviews-Lago_Tarapoto-Puerto_Narino_Amazonas_Department.html
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.mt-4
+          .tarjeta.tarjeta-flip.mb-2
+            .tarjeta-flip__contenedor
+              .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/30.svg')})`}")
+              .tarjeta-flip__contenido.p-5
+                img.mb-4.img-t.imc(src='@/assets/curso/tema3/31.svg', alt='')
+                h4.mb-4.text-center Bioparque Los Ocarros - Villavicencio, Meta.
+          figcaption.enl.caj.ps-2 #[b Fuente:] https://www.tripadvisor.co/Attraction_Review-g676523-d4706361-Reviews-Bioparque_Los_Ocarros-Villavicencio_Meta_Department.html
     
-      .tarjeta.color-adicional-1.p-4.mb-0(data-aos="fade-right")
+      .tarjeta.color-adicional-1.p-4.mb-0.mt-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/curso/tema3/32.svg")

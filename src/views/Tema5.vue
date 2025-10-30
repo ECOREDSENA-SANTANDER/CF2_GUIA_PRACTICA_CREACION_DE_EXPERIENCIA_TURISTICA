@@ -408,7 +408,7 @@
             h5 Figura 4. 
             |  Ejemplo de atractivos culturales y patrimoniales, incluidos en un itinerario turístico cultural
           img.mb-2(src='@/assets/curso/tema5/56.svg' alt="Mapa ilustrado de una ruta turística urbana que conecta varios puntos de interés en una ciudad.")
-          figcaption.mb-lg-0.mb-5.des #[b Tomado:] https://klandestinos.wordpress.com/wp-content/uploads/2008/12/itinerarios_mapa_santander_monumental1.jpg
+          figcaption.mb-lg-0.mb-5.des #[b Fuente:] https://klandestinos.wordpress.com/wp-content/uploads/2008/12/itinerarios_mapa_santander_monumental1.jpg
         .col-lg-7
           .bg19.p-3.mb-2
             h5.mb-0.text-white Ejemplo de diseño de itinerario turístico cultural, dirigido a turistas extranjeros – estudiantes de derecho. 

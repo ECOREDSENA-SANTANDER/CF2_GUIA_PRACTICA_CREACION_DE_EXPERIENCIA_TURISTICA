@@ -295,6 +295,12 @@ export default {
   referencias: [
     {
       referencia:
+        'Accor. (s. f.). Carnaval de Barranquilla: cuándo es y qué se celebra. Accor.',
+      link:
+        'https://all.accor.com/a/es/limitless/thematics/travel-tips-guides/carnaval-de-barranquilla-cuando-es-y-que-se-celebra.html',
+    },
+    {
+      referencia:
         'Carvajal, M. (2019). La experiencia turística: Conceptualización y enfoques para su estudio. Revista Turismo y Sociedad, 24(1), 13–29.',
       link: '',
     },
@@ -315,7 +321,7 @@ export default {
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (2020, diciembre 31). Ley 2068 de 2020: Por la cual se modifica la Ley general de turismo y se dictan otras disposiciones. Diario Oficial No. 51.522.',
+        'Congreso de la República de Colombia. (2020, diciembre 31). Ley 2068 de 2020: Por la cual se modifica la Ley general de turismo y se dictan otras disposiciones. Diario Oficial No. 51.522',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=172558',
     },
@@ -326,15 +332,38 @@ export default {
     },
     {
       referencia:
+        'Cotelco Santander. (s. f.). Topocoro, el mar interior de Santander. Cotelco Santander.',
+      link: '',
+    },
+    {
+      referencia:
         'De la Cruz, J. (s. f.). Plan de contingencia: Recorrido en parque natural – área protegida. Scribd.',
       link:
         'https://es.scribd.com/document/413194150/Plan-de-Contingencia-Recorrido-Parque-Natural',
     },
     {
       referencia:
+        'El Patagónico. (s. f.). La piedra del Peñol y sus 740 escalones al cielo. El Patagónico.',
+      link:
+        'https://www.elpatagonico.com/la-piedra-del-penol-y-sus-740-escalones-al-cielo-n1530348',
+    },
+    {
+      referencia:
         'García López, R. (2022). El storytelling, clave en el marketing turístico. Marketing Turístico Digital.',
       link:
         'https://marketingturisticodigital.com/el-storytelling-clave-en-el-marketing-turistico',
+    },
+    {
+      referencia:
+        'Gran Colombia Tours. (s. f.). Tour de un día en el Parque del Café. Gran Colombia Tours.',
+      link:
+        'https://grancolombiatours.com/es/st_tour/tour-de-un-dia-en-el-parque-del-cafe/',
+    },
+    {
+      referencia:
+        'Hotel Almirante Cartagena. (s. f.). 5 recomendaciones para visitar el Castillo de San Felipe de Barajas. Hotel Almirante Cartagena.',
+      link:
+        'https://hotelalmirantecartagena.com/blog-almirante/5-recomendaciones-para-visitar-el-castillo-de-san-felipe-de-barajas/',
     },
     {
       referencia:
@@ -360,7 +389,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Comercio, Industria y Turismo. (s. f.). Normatividad turismo. ',
+        'Ministerio de Comercio, Industria y Turismo. (s. f.). Normatividad turismo.',
       link: 'https://www.mincit.gov.co/normatividad',
     },
     {
@@ -398,6 +427,17 @@ export default {
     },
     {
       referencia:
+        'Organización Nacional Indígena de Colombia (ONIC). (s. f.). El exterminio por sed de los Wayuu. ONIC.',
+      link:
+        'https://www.onic.org.co/comunicadosregionales/3612-el-exterminio-por-sed-de-los-wayuus',
+    },
+    {
+      referencia:
+        'Parques de Santander. (s. f.). Pasaporte Combo Panachi. Parques de Santander.',
+      link: 'https://parquesdesantander.com/producto/pasaporte-combo-panachi/',
+    },
+    {
+      referencia:
         'Pine, B. J., & Gilmore, J. H. (1999). The experience economy: Work is theatre and every business a stage. Harvard Business School Press.',
       link: '',
     },
@@ -428,6 +468,45 @@ export default {
         'Scollo, J. (2023). La necesidad de una nueva narrativa para el turismo. Ladevi.',
       link:
         'https://colombia.ladevi.info/turismo/la-necesidad-una-nueva-narrativa-el-turismo-n52980',
+    },
+    {
+      referencia: 'Tripadvisor. (s. f.). Bioparque Los Ocarros. Tripadvisor.',
+      link:
+        'https://www.tripadvisor.co/Attraction_Review-g676523-d4706361-Reviews-Bioparque_Los_Ocarros-Villavicencio_Meta_Department.html',
+    },
+    {
+      referencia:
+        'Tripadvisor. (s. f.). Elcielo Restaurant Bogotá. Tripadvisor.',
+      link:
+        'https://www.tripadvisor.co/Restaurant_Review-g294074-d2188569-Reviews-Elcielo_Restaurant_Bogota-Bogota.html',
+    },
+    {
+      referencia: 'Tripadvisor. (s. f.). Lago Tarapoto. Tripadvisor.',
+      link:
+        'https://www.tripadvisor.co/Attraction_Review-g1732625-d8765312-Reviews-Lago_Tarapoto-Puerto_Narino_Amazonas_Department.html',
+    },
+    {
+      referencia:
+        'Tripadvisor. (s. f.). Skip the Line Gold Museum (Museo del Oro) Ticket and Private Guided Tour. Tripadvisor.',
+      link:
+        'https://www.tripadvisor.co/AttractionProductReview-g294074-d13933839-Skip_the_Line_Gold_Museum_Museo_del_Oro_Ticket_and_Private_Guided_Tour-Bogota.html',
+    },
+    {
+      referencia:
+        'Vanguardia. (2024, enero 23). ¿Por qué sigue sin funcionar el Parque El Gallineral? Esta es la situación del icónico sitio turístico de Santander. Vanguardia.',
+      link:
+        'https://www.vanguardia.com/santander/guanenta/2024/01/23/por-que-sigue-sin-funcionar-el-parque-el-gallineral-esta-es-la-situacion-del-iconico-sitio-turistico-de-santander/',
+    },
+    {
+      referencia:
+        'Weekend Santander. (s. f.). Cerro del Santísimo. Weekend Santander.',
+      link: 'https://www.weekendsantander.com/planes/cerro-del-santisimo',
+    },
+    {
+      referencia:
+        'Wikipedia. (s. f.). Parque arqueológico de San Agustín. Wikipedia.',
+      link:
+        'https://es.wikipedia.org/wiki/Parque_arqueol%C3%B3gico_de_San_Agust%C3%ADn#/media/Archivo:San_Agustin_parque_arqueologic.jpg',
     },
     {
       referencia:
