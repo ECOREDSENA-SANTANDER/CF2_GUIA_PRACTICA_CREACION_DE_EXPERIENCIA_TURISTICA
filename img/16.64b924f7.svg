@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.92" height="107" viewBox="0 0 97.92 107">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_403805" data-name="Rectángulo 403805" width="70" height="70" transform="translate(345.19 873)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1103325" data-name="Grupo 1103325" transform="translate(-331.19 -859.502)">
+    <path id="Trazado_876162" data-name="Trazado 876162" d="M-17834.732-9565.178v97.92h81.432l25.568-50.035-25.568-47.885Z" transform="translate(-9136.067 18694.234) rotate(90)" fill="#ffa06f"/>
+    <g id="Enmascarar_grupo_1098701" data-name="Enmascarar grupo 1098701" clip-path="url(#clip-path)">
+      <g id="observatorio" transform="translate(345.19 873)">
+        <path id="Trazado_878787" data-name="Trazado 878787" d="M46.339,4.215A33.91,33.91,0,0,0,1.1,36.169H35Z" fill="#e4eaf8"/>
+        <rect id="Rectángulo_403826" data-name="Rectángulo 403826" width="8.149" height="7.333" transform="translate(57.205 19.643) rotate(-135)" fill="#7f8499"/>
+        <path id="Trazado_878788" data-name="Trazado 878788" d="M35,6.941A29.228,29.228,0,0,0,5.772,36.169v12.86H64.227V36.169A29.227,29.227,0,0,0,35,6.941Z" fill="#e4eaf8"/>
+        <rect id="Rectángulo_403827" data-name="Rectángulo 403827" width="63.131" height="14.029" transform="translate(3.434 49.029)" fill="#afb9d2"/>
+        <rect id="Rectángulo_403828" data-name="Rectángulo 403828" width="19.875" height="14.029" transform="translate(3.434 49.029)" fill="#959cb5"/>
+        <rect id="Rectángulo_403829" data-name="Rectángulo 403829" width="67.808" height="4.676" transform="translate(1.096 63.058)" fill="#c7cfe2"/>
+        <g id="Grupo_1103360" data-name="Grupo 1103360">
+          <rect id="Rectángulo_403830" data-name="Rectángulo 403830" width="16.367" height="12.86" transform="translate(26.816 54.875)" fill="#959cb5"/>
+          <rect id="Rectángulo_403831" data-name="Rectángulo 403831" width="11.456" height="4.747" transform="translate(63.125 16.06) rotate(-135)" fill="#959cb5"/>
+        </g>
+        <path id="Trazado_878789" data-name="Trazado 878789" d="M24.478,44.353V36.169c0-14.237,6.924-26.091,16.089-28.691A29.224,29.224,0,0,0,5.772,36.169v12.86H64.227V44.353H24.478Z" fill="#c7cfe2"/>
+        <rect id="Rectángulo_403832" data-name="Rectángulo 403832" width="19.875" height="4.676" transform="translate(1.096 63.058)" fill="#afb9d2"/>
+        <path id="Trazado_878790" data-name="Trazado 878790" d="M68.9,61.962H67.662V49.029a1.1,1.1,0,0,0-1.1-1.1H65.323V36.169a30.158,30.158,0,0,0-5.581-17.513l2.215-2.215.394.394a1.1,1.1,0,0,0,1.55,0l3.357-3.357a1.1,1.1,0,0,0,0-1.55l-8.1-8.1a1.1,1.1,0,0,0-1.55,0L54.25,7.186a1.1,1.1,0,0,0,0,1.55l.394.394-2.23,2.23a30.3,30.3,0,0,0-6.092-3.319l1.225-3.393a1.1,1.1,0,0,0-.658-1.4A35.006,35.006,0,0,0,0,36.169a1.1,1.1,0,0,0,1.1,1.1h3.58V47.933H3.434a1.1,1.1,0,0,0-1.1,1.1V61.962H1.1a1.1,1.1,0,0,0-1.1,1.1v4.676a1.1,1.1,0,0,0,1.1,1.1H68.9a1.1,1.1,0,0,0,1.1-1.1V63.058A1.1,1.1,0,0,0,68.9,61.962ZM63.131,43.257H52.463V36.169A48.722,48.722,0,0,0,50.018,20.61a1.1,1.1,0,1,0-2.074.709,46.507,46.507,0,0,1,2.327,14.85v7.088H36.1V8.114c3.726.512,7.3,3.613,9.932,8.685a1.1,1.1,0,1,0,1.945-1.011,22.883,22.883,0,0,0-4.908-6.571A28.181,28.181,0,0,1,63.131,36.169Zm-43.4,0V40.845a1.1,1.1,0,1,0-2.192,0v2.412H6.868V36.169A28.181,28.181,0,0,1,26.919,9.222a22.358,22.358,0,0,0-4.449,5.744c-3.181,5.681-4.934,13.211-4.934,21.2a1.1,1.1,0,1,0,2.192,0c0-7.622,1.653-14.772,4.654-20.132C27,11.357,30.35,8.585,33.9,8.111V43.257H19.729Zm38.653-37.1L64.933,12.7l-1.807,1.807L56.575,7.96Zm-2.188,4.526,4.212,4.212L58.4,16.9a30.6,30.6,0,0,0-4.221-4.2ZM11.8,12.97a32.843,32.843,0,0,1,33.307-8.02l-.846,2.343A30.323,30.323,0,0,0,4.7,35.073H2.21A32.578,32.578,0,0,1,11.8,12.97ZM6.868,45.449H63.131v2.484H6.868ZM4.53,50.125H65.47V61.962H44.28V54.875a1.1,1.1,0,0,0-1.1-1.1H26.816a1.1,1.1,0,0,0-1.1,1.1v7.088H4.53ZM36.1,55.971h5.992V66.639H36.1ZM33.9,66.639H27.912V55.971H33.9ZM2.192,64.154H25.72v2.484H2.192Zm65.616,2.484H44.28V64.154H67.808Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
